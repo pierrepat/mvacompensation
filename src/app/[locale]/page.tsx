@@ -189,6 +189,59 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* ─── INJURY + GUIDE LINKS ─── */}
+      <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-12 sm:grid-cols-2">
+            {/* Injuries */}
+            <div>
+              <h2 className="text-2xl font-bold text-navy-900 mb-4">
+                {isEs ? "Lesiones comunes" : "Common injuries"}
+              </h2>
+              <div className="space-y-3">
+                {[
+                  { slug: "latigazo-cervical", label: isEs ? "Latigazo cervical (Whiplash)" : "Whiplash" },
+                  { slug: "lesion-cerebral", label: isEs ? "Lesión cerebral traumática" : "Traumatic Brain Injury" },
+                  { slug: "fracturas", label: isEs ? "Fracturas (huesos rotos)" : "Broken Bones" },
+                  { slug: "lesiones-de-espalda", label: isEs ? "Lesiones de espalda y columna" : "Back & Spine Injuries" },
+                ].map((injury) => (
+                  <Link
+                    key={injury.slug}
+                    href={`/${params.locale}/lesiones/${injury.slug}`}
+                    className="flex items-center gap-2 text-sm text-gray-700 hover:text-navy-900 transition-colors group"
+                  >
+                    <ArrowRight className="w-4 h-4 text-gray-300 group-hover:text-navy-900 transition-colors" />
+                    {injury.label}
+                  </Link>
+                ))}
+              </div>
+              <Link href={`/${params.locale}/lesiones`} className="inline-block mt-4 text-sm font-medium text-navy-900 hover:underline">
+                {isEs ? "Ver todas las lesiones →" : "View all injuries →"}
+              </Link>
+            </div>
+
+            {/* Guides */}
+            <div>
+              <h2 className="text-2xl font-bold text-navy-900 mb-4">
+                {isEs ? "Guías útiles" : "Helpful guides"}
+              </h2>
+              <div className="space-y-3">
+                <Link
+                  href={`/${params.locale}/guias/que-hacer-despues-de-un-accidente`}
+                  className="flex items-center gap-2 text-sm text-gray-700 hover:text-navy-900 transition-colors group"
+                >
+                  <ArrowRight className="w-4 h-4 text-gray-300 group-hover:text-navy-900 transition-colors" />
+                  {isEs ? "Qué hacer después de un accidente" : "What to do after a car accident"}
+                </Link>
+              </div>
+              <Link href={`/${params.locale}/guias`} className="inline-block mt-4 text-sm font-medium text-navy-900 hover:underline">
+                {isEs ? "Ver todas las guías →" : "View all guides →"}
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── MDX CONTENT (if exists — Spanish home) ─── */}
       {mdxContent && (
         <section className="bg-white py-16 sm:py-20 border-t border-gray-100">
