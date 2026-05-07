@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/states",
     "/lesiones",
     "/injuries",
+    "/guias",
     "/guides",
     "/calculator/settlement-estimator",
     "/about",
@@ -70,6 +71,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${baseUrl}/en/lesiones/${slug}`,
             es: `${baseUrl}/es/lesiones/${slug}`,
+          },
+        },
+      });
+    }
+  }
+
+  // Dynamic guide pages
+  for (const locale of locales) {
+    const slugs = getContentSlugs(locale as Locale, "guias");
+    for (const slug of slugs) {
+      entries.push({
+        url: `${baseUrl}/${locale}/guias/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.9,
+        alternates: {
+          languages: {
+            en: `${baseUrl}/en/guias/${slug}`,
+            es: `${baseUrl}/es/guias/${slug}`,
           },
         },
       });
