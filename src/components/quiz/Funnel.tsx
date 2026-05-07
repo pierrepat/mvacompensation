@@ -335,7 +335,10 @@ export function Funnel({ locale, dict }: FunnelProps) {
     return (
       <QuizShell title={t("title")} progress={STEP_PROGRESS.contact} total={5} onBack={() => goTo("lawyer")}>
         <h1 className="text-2xl font-bold text-navy-900 mb-2">{t("step4_heading")}</h1>
-        <p className="text-sm text-gray-600 mb-6">{t("step4_subtitle")}</p>
+        <p className="text-sm text-gray-600 mb-4">{t("step4_subtitle")}</p>
+        <div className="bg-green-50 border border-green-200 rounded-lg px-4 py-2.5 mb-6 text-sm text-green-800 font-medium">
+          {t("step4_noCost")}
+        </div>
 
         <div className="space-y-4">
           <div className="flex gap-3">

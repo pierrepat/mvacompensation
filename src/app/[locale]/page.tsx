@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
-import { ArrowRight, Shield, Clock, Phone, CheckCircle, Users, Scale } from "lucide-react";
+import { ArrowRight, Shield, Clock, Phone, CheckCircle, Users, Scale, DollarSign, Globe, MessageCircle } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { quizUrl } from "@/lib/quiz-url";
@@ -92,6 +92,16 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* ─── CONTINGENCY BANNER ─── */}
+      <section className="bg-green-50 border-b border-green-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <p className="text-center text-sm sm:text-base font-medium text-green-800 flex items-center justify-center gap-2">
+            <DollarSign className="w-5 h-5 text-green-600 shrink-0" />
+            {dict.home.contingencyBanner}
+          </p>
+        </div>
+      </section>
+
       {/* ─── HOW IT WORKS ─── */}
       <section className="bg-white py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,6 +124,38 @@ export default async function HomePage({
                 <p className="text-sm text-gray-600 leading-relaxed">{desc}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ─── 3 REASSURANCES ─── */}
+      <section className="bg-navy-950 py-16 sm:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-8 sm:gap-12 sm:grid-cols-3">
+            {/* No cost */}
+            <div className="text-center sm:text-left">
+              <div className="w-12 h-12 bg-green-400/10 rounded-xl flex items-center justify-center mx-auto sm:mx-0 mb-4">
+                <DollarSign className="w-6 h-6 text-green-400" />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">{dict.home.noCostTitle}</h3>
+              <p className="text-sm text-gray-400 leading-relaxed">{dict.home.noCostDesc}</p>
+            </div>
+            {/* Immigration */}
+            <div className="text-center sm:text-left">
+              <div className="w-12 h-12 bg-amber-400/10 rounded-xl flex items-center justify-center mx-auto sm:mx-0 mb-4">
+                <Globe className="w-6 h-6 text-amber-400" />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">{dict.home.immigrationTitle}</h3>
+              <p className="text-sm text-gray-400 leading-relaxed">{dict.home.immigrationDesc}</p>
+            </div>
+            {/* Spanish */}
+            <div className="text-center sm:text-left">
+              <div className="w-12 h-12 bg-sky-400/10 rounded-xl flex items-center justify-center mx-auto sm:mx-0 mb-4">
+                <MessageCircle className="w-6 h-6 text-sky-400" />
+              </div>
+              <h3 className="text-lg font-bold text-white mb-2">{dict.home.spanishTitle}</h3>
+              <p className="text-sm text-gray-400 leading-relaxed">{dict.home.spanishDesc}</p>
+            </div>
           </div>
         </div>
       </section>
