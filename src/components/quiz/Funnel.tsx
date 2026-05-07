@@ -115,39 +115,71 @@ export function Funnel({ locale, dict }: FunnelProps) {
     }
   }, [ctx.data.phone, ctx.data.otp]);
 
-  // -- Submit lead via Netlify Forms --
+  // -- Submit lead to GHL webhook --
+  const GHL_WEBHOOK = "https://services.leadconnectorhq.com/hooks/ownD7SHV7OSI7i5Ab74t/webhook-trigger/yHjhOVGqJRlxiG9ZCqLT";
+
   const submitLead = useCallback(async () => {
     const d = ctx.data;
-    const payload = new FormData();
-    payload.append("form-name", "lead-submissions");
-    payload.append("locale", d.locale);
-    payload.append("state", d.state);
-    payload.append("when", d.when);
-    payload.append("injured", d.injured);
-    payload.append("has_lawyer", d.has_lawyer);
-    payload.append("first_name", d.first_name.trim());
-    payload.append("last_name", d.last_name.trim());
-    payload.append("phone", formatPhone(d.phone));
-    payload.append("phone_e164", `+1${normalizePhone(d.phone)}`);
-    payload.append("email", d.email.trim());
-    payload.append("otp_verified", String(d.otp_verified));
-    payload.append("ip_address", d.ip_address);
-    payload.append("consent_timestamp", d.consent_timestamp);
-    payload.append("source", d.source);
-    payload.append("source_state", d.source_state);
-    payload.append("trusted_form_cert_url", d.trusted_form_cert_url);
-    payload.append("tag", d.locale === "es" ? "es_lead_pending_review" : "en_lead_pending_review");
-    payload.append("submitted_at", new Date().toISOString());
-    // UTM params from sessionStorage
+    const phone10 = normalizePhone(d.phone);
+
+    // Collect UTMs
+    let utms: Record<string, string> = {};
     try {
-      const utms = JSON.parse(sessionStorage.getItem("mva_utms") || "{}");
-      Object.entries(utms).forEach(([k, v]) => payload.append(k, String(v)));
+      utms = JSON.parse(sessionStorage.getItem("mva_utms") || "{}");
     } catch {}
 
-    const res = await fetch("/", {
+    const payload = {
+      // Identity
+      first_name: d.first_name.trim(),
+      last_name: d.last_name.trim(),
+      phone: formatPhone(d.phone),
+      phone_e164: `+1${phone10}`,
+      phone_ten_digits: phone10,
+      email: d.email.trim(),
+
+      // Case details
+      state: d.state,
+      when: d.when,
+      injured: d.injured,
+      has_lawyer: d.has_lawyer,
+
+      // Compliance
+      otp_verified: String(d.otp_verified),
+      ip_address: d.ip_address,
+      consent_timestamp: d.consent_timestamp,
+      consent_text: "By submitting, you agree to our Privacy Policy and consent to receive calls, texts, and emails from MVA Compensation and its legal partners about your case.",
+      trusted_form_cert_url: d.trusted_form_cert_url,
+      user_agent: navigator.userAgent,
+
+      // Attribution
+      source: d.source || "direct",
+      source_state: d.source_state,
+      locale: d.locale,
+      tag: d.locale === "es" ? "es_lead_pending_review" : "en_lead_pending_review",
+      submitted_at: new Date().toISOString(),
+      landing_url: utms.landing_url || "",
+      referrer: utms.referrer || "",
+      utm_source: utms.utm_source || "",
+      utm_medium: utms.utm_medium || "",
+      utm_campaign: utms.utm_campaign || "",
+      utm_content: utms.utm_content || "",
+      utm_term: utms.utm_term || "",
+      fbclid: utms.fbclid || "",
+      gclid: utms.gclid || "",
+    };
+
+    console.log("Submitting lead to GHL:", payload);
+
+    const res = await fetch(GHL_WEBHOOK, {
       method: "POST",
-      body: payload,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
     });
+
+    if (!res.ok) {
+      console.error("GHL submission failed:", res.status, await res.text());
+    }
+
     return res.ok;
   }, [ctx.data]);
 
