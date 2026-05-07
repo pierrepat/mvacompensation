@@ -1,12 +1,10 @@
 import type { Locale } from "@/lib/i18n";
-import { getDictionary } from "@/lib/dictionaries";
 
 export default async function Privacy({
   params,
 }: {
   params: { locale: Locale };
 }) {
-  const dict = await getDictionary(params.locale);
   const isEs = params.locale === "es";
 
   return (
