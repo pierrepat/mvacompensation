@@ -6,6 +6,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ExitIntentModal } from "@/components/ExitIntentModal";
+import { Analytics } from "@/components/Analytics";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
@@ -65,6 +66,7 @@ export default async function LocaleLayout({
         <main className="min-h-screen">{children}</main>
         <Footer locale={params.locale} dict={dict} />
         <ExitIntentModal locale={params.locale} />
+        <Analytics />
       </body>
     </html>
   );
