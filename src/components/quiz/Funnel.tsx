@@ -98,13 +98,21 @@ export function Funnel({ locale, dict }: FunnelProps) {
 
   const verifyOtp = useCallback(async () => {
     const digits = normalizePhone(ctx.data.phone);
-    const res = await fetch("/.netlify/functions/verify-otp", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ phone: digits, code: ctx.data.otp.trim() }),
-    });
-    const json = await res.json();
-    return json.approved === true;
+    const code = ctx.data.otp.trim();
+    console.log("verify-otp request:", { phone: digits, code, codeLength: code.length });
+    try {
+      const res = await fetch("/.netlify/functions/verify-otp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ phone: digits, code }),
+      });
+      const json = await res.json();
+      console.log("verify-otp response:", json);
+      return json.approved === true;
+    } catch (err) {
+      console.error("verify-otp fetch error:", err);
+      return false;
+    }
   }, [ctx.data.phone, ctx.data.otp]);
 
   // -- Submit lead via Netlify Forms --
