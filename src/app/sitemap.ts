@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/estados",
     "/states",
+    "/lesiones",
     "/injuries",
     "/guides",
     "/calculator/settlement-estimator",
@@ -50,6 +51,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${baseUrl}/en/estados/${slug}`,
             es: `${baseUrl}/es/estados/${slug}`,
+          },
+        },
+      });
+    }
+  }
+
+  // Dynamic injury pages
+  for (const locale of locales) {
+    const slugs = getContentSlugs(locale as Locale, "lesiones");
+    for (const slug of slugs) {
+      entries.push({
+        url: `${baseUrl}/${locale}/lesiones/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.9,
+        alternates: {
+          languages: {
+            en: `${baseUrl}/en/lesiones/${slug}`,
+            es: `${baseUrl}/es/lesiones/${slug}`,
           },
         },
       });
