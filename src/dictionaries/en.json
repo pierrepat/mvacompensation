@@ -1,38 +1,54 @@
 {
   "meta": {
     "siteName": "MVA Compensation",
-    "siteDescription": "Motor vehicle accident compensation information and free case evaluation."
+    "siteDescription": "Were you in a car accident? You may be owed compensation. Free evaluation."
   },
   "nav": {
     "home": "Home",
     "states": "By State",
     "injuries": "Injuries",
-    "calculator": "Settlement Estimator",
+    "calculator": "Estimator",
     "guides": "Guides",
     "about": "About"
   },
   "cta": {
-    "freeEvaluation": "Free Case Evaluation",
+    "freeEvaluation": "Free Evaluation",
     "getStarted": "Get Started",
     "learnMore": "Learn More"
   },
   "home": {
-    "h1": "Motor Vehicle Accident Compensation Guide",
-    "subtitle": "Understand your rights. Estimate your claim. Get connected with an attorney.",
+    "h1": "Car accident in the US?",
+    "h1_accent": "Get the compensation you deserve.",
+    "subtitle": "We connect you with the best lawyer for your case. Free. No obligation.",
+    "trust1": "100% Free",
+    "trust2": "Bilingual",
+    "trust3": "No Obligation",
+    "howItWorks": "How it works",
+    "step1Title": "1. Tell us about your case",
+    "step1Desc": "Answer a few quick questions about your accident. Takes less than 2 minutes.",
+    "step2Title": "2. We find the best lawyer",
+    "step2Desc": "Based on your state and situation, we match you with an experienced attorney for your case type.",
+    "step3Title": "3. Get your free consultation",
+    "step3Desc": "The attorney calls you, reviews your case, and explains your options. No pressure, no cost.",
+    "statesHeading": "State guides",
+    "statesSubheading": "Every state has different rules. Find yours.",
     "sectionStates": "Compensation by State",
     "sectionStatesDesc": "Laws vary by state. Find the rules that apply to your accident.",
     "sectionInjuries": "Compensation by Injury Type",
-    "sectionInjuriesDesc": "Settlement values depend heavily on the type and severity of your injuries.",
+    "sectionInjuriesDesc": "Settlement values depend on the type and severity of your injuries.",
     "sectionCalculator": "Settlement Estimator",
     "sectionCalculatorDesc": "Get a preliminary estimate of your potential compensation.",
     "sectionGuides": "Guides & Resources",
-    "sectionGuidesDesc": "Step-by-step guides for navigating the claims process."
+    "sectionGuidesDesc": "Step-by-step guides for navigating the claims process.",
+    "bottomCtaHeading": "Don't wait another day.",
+    "bottomCtaText": "Every day that passes, your case loses value. The evaluation is free and takes 2 minutes."
   },
   "footer": {
     "disclaimer": "This site provides general information, not legal advice. Consult an attorney for advice about your specific situation.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Use",
-    "copyright": "© {year} MVA Compensation. All rights reserved."
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "copyright": "© {year} MVA Compensation. All rights reserved.",
+    "notLawFirm": "MVA Compensation is not a law firm. We connect you with licensed attorneys in your state."
   },
   "quiz": {
     "title": "Free Case Evaluation",

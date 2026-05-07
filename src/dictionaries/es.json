@@ -1,38 +1,54 @@
 {
   "meta": {
     "siteName": "MVA Compensation",
-    "siteDescription": "Información sobre compensación por accidentes de vehículos motorizados y evaluación gratuita de casos."
+    "siteDescription": "¿Tuviste un accidente de auto? Podrías recibir dinero. Evaluación gratis en español."
   },
   "nav": {
     "home": "Inicio",
     "states": "Por Estado",
     "injuries": "Lesiones",
-    "calculator": "Estimador de Acuerdo",
+    "calculator": "Estimador",
     "guides": "Guías",
     "about": "Acerca de"
   },
   "cta": {
-    "freeEvaluation": "Evaluación Gratuita",
+    "freeEvaluation": "Evaluación Gratis",
     "getStarted": "Comenzar",
-    "learnMore": "Más Información"
+    "learnMore": "Más Info"
   },
   "home": {
-    "h1": "Guía de Compensación por Accidentes de Vehículos",
-    "subtitle": "Conozca sus derechos. Estime su reclamo. Conéctese con un abogado.",
+    "h1": "¿Tuviste un accidente de auto en Estados Unidos?",
+    "h1_accent": "Hora de compensarte.",
+    "subtitle": "Te conectamos gratis con el mejor abogado para tu caso. Sin costo. Sin compromiso.",
+    "trust1": "100% Gratis",
+    "trust2": "En Español",
+    "trust3": "Sin Compromiso",
+    "howItWorks": "¿Cómo funciona?",
+    "step1Title": "1. Cuéntanos tu caso",
+    "step1Desc": "Responde unas preguntas rápidas sobre tu accidente. Toma menos de 2 minutos.",
+    "step2Title": "2. Te buscamos el mejor abogado",
+    "step2Desc": "Basado en tu estado y tu situación, te conectamos con un abogado con experiencia en tu tipo de caso.",
+    "step3Title": "3. Recibe tu consulta gratis",
+    "step3Desc": "El abogado te llama, revisa tu caso y te explica tus opciones. Sin presión, sin costo.",
+    "statesHeading": "Guías por estado",
+    "statesSubheading": "Cada estado tiene reglas diferentes. Encuentra la tuya.",
     "sectionStates": "Compensación por Estado",
-    "sectionStatesDesc": "Las leyes varían según el estado. Encuentre las reglas que aplican a su accidente.",
+    "sectionStatesDesc": "Las leyes cambian según el estado. Encuentra las reglas que aplican a tu accidente.",
     "sectionInjuries": "Compensación por Tipo de Lesión",
-    "sectionInjuriesDesc": "Los valores de acuerdo dependen en gran medida del tipo y la gravedad de sus lesiones.",
+    "sectionInjuriesDesc": "El valor de tu caso depende del tipo de lesión que tuviste.",
     "sectionCalculator": "Estimador de Acuerdo",
-    "sectionCalculatorDesc": "Obtenga una estimación preliminar de su posible compensación.",
+    "sectionCalculatorDesc": "Calcula cuánto podrías recibir por tu accidente.",
     "sectionGuides": "Guías y Recursos",
-    "sectionGuidesDesc": "Guías paso a paso para navegar el proceso de reclamos."
+    "sectionGuidesDesc": "Paso a paso para navegar el proceso de reclamos.",
+    "bottomCtaHeading": "No dejes pasar más tiempo.",
+    "bottomCtaText": "Cada día que pasa, tu caso pierde valor. La evaluación es gratis y toma 2 minutos."
   },
   "footer": {
-    "disclaimer": "Este sitio proporciona información general, no asesoramiento legal. Consulte a un abogado para obtener asesoramiento sobre su situación específica.",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Uso",
-    "copyright": "© {year} MVA Compensation. Todos los derechos reservados."
+    "disclaimer": "Este sitio da información general, no es asesoramiento legal. Habla con un abogado sobre tu situación específica.",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "© {year} MVA Compensation. Todos los derechos reservados.",
+    "notLawFirm": "MVA Compensation no es un bufete de abogados. Te conectamos con abogados con licencia en tu estado."
   },
   "quiz": {
     "title": "Evaluación Gratis",
