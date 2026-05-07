@@ -74,16 +74,26 @@ export function Funnel({ locale, dict }: FunnelProps) {
   // -- OTP helpers --
   const sendOtp = useCallback(async () => {
     const digits = normalizePhone(ctx.data.phone);
-    const res = await fetch("/.netlify/functions/send-otp", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ phone: digits }),
-    });
-    const json = await res.json();
-    if (json.ipAddress) {
-      dispatch({ type: "UPDATE", field: "ip_address", value: json.ipAddress });
+    try {
+      const res = await fetch("/.netlify/functions/send-otp", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ phone: digits }),
+      });
+      if (!res.ok) {
+        const text = await res.text();
+        console.error("send-otp response:", res.status, text);
+        return false;
+      }
+      const json = await res.json();
+      if (json.ipAddress) {
+        dispatch({ type: "UPDATE", field: "ip_address", value: json.ipAddress });
+      }
+      return true;
+    } catch (err) {
+      console.error("send-otp fetch error:", err);
+      return false;
     }
-    return res.ok;
   }, [ctx.data.phone]);
 
   const verifyOtp = useCallback(async () => {
@@ -179,7 +189,8 @@ export function Funnel({ locale, dict }: FunnelProps) {
       }
       dispatch({ type: "SET_SUBMITTING", value: false });
       goTo("otp");
-    } catch {
+    } catch (err) {
+      console.error("OTP send failed:", err);
       dispatch({ type: "SET_ERROR", error: t("error_submit_failed") });
     }
   };
