@@ -43,17 +43,22 @@ export function Funnel({ locale, dict }: FunnelProps) {
     dispatch({ type: "UPDATE", field: "locale", value: locale });
   }, [searchParams, locale]);
 
-  // Load TrustedForm cert URL
+  // Poll for TrustedForm cert URL (keeps checking until found)
   useEffect(() => {
     const interval = setInterval(() => {
       const el = document.getElementById("xxTrustedFormCertUrl") as HTMLInputElement | null;
       if (el?.value) {
         dispatch({ type: "UPDATE", field: "trusted_form_cert_url", value: el.value });
-        clearInterval(interval);
       }
-    }, 500);
+    }, 1000);
     return () => clearInterval(interval);
   }, []);
+
+  // Grab TrustedForm cert fresh (called right before submit)
+  const getTrustedFormCert = (): string => {
+    const el = document.getElementById("xxTrustedFormCertUrl") as HTMLInputElement | null;
+    return el?.value || "";
+  };
 
   const t = (key: string, replacements?: Record<string, string>) => {
     let val = dict[key] || key;
@@ -148,7 +153,7 @@ export function Funnel({ locale, dict }: FunnelProps) {
       ip_address: d.ip_address,
       consent_timestamp: d.consent_timestamp,
       consent_text: "By submitting, you agree to our Privacy Policy and consent to receive calls, texts, and emails from MVA Compensation and its legal partners about your case.",
-      trusted_form_cert_url: d.trusted_form_cert_url,
+      trusted_form_cert_url: getTrustedFormCert() || d.trusted_form_cert_url,
       user_agent: navigator.userAgent,
 
       // Attribution
