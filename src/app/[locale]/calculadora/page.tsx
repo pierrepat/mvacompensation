@@ -10,6 +10,7 @@ export async function generateMetadata({
   params: { locale: Locale };
 }): Promise<Metadata> {
   const isEs = params.locale === "es";
+  const baseUrl = "https://mvacompensation.com";
   return {
     title: isEs
       ? "Calculadora de Compensación por Accidente de Auto"
@@ -17,6 +18,9 @@ export async function generateMetadata({
     description: isEs
       ? "Calcula cuánto podrías recibir por tu accidente de auto. Herramienta gratis. Estimado en menos de 1 minuto."
       : "Estimate how much your car accident case may be worth. Free tool. Get an estimate in under 1 minute.",
+    alternates: {
+      canonical: `${baseUrl}/${params.locale}/calculadora`,
+    },
   };
 }
 
