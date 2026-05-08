@@ -50,6 +50,11 @@ export default async function HomePage({
     { name: "California", slug: "california", code: "CA" },
     { name: isEs ? "Nueva York" : "New York", slug: "nueva-york", code: "NY" },
     { name: "Arizona", slug: "arizona", code: "AZ" },
+    { name: "Illinois", slug: "illinois", code: "IL" },
+    { name: isEs ? "Nueva Jersey" : "New Jersey", slug: "nueva-jersey", code: "NJ" },
+    { name: "Georgia", slug: "georgia", code: "GA" },
+    { name: "Nevada", slug: "nevada", code: "NV" },
+    { name: "Colorado", slug: "colorado", code: "CO" },
   ];
 
   return (

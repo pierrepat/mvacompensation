@@ -5,9 +5,10 @@ import type { InjuryFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
 import { renderMDX } from "@/lib/mdx";
 import { ArticleLayout } from "@/components/ArticleLayout";
-import { ArticleJsonLd } from "@/components/JsonLd";
+import { ArticleJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { LeadCaptureForm } from "@/components/LeadCaptureForm";
+import { extractFAQs } from "@/lib/extract-faqs";
 
 export async function generateStaticParams() {
   const esSlugs = getContentSlugs("es", "lesiones");
@@ -104,6 +105,8 @@ export default async function LesionPage({
     return { title: m.title.split("|")[0].trim(), href: `/${params.locale}/estados/${slug}` };
   });
 
+  const faqs = extractFAQs(content);
+
   return (
     <>
       <ArticleJsonLd
@@ -114,6 +117,9 @@ export default async function LesionPage({
         datePublished={meta.publishedAt}
         dateModified={meta.lastUpdated}
       />
+      {faqs.length > 0 && (
+        <FAQPageJsonLd locale={params.locale} faqs={faqs} />
+      )}
 
       <ArticleLayout
         locale={params.locale}

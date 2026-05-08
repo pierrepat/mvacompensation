@@ -5,9 +5,10 @@ import type { GuideFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
 import { renderMDX } from "@/lib/mdx";
 import { ArticleLayout } from "@/components/ArticleLayout";
-import { ArticleJsonLd } from "@/components/JsonLd";
+import { ArticleJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { LeadCaptureForm } from "@/components/LeadCaptureForm";
+import { extractFAQs } from "@/lib/extract-faqs";
 
 export async function generateStaticParams() {
   const esSlugs = getContentSlugs("es", "guias");
@@ -71,6 +72,7 @@ export default async function GuiaPage({
   return (
     <>
       <ArticleJsonLd locale={params.locale} title={meta.title} description={meta.description} slug={`guias/${params.tema}`} datePublished={meta.publishedAt} dateModified={meta.lastUpdated} />
+      {(() => { const faqs = extractFAQs(content); return faqs.length > 0 ? <FAQPageJsonLd locale={params.locale} faqs={faqs} /> : null; })()}
       <ArticleLayout locale={params.locale} meta={meta} breadcrumbs={breadcrumbs} source={`guide_${params.tema}_${params.locale}`}>
         {rendered}
         <LeadCaptureForm locale={params.locale} variant="inline" source={`guide_${params.tema}_${params.locale}`} />
