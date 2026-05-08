@@ -15,7 +15,7 @@ export function QuizPage({ locale, quizDict }: QuizPageProps) {
       {/* TrustedForm script — load early */}
       <Script
         src="https://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&ping_field=xxTrustedFormPingUrl"
-        strategy="beforeInteractive"
+        strategy="afterInteractive"
       />
 
       {/* TrustedForm needs hidden fields inside a form */}

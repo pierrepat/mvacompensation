@@ -248,13 +248,23 @@ export default async function HomePage({
                 {isEs ? "Guías útiles" : "Helpful guides"}
               </h2>
               <div className="space-y-3">
-                <Link
-                  href={`/${params.locale}/guias/que-hacer-despues-de-un-accidente`}
-                  className="flex items-center gap-2 text-sm text-gray-700 hover:text-navy-900 transition-colors group"
-                >
-                  <ArrowRight className="w-4 h-4 text-gray-300 group-hover:text-navy-900 transition-colors" />
-                  {isEs ? "Qué hacer después de un accidente" : "What to do after a car accident"}
-                </Link>
+                {[
+                  { slug: "cuanto-pagan-por-accidente-de-auto", label: isEs ? "¿Cuánto pagan por un accidente?" : "Average settlement amounts" },
+                  { slug: "que-hacer-despues-de-un-accidente", label: isEs ? "Qué hacer después de un accidente" : "What to do after an accident" },
+                  { slug: "dolor-y-sufrimiento", label: isEs ? "Dolor y sufrimiento — ¿cuánto vale?" : "Pain and suffering settlements" },
+                  { slug: "accidente-sin-seguro", label: isEs ? "Accidente sin seguro — ¿puedo reclamar?" : "Accident without insurance" },
+                  { slug: "choque-por-detras", label: isEs ? "Choque por detrás — ¿cuánto pagan?" : "Rear-end collision settlements" },
+                  { slug: "accidente-con-fuga", label: isEs ? "Accidente con fuga (hit and run)" : "Hit and run — what to do" },
+                ].map((guide) => (
+                  <Link
+                    key={guide.slug}
+                    href={`/${params.locale}/guias/${guide.slug}`}
+                    className="flex items-center gap-2 text-sm text-gray-700 hover:text-navy-900 transition-colors group"
+                  >
+                    <ArrowRight className="w-4 h-4 text-gray-300 group-hover:text-navy-900 transition-colors" />
+                    {guide.label}
+                  </Link>
+                ))}
               </div>
               <Link href={`/${params.locale}/guias`} className="inline-block mt-4 text-sm font-medium text-navy-900 hover:underline">
                 {isEs ? "Ver todas las guías →" : "View all guides →"}
