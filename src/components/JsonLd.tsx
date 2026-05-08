@@ -2,6 +2,50 @@ import type { Locale } from "@/lib/i18n";
 
 const baseUrl = "https://mvacompensation.com";
 
+export function OrganizationJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "MVA Compensation",
+    url: baseUrl,
+    description: "Motor vehicle accident compensation information and attorney referral service.",
+    areaServed: { "@type": "Country", name: "United States" },
+    knowsLanguage: ["en", "es"],
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+export function WebSiteJsonLd() {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "MVA Compensation",
+    url: baseUrl,
+    inLanguage: ["en", "es"],
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${baseUrl}/en/estados/{search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 interface LegalServiceProps {
   locale: Locale;
 }

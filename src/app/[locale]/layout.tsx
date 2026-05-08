@@ -7,6 +7,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { ExitIntentModal } from "@/components/ExitIntentModal";
 import { Analytics } from "@/components/Analytics";
+import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/JsonLd";
 
 const inter = Inter({
   subsets: ["latin", "latin-ext"],
@@ -29,7 +30,9 @@ export async function generateMetadata({
 
   return {
     title: {
-      default: dict.meta.siteName,
+      default: params.locale === "es"
+        ? "Compensación por Accidente de Auto | MVA Compensation"
+        : "Car Accident Compensation | MVA Compensation",
       template: `%s | ${dict.meta.siteName}`,
     },
     description: dict.meta.siteDescription,
@@ -62,6 +65,8 @@ export default async function LocaleLayout({
   return (
     <html lang={params.locale}>
       <body className={`${inter.variable} font-sans antialiased bg-white text-gray-900`}>
+        <OrganizationJsonLd />
+        <WebSiteJsonLd />
         <Header locale={params.locale} dict={dict} />
         <main className="min-h-screen">{children}</main>
         <Footer locale={params.locale} dict={dict} />

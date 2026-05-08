@@ -5,9 +5,10 @@ import type { StateFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
 import { renderMDX } from "@/lib/mdx";
 import { ArticleLayout } from "@/components/ArticleLayout";
-import { ArticleJsonLd } from "@/components/JsonLd";
+import { ArticleJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { LeadCaptureForm } from "@/components/LeadCaptureForm";
+import { extractFAQs } from "@/lib/extract-faqs";
 
 export async function generateStaticParams() {
   const esSlugs = getContentSlugs("es", "estados");
@@ -111,6 +112,8 @@ export default async function EstadoPage({
       };
     });
 
+  const faqs = extractFAQs(content);
+
   return (
     <>
       <ArticleJsonLd
@@ -121,6 +124,9 @@ export default async function EstadoPage({
         datePublished={meta.publishedAt}
         dateModified={meta.lastUpdated}
       />
+      {faqs.length > 0 && (
+        <FAQPageJsonLd locale={params.locale} faqs={faqs} />
+      )}
 
       <ArticleLayout
         locale={params.locale}

@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ArrowRight, Shield, Clock, Phone, CheckCircle, Users, Scale, DollarSign, Globe, MessageCircle } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
@@ -8,6 +9,22 @@ import { quizUrl } from "@/lib/quiz-url";
 import { LegalServiceJsonLd } from "@/components/JsonLd";
 import { renderMDX } from "@/lib/mdx";
 import matter from "gray-matter";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { locale: Locale };
+}): Promise<Metadata> {
+  const isEs = params.locale === "es";
+  return {
+    title: isEs
+      ? "Compensación por Accidente de Auto en EE.UU. — Evaluación Gratis"
+      : "Car Accident Compensation in the US — Free Evaluation",
+    description: isEs
+      ? "¿Tuviste un accidente de auto? Te conectamos gratis con el mejor abogado. Sin costo, sin compromiso. En español."
+      : "Were you in a car accident? We connect you with the best lawyer for free. No cost, no obligation.",
+  };
+}
 
 export default async function HomePage({
   params,
