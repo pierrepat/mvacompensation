@@ -27,10 +27,10 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <Link href={`/${locale}/estados`} className="hover:text-navy-900 transition-colors">
               {dict.nav.states}
             </Link>
-            <Link href={`/${locale}/injuries`} className="hover:text-navy-900 transition-colors">
+            <Link href={`/${locale}/lesiones`} className="hover:text-navy-900 transition-colors">
               {dict.nav.injuries}
             </Link>
-            <Link href={`/${locale}/guides`} className="hover:text-navy-900 transition-colors">
+            <Link href={`/${locale}/guias`} className="hover:text-navy-900 transition-colors">
               {dict.nav.guides}
             </Link>
           </nav>

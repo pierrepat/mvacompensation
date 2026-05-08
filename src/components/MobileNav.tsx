@@ -30,16 +30,13 @@ export function MobileNav({
       {open && (
         <nav className="absolute top-16 left-0 right-0 bg-white border-b border-gray-200 shadow-lg z-40">
           <div className="flex flex-col px-4 py-4 gap-3">
-            <MobileLink href={`/${locale}/states`} onClick={() => setOpen(false)}>
+            <MobileLink href={`/${locale}/estados`} onClick={() => setOpen(false)}>
               {dict.nav.states}
             </MobileLink>
-            <MobileLink href={`/${locale}/injuries`} onClick={() => setOpen(false)}>
+            <MobileLink href={`/${locale}/lesiones`} onClick={() => setOpen(false)}>
               {dict.nav.injuries}
             </MobileLink>
-            <MobileLink href={`/${locale}/calculator/settlement-estimator`} onClick={() => setOpen(false)}>
-              {dict.nav.calculator}
-            </MobileLink>
-            <MobileLink href={`/${locale}/guides`} onClick={() => setOpen(false)}>
+            <MobileLink href={`/${locale}/guias`} onClick={() => setOpen(false)}>
               {dict.nav.guides}
             </MobileLink>
             <Link
