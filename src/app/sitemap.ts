@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/lesiones",
     "/injuries",
     "/guias",
+    "/calculadora",
     "/guides",
     "/calculator/settlement-estimator",
     "/about",

@@ -39,6 +39,9 @@ export function MobileNav({
             <MobileLink href={`/${locale}/guias`} onClick={() => setOpen(false)}>
               {dict.nav.guides}
             </MobileLink>
+            <MobileLink href={`/${locale}/calculadora`} onClick={() => setOpen(false)}>
+              {dict.nav.calculator}
+            </MobileLink>
             <Link
               href={quizUrl(locale)}
               onClick={() => setOpen(false)}

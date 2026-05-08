@@ -33,6 +33,9 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             <Link href={`/${locale}/guias`} className="hover:text-navy-900 transition-colors">
               {dict.nav.guides}
             </Link>
+            <Link href={`/${locale}/calculadora`} className="hover:text-navy-900 transition-colors">
+              {dict.nav.calculator}
+            </Link>
           </nav>
 
           {/* CTA + Language + Mobile */}
