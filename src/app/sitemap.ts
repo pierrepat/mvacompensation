@@ -4,27 +4,76 @@ import { getContentSlugs } from "@/lib/content";
 
 const baseUrl = "https://mvacompensation.com";
 
+/** Only include hreflang alternate if the slug exists in the other locale */
+function buildAlternates(
+  locale: Locale,
+  path: string,
+  otherLocaleSlugs?: Set<string>,
+  slug?: string
+) {
+  const otherLocale = locale === "en" ? "es" : "en";
+  const languages: Record<string, string> = {
+    [locale]: `${baseUrl}/${locale}${path}`,
+  };
+
+  // If no slug check needed (static routes), always include both
+  if (!otherLocaleSlugs || !slug) {
+    languages[otherLocale] = `${baseUrl}/${otherLocale}${path}`;
+  } else if (otherLocaleSlugs.has(slug)) {
+    languages[otherLocale] = `${baseUrl}/${otherLocale}${path}`;
+  }
+
+  return { languages };
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = [
-    "",
-    "/estados",
-    "/states",
-    "/lesiones",
-    "/injuries",
-    "/guias",
-    "/calculadora",
-    "/guides",
-    "/calculator/settlement-estimator",
-    "/about",
-    "/privacy",
-    "/terms",
-  ];
+  // Canonical static routes per locale — no duplicates
+  const staticRoutesPerLocale: Record<Locale, string[]> = {
+    en: [
+      "",
+      "/estados",
+      "/lesiones",
+      "/guias",
+      "/calculator/settlement-estimator",
+      "/quiz",
+      "/about",
+      "/privacy",
+      "/terms",
+    ],
+    es: [
+      "",
+      "/estados",
+      "/lesiones",
+      "/guias",
+      "/cuestionario",
+      "/about",
+      "/privacy",
+      "/terms",
+    ],
+  };
+
+  // Map EN static routes to ES equivalents for hreflang
+  const staticRouteMap: Record<string, string> = {
+    "": "",
+    "/estados": "/estados",
+    "/lesiones": "/lesiones",
+    "/guias": "/guias",
+    "/calculator/settlement-estimator": "/cuestionario",
+    "/quiz": "/cuestionario",
+    "/cuestionario": "/quiz",
+    "/about": "/about",
+    "/privacy": "/privacy",
+    "/terms": "/terms",
+  };
 
   const entries: MetadataRoute.Sitemap = [];
 
-  // Static routes
+  // Static routes — one entry per locale, correct hreflang
   for (const locale of locales) {
-    for (const route of staticRoutes) {
+    for (const route of staticRoutesPerLocale[locale as Locale]) {
+      const otherLocale = locale === "en" ? "es" : "en";
+      const otherRoute = staticRouteMap[route] ?? route;
+
       entries.push({
         url: `${baseUrl}/${locale}${route}`,
         lastModified: new Date(),
@@ -32,68 +81,72 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: route === "" ? 1 : 0.8,
         alternates: {
           languages: {
-            en: `${baseUrl}/en${route}`,
-            es: `${baseUrl}/es${route}`,
+            [locale]: `${baseUrl}/${locale}${route}`,
+            [otherLocale]: `${baseUrl}/${otherLocale}${otherRoute}`,
           },
         },
       });
     }
   }
 
-  // Dynamic state pages
-  for (const locale of locales) {
-    const slugs = getContentSlugs(locale as Locale, "estados");
-    for (const slug of slugs) {
-      entries.push({
-        url: `${baseUrl}/${locale}/estados/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
-        priority: 0.9,
-        alternates: {
-          languages: {
-            en: `${baseUrl}/en/estados/${slug}`,
-            es: `${baseUrl}/es/estados/${slug}`,
-          },
-        },
-      });
-    }
+  // Pre-compute slug sets for cross-locale hreflang validation
+  const sections = ["estados", "lesiones", "guias"] as const;
+  const slugsByLocale: Record<string, Record<Locale, Set<string>>> = {};
+
+  for (const section of sections) {
+    slugsByLocale[section] = {
+      en: new Set(getContentSlugs("en", section)),
+      es: new Set(getContentSlugs("es", section)),
+    };
   }
 
-  // Dynamic injury pages
-  for (const locale of locales) {
-    const slugs = getContentSlugs(locale as Locale, "lesiones");
-    for (const slug of slugs) {
-      entries.push({
-        url: `${baseUrl}/${locale}/lesiones/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
-        priority: 0.9,
-        alternates: {
-          languages: {
-            en: `${baseUrl}/en/lesiones/${slug}`,
-            es: `${baseUrl}/es/lesiones/${slug}`,
-          },
-        },
-      });
-    }
-  }
+  // Dynamic content pages — deduplicated, only valid hreflang
+  const seen = new Set<string>();
 
-  // Dynamic guide pages
-  for (const locale of locales) {
-    const slugs = getContentSlugs(locale as Locale, "guias");
-    for (const slug of slugs) {
-      entries.push({
-        url: `${baseUrl}/${locale}/guias/${slug}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
-        priority: 0.9,
-        alternates: {
-          languages: {
-            en: `${baseUrl}/en/guias/${slug}`,
-            es: `${baseUrl}/es/guias/${slug}`,
-          },
-        },
-      });
+  for (const section of sections) {
+    for (const locale of locales) {
+      const loc = locale as Locale;
+      const otherLocale = loc === "en" ? "es" : "en";
+      const slugs = getContentSlugs(loc, section);
+
+      for (const slug of slugs) {
+        const key = `${section}/${slug}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+
+        const path = `/${section}/${slug}`;
+        const otherHasSameSlug = slugsByLocale[section][otherLocale].has(slug);
+
+        // Always add the current locale's entry
+        entries.push({
+          url: `${baseUrl}/${loc}${path}`,
+          lastModified: new Date(),
+          changeFrequency: "monthly",
+          priority: 0.9,
+          alternates: buildAlternates(
+            loc,
+            path,
+            slugsByLocale[section][otherLocale],
+            slug
+          ),
+        });
+
+        // Add the other locale's entry if it exists (and wasn't already added)
+        if (otherHasSameSlug) {
+          entries.push({
+            url: `${baseUrl}/${otherLocale}${path}`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.9,
+            alternates: buildAlternates(
+              otherLocale,
+              path,
+              slugsByLocale[section][loc],
+              slug
+            ),
+          });
+        }
+      }
     }
   }
 
