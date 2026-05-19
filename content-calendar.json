@@ -19,9 +19,14 @@
       "title": "Abogado de Accidente de Carro — Cómo Encontrar el Mejor",
       "seed_keywords": ["abogado de accidente de carro", "abogado accidente de carro", "abogados de accidentes de carro"],
       "notes": "5,400 vol. Highest volume Spanish accident keyword. Must rank for 'carro' variant.",
-      "status": "pending",
-      "generated_at": null,
-      "keyword_data": null
+      "status": "generated",
+      "generated_at": "2026-05-19",
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente de carro",
+        "note": "DataForSEO API unavailable (network restricted). Keywords based on calendar seed data + editorial judgment.",
+        "volume_estimate": 5400,
+        "related_keywords": ["abogado accidente de carro", "abogados de accidentes de carro", "abogado de accidente de auto", "abogado accidente cerca de mi"]
+      }
     },
     {
       "id": 2,
@@ -32,9 +37,14 @@
       "title": "Accidente de Carro — Qué Hacer Paso a Paso",
       "seed_keywords": ["accidente de carro", "que hacer despues de un accidente de carro", "choque de carro"],
       "notes": "Targets 'carro' variant (390 vol for main, long-tail variants). Supplements existing 'que-hacer-despues-de-un-accidente' guide with 'carro' focus.",
-      "status": "pending",
-      "generated_at": null,
-      "keyword_data": null
+      "status": "generated",
+      "generated_at": "2026-05-19",
+      "keyword_data": {
+        "primary_keyword": "accidente de carro",
+        "note": "DataForSEO API unavailable (network restricted). Keywords based on calendar seed data + editorial judgment.",
+        "volume_estimate": 390,
+        "related_keywords": ["que hacer despues de un accidente de carro", "choque de carro", "accidente de carro que hacer", "pasos despues de accidente"]
+      }
     },
     {
       "id": 3,
@@ -45,9 +55,15 @@
       "title": "Accidente con Camión Comercial (18-Wheeler) — Compensación y Derechos",
       "seed_keywords": ["abogado de accidente de camion", "accidente de camion", "accidente con trailer"],
       "notes": "2,400 vol for 'abogado de accidente de camion'. High CPC $320. Truck accidents = high-value cases.",
-      "status": "pending",
-      "generated_at": null,
-      "keyword_data": null
+      "status": "generated",
+      "generated_at": "2026-05-19",
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente de camion",
+        "note": "DataForSEO API unavailable (network restricted). Keywords based on calendar seed data + editorial judgment.",
+        "volume_estimate": 2400,
+        "cpc_estimate": 320,
+        "related_keywords": ["accidente de camion", "accidente con trailer", "accidente 18 ruedas", "choque con camion", "accidente camion comercial"]
+      }
     },
     {
       "id": 4,
