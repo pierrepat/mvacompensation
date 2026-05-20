@@ -76,7 +76,7 @@
       "notes": "2,400 vol. High CPC $341. NOT in our current plan — data says we must add this.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {"primary_keyword": "abogado de accidente de bicicleta", "volume": 2400, "cpc": 341.42, "related_keywords": ["accidente de bicicleta", "atropello ciclista", "accidente bicicleta compensacion"]}
     },
     {
       "id": 5,
@@ -89,7 +89,7 @@
       "notes": "1,900 vol. Synonym variant. People search this differently from 'auto' or 'carro'.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {"primary_keyword": "abogado de accidente automovilístico", "volume": 1900, "cpc": 346.19, "related_keywords": ["accidente automovilístico", "después de un accidente automovilístico", "accidente automovilístico compensación"]}
     },
     {
       "id": 6,
@@ -102,7 +102,7 @@
       "notes": "1,900 vol for 'abogado de accidente de trabajo'. Adjacent to MVA but high volume. Many work-related accidents involve vehicles.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {"primary_keyword": "abogado de accidente de trabajo", "volume": 1900, "cpc": 115.71, "related_keywords": ["accidente de trabajo abogado", "abogado de accidente de trabajo cerca de mi", "abogado para accidente de trabajo", "abogado accidente de trabajo", "accidente laboral abogado"]}
     },
     {
       "id": 7,
@@ -115,7 +115,7 @@
       "notes": "1,300 vol. CPC $900 (!!). Extremely high-value keyword.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {"primary_keyword": "abogado de accidente de moto", "volume": 1300, "cpc": 900.34, "related_keywords": ["accidente de moto", "accidente motocicleta compensacion", "abogado accidente de moto"]}
     },
     {
       "id": 8,
@@ -128,7 +128,7 @@
       "notes": "1,000 vol. Another synonym variant. Captures tránsito/tráfico searchers.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {"primary_keyword": "abogado accidente de tránsito", "volume": 1000, "cpc": 431.10, "related_keywords": ["accidente de tránsito", "abogado de accidente de tránsito", "reporte de accidente de tránsito", "accidente de tráfico"]}
     },
     {
       "id": 9,
@@ -141,7 +141,7 @@
       "notes": "880 + 720 vol combined. 'Near me' searches are high intent.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {"primary_keyword": "abogado de accidente cerca de mi", "volume": 880, "cpc": 203.09, "related_keywords": ["abogado de accidente de carro cerca de mi", "abogado de accidente de trabajo cerca de mi", "abogado de accidente de auto cerca de mi"]}
     },
     {
       "id": 10,
