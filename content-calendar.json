@@ -74,8 +74,8 @@
       "title": "Accidente de Bicicleta — Compensación y Derechos",
       "seed_keywords": ["abogado de accidente de bicicleta", "accidente de bicicleta", "atropello ciclista"],
       "notes": "2,400 vol. High CPC $341. NOT in our current plan — data says we must add this.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-20",
       "keyword_data": {"primary_keyword": "abogado de accidente de bicicleta", "volume": 2400, "cpc": 341.42, "related_keywords": ["accidente de bicicleta", "atropello ciclista", "accidente bicicleta compensacion"]}
     },
     {
@@ -87,8 +87,8 @@
       "title": "Accidente Automovilístico — Guía Completa de Compensación",
       "seed_keywords": ["abogado de accidente automovilístico", "accidente automovilístico", "accidente automovilistico compensacion"],
       "notes": "1,900 vol. Synonym variant. People search this differently from 'auto' or 'carro'.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-20",
       "keyword_data": {"primary_keyword": "abogado de accidente automovilístico", "volume": 1900, "cpc": 346.19, "related_keywords": ["accidente automovilístico", "después de un accidente automovilístico", "accidente automovilístico compensación"]}
     },
     {
@@ -100,8 +100,8 @@
       "title": "Accidente de Trabajo — Compensación y Derechos Laborales",
       "seed_keywords": ["abogado de accidente de trabajo", "accidente de trabajo", "accidente laboral"],
       "notes": "1,900 vol for 'abogado de accidente de trabajo'. Adjacent to MVA but high volume. Many work-related accidents involve vehicles.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-20",
       "keyword_data": {"primary_keyword": "abogado de accidente de trabajo", "volume": 1900, "cpc": 115.71, "related_keywords": ["accidente de trabajo abogado", "abogado de accidente de trabajo cerca de mi", "abogado para accidente de trabajo", "abogado accidente de trabajo", "accidente laboral abogado"]}
     },
     {
