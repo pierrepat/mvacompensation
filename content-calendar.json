@@ -113,8 +113,8 @@
       "title": "Accidente de Motocicleta — Compensación y Derechos",
       "seed_keywords": ["abogado de accidente de moto", "accidente de moto", "accidente motocicleta compensacion"],
       "notes": "1,300 vol. CPC $900 (!!). Extremely high-value keyword.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-22",
       "keyword_data": {"primary_keyword": "abogado de accidente de moto", "volume": 1300, "cpc": 900.34, "related_keywords": ["accidente de moto", "accidente motocicleta compensacion", "abogado accidente de moto"]}
     },
     {
@@ -126,8 +126,8 @@
       "title": "Accidente de Tránsito — Qué Hacer y Cómo Reclamar",
       "seed_keywords": ["abogado accidente de tránsito", "accidente de transito", "accidente de tráfico"],
       "notes": "1,000 vol. Another synonym variant. Captures tránsito/tráfico searchers.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-22",
       "keyword_data": {"primary_keyword": "abogado accidente de tránsito", "volume": 1000, "cpc": 431.10, "related_keywords": ["accidente de tránsito", "abogado de accidente de tránsito", "reporte de accidente de tránsito", "accidente de tráfico"]}
     },
     {
@@ -139,8 +139,8 @@
       "title": "Abogado de Accidente Cerca de Mi — Cómo Encontrarlo",
       "seed_keywords": ["abogado de accidente cerca de mi", "abogado de accidente de carro cerca de mi", "abogado de accidente near me"],
       "notes": "880 + 720 vol combined. 'Near me' searches are high intent.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-22",
       "keyword_data": {"primary_keyword": "abogado de accidente cerca de mi", "volume": 880, "cpc": 203.09, "related_keywords": ["abogado de accidente de carro cerca de mi", "abogado de accidente de trabajo cerca de mi", "abogado de accidente de auto cerca de mi"]}
     },
     {
