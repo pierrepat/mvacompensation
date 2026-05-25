@@ -152,9 +152,9 @@
       "title": "¿Cuánto Dura una Demanda por Accidente de Carro?",
       "seed_keywords": ["cuanto dura una demanda de accidente de carro", "cuanto tarda un caso de accidente", "tiempo demanda accidente"],
       "notes": "170 vol. Question-based, high intent. Good for featured snippets.",
-      "status": "pending",
-      "generated_at": null,
-      "keyword_data": null
+      "status": "generated",
+      "generated_at": "2026-05-25",
+      "keyword_data": {"primary_keyword": "cuanto dura una demanda de accidente de carro", "volume": 170, "related_keywords": ["cuanto tarda un caso de accidente", "tiempo demanda accidente", "plazo demanda accidente auto"]}
     },
     {
       "id": 11,
@@ -165,9 +165,9 @@
       "title": "Demanda por Accidente de Auto — Proceso Completo",
       "seed_keywords": ["demanda por accidente de auto", "demanda por accidente", "como demandar por accidente"],
       "notes": "140 vol. Action-intent keyword — people ready to take legal action.",
-      "status": "pending",
-      "generated_at": null,
-      "keyword_data": null
+      "status": "generated",
+      "generated_at": "2026-05-25",
+      "keyword_data": {"primary_keyword": "demanda por accidente de auto", "volume": 140, "related_keywords": ["demanda por accidente", "como demandar por accidente", "demandar por accidente de carro"]}
     },
     {
       "id": 12,
@@ -178,9 +178,9 @@
       "title": "¿Cuánto Puedo Recibir por un Accidente de Auto?",
       "seed_keywords": ["cuanto puedo recibir por un accidente de auto", "cuanto me dan por un accidente", "cuanto pagan por accidente"],
       "notes": "90 vol. Direct money question. Supplements existing 'cuanto-pagan' guide with different phrasing.",
-      "status": "pending",
-      "generated_at": null,
-      "keyword_data": null
+      "status": "generated",
+      "generated_at": "2026-05-25",
+      "keyword_data": {"primary_keyword": "cuanto puedo recibir por un accidente de auto", "volume": 90, "related_keywords": ["cuanto me dan por un accidente", "cuanto pagan por accidente", "compensacion accidente de carro"]}
     },
     {
       "id": 13,
