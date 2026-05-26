@@ -8,11 +8,85 @@
 
 [[redirects]]
   from = "/"
-  to = "/en/"
+  to = "/en"
   status = 301
   force = true
 
-# Handle client-side routing for each locale
+# Fix trailing slash for locale homepages (prevents redirect errors in GSC)
+[[redirects]]
+  from = "/es/"
+  to = "/es"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/"
+  to = "/en"
+  status = 301
+  force = true
+
+# English state pages that only exist in Spanish — redirect to Spanish versions
+[[redirects]]
+  from = "/en/estados/minnesota"
+  to = "/es/estados/minnesota"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/rhode-island"
+  to = "/es/estados/rhode-island"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/luisiana"
+  to = "/es/estados/luisiana"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/connecticut"
+  to = "/es/estados/connecticut"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/utah"
+  to = "/es/estados/utah"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/kansas"
+  to = "/es/estados/kansas"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/indiana"
+  to = "/es/estados/indiana"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/wisconsin"
+  to = "/es/estados/wisconsin"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/oklahoma"
+  to = "/es/estados/oklahoma"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/carolina-del-sur"
+  to = "/es/estados/carolina-del-sur"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/iowa"
+  to = "/es/estados/iowa"
+  status = 302
+
+[[redirects]]
+  from = "/en/estados/nebraska"
+  to = "/es/estados/nebraska"
+  status = 302
+
+# Handle client-side routing for each locale (catch-all 404 — must be LAST)
 [[redirects]]
   from = "/en/*"
   to = "/en/404.html"
