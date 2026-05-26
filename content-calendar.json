@@ -5,9 +5,18 @@
     "dataforseo_location": 2840,
     "dataforseo_language": "es",
     "branch_prefix": "content/batch-",
-    "default_author": { "name": "Carlos Mendoza", "credential": "Editor Legal" },
-    "default_reviewer_legal": { "name": "María Rodríguez", "credential": "JD" },
-    "default_reviewer_medical": { "name": "Dr. Elena Vargas", "credential": "MD" }
+    "default_author": {
+      "name": "Carlos Mendoza",
+      "credential": "Editor Legal"
+    },
+    "default_reviewer_legal": {
+      "name": "María Rodríguez",
+      "credential": "JD"
+    },
+    "default_reviewer_medical": {
+      "name": "Dr. Elena Vargas",
+      "credential": "MD"
+    }
   },
   "items": [
     {
@@ -17,7 +26,11 @@
       "slug": "abogado-accidente-de-carro",
       "locale": "es",
       "title": "Abogado de Accidente de Carro — Cómo Encontrar el Mejor",
-      "seed_keywords": ["abogado de accidente de carro", "abogado accidente de carro", "abogados de accidentes de carro"],
+      "seed_keywords": [
+        "abogado de accidente de carro",
+        "abogado accidente de carro",
+        "abogados de accidentes de carro"
+      ],
       "notes": "5,400 vol. Highest volume Spanish accident keyword. Must rank for 'carro' variant.",
       "status": "generated",
       "generated_at": "2026-05-19",
@@ -25,7 +38,12 @@
         "primary_keyword": "abogado de accidente de carro",
         "note": "DataForSEO API unavailable (network restricted). Keywords based on calendar seed data + editorial judgment.",
         "volume_estimate": 5400,
-        "related_keywords": ["abogado accidente de carro", "abogados de accidentes de carro", "abogado de accidente de auto", "abogado accidente cerca de mi"]
+        "related_keywords": [
+          "abogado accidente de carro",
+          "abogados de accidentes de carro",
+          "abogado de accidente de auto",
+          "abogado accidente cerca de mi"
+        ]
       }
     },
     {
@@ -35,7 +53,11 @@
       "slug": "accidente-de-carro-que-hacer",
       "locale": "es",
       "title": "Accidente de Carro — Qué Hacer Paso a Paso",
-      "seed_keywords": ["accidente de carro", "que hacer despues de un accidente de carro", "choque de carro"],
+      "seed_keywords": [
+        "accidente de carro",
+        "que hacer despues de un accidente de carro",
+        "choque de carro"
+      ],
       "notes": "Targets 'carro' variant (390 vol for main, long-tail variants). Supplements existing 'que-hacer-despues-de-un-accidente' guide with 'carro' focus.",
       "status": "generated",
       "generated_at": "2026-05-19",
@@ -43,7 +65,12 @@
         "primary_keyword": "accidente de carro",
         "note": "DataForSEO API unavailable (network restricted). Keywords based on calendar seed data + editorial judgment.",
         "volume_estimate": 390,
-        "related_keywords": ["que hacer despues de un accidente de carro", "choque de carro", "accidente de carro que hacer", "pasos despues de accidente"]
+        "related_keywords": [
+          "que hacer despues de un accidente de carro",
+          "choque de carro",
+          "accidente de carro que hacer",
+          "pasos despues de accidente"
+        ]
       }
     },
     {
@@ -53,7 +80,11 @@
       "slug": "accidente-de-camion",
       "locale": "es",
       "title": "Accidente con Camión Comercial (18-Wheeler) — Compensación y Derechos",
-      "seed_keywords": ["abogado de accidente de camion", "accidente de camion", "accidente con trailer"],
+      "seed_keywords": [
+        "abogado de accidente de camion",
+        "accidente de camion",
+        "accidente con trailer"
+      ],
       "notes": "2,400 vol for 'abogado de accidente de camion'. High CPC $320. Truck accidents = high-value cases.",
       "status": "generated",
       "generated_at": "2026-05-19",
@@ -62,7 +93,13 @@
         "note": "DataForSEO API unavailable (network restricted). Keywords based on calendar seed data + editorial judgment.",
         "volume_estimate": 2400,
         "cpc_estimate": 320,
-        "related_keywords": ["accidente de camion", "accidente con trailer", "accidente 18 ruedas", "choque con camion", "accidente camion comercial"]
+        "related_keywords": [
+          "accidente de camion",
+          "accidente con trailer",
+          "accidente 18 ruedas",
+          "choque con camion",
+          "accidente camion comercial"
+        ]
       }
     },
     {
@@ -72,11 +109,24 @@
       "slug": "accidente-de-bicicleta",
       "locale": "es",
       "title": "Accidente de Bicicleta — Compensación y Derechos",
-      "seed_keywords": ["abogado de accidente de bicicleta", "accidente de bicicleta", "atropello ciclista"],
+      "seed_keywords": [
+        "abogado de accidente de bicicleta",
+        "accidente de bicicleta",
+        "atropello ciclista"
+      ],
       "notes": "2,400 vol. High CPC $341. NOT in our current plan — data says we must add this.",
       "status": "generated",
       "generated_at": "2026-05-20",
-      "keyword_data": {"primary_keyword": "abogado de accidente de bicicleta", "volume": 2400, "cpc": 341.42, "related_keywords": ["accidente de bicicleta", "atropello ciclista", "accidente bicicleta compensacion"]}
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente de bicicleta",
+        "volume": 2400,
+        "cpc": 341.42,
+        "related_keywords": [
+          "accidente de bicicleta",
+          "atropello ciclista",
+          "accidente bicicleta compensacion"
+        ]
+      }
     },
     {
       "id": 5,
@@ -85,11 +135,24 @@
       "slug": "accidente-automovilistico",
       "locale": "es",
       "title": "Accidente Automovilístico — Guía Completa de Compensación",
-      "seed_keywords": ["abogado de accidente automovilístico", "accidente automovilístico", "accidente automovilistico compensacion"],
+      "seed_keywords": [
+        "abogado de accidente automovilístico",
+        "accidente automovilístico",
+        "accidente automovilistico compensacion"
+      ],
       "notes": "1,900 vol. Synonym variant. People search this differently from 'auto' or 'carro'.",
       "status": "generated",
       "generated_at": "2026-05-20",
-      "keyword_data": {"primary_keyword": "abogado de accidente automovilístico", "volume": 1900, "cpc": 346.19, "related_keywords": ["accidente automovilístico", "después de un accidente automovilístico", "accidente automovilístico compensación"]}
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente automovilístico",
+        "volume": 1900,
+        "cpc": 346.19,
+        "related_keywords": [
+          "accidente automovilístico",
+          "después de un accidente automovilístico",
+          "accidente automovilístico compensación"
+        ]
+      }
     },
     {
       "id": 6,
@@ -98,11 +161,26 @@
       "slug": "accidente-de-trabajo",
       "locale": "es",
       "title": "Accidente de Trabajo — Compensación y Derechos Laborales",
-      "seed_keywords": ["abogado de accidente de trabajo", "accidente de trabajo", "accidente laboral"],
+      "seed_keywords": [
+        "abogado de accidente de trabajo",
+        "accidente de trabajo",
+        "accidente laboral"
+      ],
       "notes": "1,900 vol for 'abogado de accidente de trabajo'. Adjacent to MVA but high volume. Many work-related accidents involve vehicles.",
       "status": "generated",
       "generated_at": "2026-05-20",
-      "keyword_data": {"primary_keyword": "abogado de accidente de trabajo", "volume": 1900, "cpc": 115.71, "related_keywords": ["accidente de trabajo abogado", "abogado de accidente de trabajo cerca de mi", "abogado para accidente de trabajo", "abogado accidente de trabajo", "accidente laboral abogado"]}
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente de trabajo",
+        "volume": 1900,
+        "cpc": 115.71,
+        "related_keywords": [
+          "accidente de trabajo abogado",
+          "abogado de accidente de trabajo cerca de mi",
+          "abogado para accidente de trabajo",
+          "abogado accidente de trabajo",
+          "accidente laboral abogado"
+        ]
+      }
     },
     {
       "id": 7,
@@ -111,11 +189,24 @@
       "slug": "accidente-de-moto",
       "locale": "es",
       "title": "Accidente de Motocicleta — Compensación y Derechos",
-      "seed_keywords": ["abogado de accidente de moto", "accidente de moto", "accidente motocicleta compensacion"],
+      "seed_keywords": [
+        "abogado de accidente de moto",
+        "accidente de moto",
+        "accidente motocicleta compensacion"
+      ],
       "notes": "1,300 vol. CPC $900 (!!). Extremely high-value keyword.",
       "status": "generated",
       "generated_at": "2026-05-22",
-      "keyword_data": {"primary_keyword": "abogado de accidente de moto", "volume": 1300, "cpc": 900.34, "related_keywords": ["accidente de moto", "accidente motocicleta compensacion", "abogado accidente de moto"]}
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente de moto",
+        "volume": 1300,
+        "cpc": 900.34,
+        "related_keywords": [
+          "accidente de moto",
+          "accidente motocicleta compensacion",
+          "abogado accidente de moto"
+        ]
+      }
     },
     {
       "id": 8,
@@ -124,11 +215,25 @@
       "slug": "accidente-de-transito",
       "locale": "es",
       "title": "Accidente de Tránsito — Qué Hacer y Cómo Reclamar",
-      "seed_keywords": ["abogado accidente de tránsito", "accidente de transito", "accidente de tráfico"],
+      "seed_keywords": [
+        "abogado accidente de tránsito",
+        "accidente de transito",
+        "accidente de tráfico"
+      ],
       "notes": "1,000 vol. Another synonym variant. Captures tránsito/tráfico searchers.",
       "status": "generated",
       "generated_at": "2026-05-22",
-      "keyword_data": {"primary_keyword": "abogado accidente de tránsito", "volume": 1000, "cpc": 431.10, "related_keywords": ["accidente de tránsito", "abogado de accidente de tránsito", "reporte de accidente de tránsito", "accidente de tráfico"]}
+      "keyword_data": {
+        "primary_keyword": "abogado accidente de tránsito",
+        "volume": 1000,
+        "cpc": 431.1,
+        "related_keywords": [
+          "accidente de tránsito",
+          "abogado de accidente de tránsito",
+          "reporte de accidente de tránsito",
+          "accidente de tráfico"
+        ]
+      }
     },
     {
       "id": 9,
@@ -137,11 +242,24 @@
       "slug": "abogado-accidente-cerca-de-mi",
       "locale": "es",
       "title": "Abogado de Accidente Cerca de Mi — Cómo Encontrarlo",
-      "seed_keywords": ["abogado de accidente cerca de mi", "abogado de accidente de carro cerca de mi", "abogado de accidente near me"],
+      "seed_keywords": [
+        "abogado de accidente cerca de mi",
+        "abogado de accidente de carro cerca de mi",
+        "abogado de accidente near me"
+      ],
       "notes": "880 + 720 vol combined. 'Near me' searches are high intent.",
       "status": "generated",
       "generated_at": "2026-05-22",
-      "keyword_data": {"primary_keyword": "abogado de accidente cerca de mi", "volume": 880, "cpc": 203.09, "related_keywords": ["abogado de accidente de carro cerca de mi", "abogado de accidente de trabajo cerca de mi", "abogado de accidente de auto cerca de mi"]}
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente cerca de mi",
+        "volume": 880,
+        "cpc": 203.09,
+        "related_keywords": [
+          "abogado de accidente de carro cerca de mi",
+          "abogado de accidente de trabajo cerca de mi",
+          "abogado de accidente de auto cerca de mi"
+        ]
+      }
     },
     {
       "id": 10,
@@ -150,11 +268,23 @@
       "slug": "cuanto-dura-demanda-accidente",
       "locale": "es",
       "title": "¿Cuánto Dura una Demanda por Accidente de Carro?",
-      "seed_keywords": ["cuanto dura una demanda de accidente de carro", "cuanto tarda un caso de accidente", "tiempo demanda accidente"],
+      "seed_keywords": [
+        "cuanto dura una demanda de accidente de carro",
+        "cuanto tarda un caso de accidente",
+        "tiempo demanda accidente"
+      ],
       "notes": "170 vol. Question-based, high intent. Good for featured snippets.",
       "status": "generated",
       "generated_at": "2026-05-25",
-      "keyword_data": {"primary_keyword": "cuanto dura una demanda de accidente de carro", "volume": 170, "related_keywords": ["cuanto tarda un caso de accidente", "tiempo demanda accidente", "plazo demanda accidente auto"]}
+      "keyword_data": {
+        "primary_keyword": "cuanto dura una demanda de accidente de carro",
+        "volume": 170,
+        "related_keywords": [
+          "cuanto tarda un caso de accidente",
+          "tiempo demanda accidente",
+          "plazo demanda accidente auto"
+        ]
+      }
     },
     {
       "id": 11,
@@ -163,11 +293,23 @@
       "slug": "demanda-por-accidente-de-auto",
       "locale": "es",
       "title": "Demanda por Accidente de Auto — Proceso Completo",
-      "seed_keywords": ["demanda por accidente de auto", "demanda por accidente", "como demandar por accidente"],
+      "seed_keywords": [
+        "demanda por accidente de auto",
+        "demanda por accidente",
+        "como demandar por accidente"
+      ],
       "notes": "140 vol. Action-intent keyword — people ready to take legal action.",
       "status": "generated",
       "generated_at": "2026-05-25",
-      "keyword_data": {"primary_keyword": "demanda por accidente de auto", "volume": 140, "related_keywords": ["demanda por accidente", "como demandar por accidente", "demandar por accidente de carro"]}
+      "keyword_data": {
+        "primary_keyword": "demanda por accidente de auto",
+        "volume": 140,
+        "related_keywords": [
+          "demanda por accidente",
+          "como demandar por accidente",
+          "demandar por accidente de carro"
+        ]
+      }
     },
     {
       "id": 12,
@@ -176,11 +318,23 @@
       "slug": "cuanto-puedo-recibir-por-accidente",
       "locale": "es",
       "title": "¿Cuánto Puedo Recibir por un Accidente de Auto?",
-      "seed_keywords": ["cuanto puedo recibir por un accidente de auto", "cuanto me dan por un accidente", "cuanto pagan por accidente"],
+      "seed_keywords": [
+        "cuanto puedo recibir por un accidente de auto",
+        "cuanto me dan por un accidente",
+        "cuanto pagan por accidente"
+      ],
       "notes": "90 vol. Direct money question. Supplements existing 'cuanto-pagan' guide with different phrasing.",
       "status": "generated",
       "generated_at": "2026-05-25",
-      "keyword_data": {"primary_keyword": "cuanto puedo recibir por un accidente de auto", "volume": 90, "related_keywords": ["cuanto me dan por un accidente", "cuanto pagan por accidente", "compensacion accidente de carro"]}
+      "keyword_data": {
+        "primary_keyword": "cuanto puedo recibir por un accidente de auto",
+        "volume": 90,
+        "related_keywords": [
+          "cuanto me dan por un accidente",
+          "cuanto pagan por accidente",
+          "compensacion accidente de carro"
+        ]
+      }
     },
     {
       "id": 13,
@@ -189,11 +343,22 @@
       "slug": "como-ganar-caso-accidente",
       "locale": "es",
       "title": "Cómo Ganar un Caso de Accidente de Auto",
-      "seed_keywords": ["como ganar un caso de accidente de auto", "como ganar demanda accidente", "ganar caso accidente"],
+      "seed_keywords": [
+        "como ganar un caso de accidente de auto",
+        "como ganar demanda accidente",
+        "ganar caso accidente"
+      ],
       "notes": "20 vol but high intent + good for AI search citations. People asking this are ready to act.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "como ganar un caso de accidente de auto",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "como ganar demanda accidente",
+          "ganar caso accidente"
+        ]
+      }
     },
     {
       "id": 14,
@@ -202,11 +367,22 @@
       "slug": "que-no-decir-a-la-aseguradora",
       "locale": "es",
       "title": "Qué No Decir a la Aseguradora Después de un Accidente",
-      "seed_keywords": ["que no decir a la aseguradora", "que decir al seguro despues de accidente", "aseguradora accidente"],
+      "seed_keywords": [
+        "que no decir a la aseguradora",
+        "que decir al seguro despues de accidente",
+        "aseguradora accidente"
+      ],
       "notes": "Low volume but extremely high conversion content. Actionable, shareable.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "que no decir a la aseguradora",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "que decir al seguro despues de accidente",
+          "aseguradora accidente"
+        ]
+      }
     },
     {
       "id": 15,
@@ -215,11 +391,22 @@
       "slug": "como-negociar-con-la-aseguradora",
       "locale": "es",
       "title": "Cómo Negociar con la Aseguradora por tu Accidente",
-      "seed_keywords": ["como negociar con la aseguradora", "negociar seguro accidente", "oferta baja aseguradora"],
+      "seed_keywords": [
+        "como negociar con la aseguradora",
+        "negociar seguro accidente",
+        "oferta baja aseguradora"
+      ],
       "notes": "Low search vol but high conversion. People searching this have a case and need help.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "como negociar con la aseguradora",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "negociar seguro accidente",
+          "oferta baja aseguradora"
+        ]
+      }
     },
     {
       "id": 16,
@@ -228,11 +415,22 @@
       "slug": "accidente-sin-papeles",
       "locale": "es",
       "title": "Accidente de Auto Sin Papeles — Tus Derechos como Indocumentado",
-      "seed_keywords": ["accidente sin papeles", "accidente auto indocumentado", "derechos indocumentado accidente"],
+      "seed_keywords": [
+        "accidente sin papeles",
+        "accidente auto indocumentado",
+        "derechos indocumentado accidente"
+      ],
       "notes": "Low vol (10) but OUR differentiator. No one else targets this. High conversion for our audience.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente sin papeles",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente auto indocumentado",
+          "derechos indocumentado accidente"
+        ]
+      }
     },
     {
       "id": 17,
@@ -241,11 +439,22 @@
       "slug": "accidente-sin-licencia",
       "locale": "es",
       "title": "Accidente de Auto Sin Licencia de Conducir",
-      "seed_keywords": ["accidente sin licencia", "choque sin licencia", "accidente sin licencia de conducir"],
+      "seed_keywords": [
+        "accidente sin licencia",
+        "choque sin licencia",
+        "accidente sin licencia de conducir"
+      ],
       "notes": "Low vol but targets our specific Hispanic audience. Many undocumented drivers face this.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente sin licencia",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "choque sin licencia",
+          "accidente sin licencia de conducir"
+        ]
+      }
     },
     {
       "id": 18,
@@ -254,11 +463,22 @@
       "slug": "accidente-de-uber-lyft",
       "locale": "es",
       "title": "Accidente en Uber o Lyft — Qué Hacer y Quién Paga",
-      "seed_keywords": ["accidente uber", "accidente en uber", "accidente lyft compensacion"],
+      "seed_keywords": [
+        "accidente uber",
+        "accidente en uber",
+        "accidente lyft compensacion"
+      ],
       "notes": "10 vol but growing. Many Hispanic workers drive for rideshare. Unique content gap.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente uber",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente en uber",
+          "accidente lyft compensacion"
+        ]
+      }
     },
     {
       "id": 19,
@@ -267,11 +487,22 @@
       "slug": "primera-oferta-aseguradora",
       "locale": "es",
       "title": "¿Debo Aceptar la Primera Oferta de la Aseguradora?",
-      "seed_keywords": ["primera oferta aseguradora", "aceptar oferta seguro accidente", "oferta baja seguro"],
+      "seed_keywords": [
+        "primera oferta aseguradora",
+        "aceptar oferta seguro accidente",
+        "oferta baja seguro"
+      ],
       "notes": "Question-format, high conversion. People with active cases searching this.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "primera oferta aseguradora",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "aceptar oferta seguro accidente",
+          "oferta baja seguro"
+        ]
+      }
     },
     {
       "id": 20,
@@ -280,11 +511,22 @@
       "slug": "accidente-conductor-borracho",
       "locale": "es",
       "title": "Accidente por Conductor Borracho (DUI) — Tus Derechos",
-      "seed_keywords": ["accidente conductor borracho", "choque conductor ebrio", "accidente DUI compensacion"],
+      "seed_keywords": [
+        "accidente conductor borracho",
+        "choque conductor ebrio",
+        "accidente DUI compensacion"
+      ],
       "notes": "High-value cases. Punitive damages possible = higher settlements.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente conductor borracho",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "choque conductor ebrio",
+          "accidente DUI compensacion"
+        ]
+      }
     },
     {
       "id": 21,
@@ -294,13 +536,28 @@
       "locale": "es",
       "title": "Hernia de Disco por Accidente de Auto",
       "injury_type": "herniated-disc",
-      "settlement_range": { "low": 10000, "mid": 50000, "high": 200000 },
+      "settlement_range": {
+        "low": 10000,
+        "mid": 50000,
+        "high": 200000
+      },
       "recovery_months": 12,
-      "seed_keywords": ["hernia de disco accidente", "hernia de disco compensacion", "hernia discal accidente auto"],
+      "seed_keywords": [
+        "hernia de disco accidente",
+        "hernia de disco compensacion",
+        "hernia discal accidente auto"
+      ],
       "notes": "Very common injury. High-value claims. No current page for this.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "hernia de disco accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "hernia de disco compensacion",
+          "hernia discal accidente auto"
+        ]
+      }
     },
     {
       "id": 22,
@@ -310,13 +567,28 @@
       "locale": "es",
       "title": "Lesión de Médula Espinal por Accidente de Auto",
       "injury_type": "spinal-cord-injury",
-      "settlement_range": { "low": 100000, "mid": 500000, "high": 5000000 },
+      "settlement_range": {
+        "low": 100000,
+        "mid": 500000,
+        "high": 5000000
+      },
       "recovery_months": 24,
-      "seed_keywords": ["lesion medula espinal accidente", "paralisis accidente auto", "lesion columna accidente"],
+      "seed_keywords": [
+        "lesion medula espinal accidente",
+        "paralisis accidente auto",
+        "lesion columna accidente"
+      ],
       "notes": "Catastrophic injury = highest value cases. $500K-$5M+ settlements.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion medula espinal accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "paralisis accidente auto",
+          "lesion columna accidente"
+        ]
+      }
     },
     {
       "id": 23,
@@ -326,13 +598,28 @@
       "locale": "es",
       "title": "Lesión de Rodilla por Accidente de Auto",
       "injury_type": "knee-injury",
-      "settlement_range": { "low": 8000, "mid": 40000, "high": 150000 },
+      "settlement_range": {
+        "low": 8000,
+        "mid": 40000,
+        "high": 150000
+      },
       "recovery_months": 8,
-      "seed_keywords": ["lesion de rodilla accidente", "rodilla rota accidente", "dolor de rodilla accidente auto"],
+      "seed_keywords": [
+        "lesion de rodilla accidente",
+        "rodilla rota accidente",
+        "dolor de rodilla accidente auto"
+      ],
       "notes": "Common dashboard injury in frontal collisions.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion de rodilla accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "rodilla rota accidente",
+          "dolor de rodilla accidente auto"
+        ]
+      }
     },
     {
       "id": 24,
@@ -342,13 +629,28 @@
       "locale": "es",
       "title": "Lesión de Hombro por Accidente de Auto",
       "injury_type": "shoulder-injury",
-      "settlement_range": { "low": 10000, "mid": 45000, "high": 175000 },
+      "settlement_range": {
+        "low": 10000,
+        "mid": 45000,
+        "high": 175000
+      },
       "recovery_months": 9,
-      "seed_keywords": ["lesion de hombro accidente", "hombro dislocado accidente", "manguito rotador accidente"],
+      "seed_keywords": [
+        "lesion de hombro accidente",
+        "hombro dislocado accidente",
+        "manguito rotador accidente"
+      ],
       "notes": "Seatbelt injuries often affect shoulder. Rotator cuff tears are high-value.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion de hombro accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "hombro dislocado accidente",
+          "manguito rotador accidente"
+        ]
+      }
     },
     {
       "id": 25,
@@ -358,13 +660,28 @@
       "locale": "es",
       "title": "Costillas Rotas por Accidente de Auto",
       "injury_type": "broken-ribs",
-      "settlement_range": { "low": 8000, "mid": 35000, "high": 120000 },
+      "settlement_range": {
+        "low": 8000,
+        "mid": 35000,
+        "high": 120000
+      },
       "recovery_months": 6,
-      "seed_keywords": ["costillas rotas accidente", "fractura costilla accidente auto", "costilla rota compensacion"],
+      "seed_keywords": [
+        "costillas rotas accidente",
+        "fractura costilla accidente auto",
+        "costilla rota compensacion"
+      ],
       "notes": "Common seatbelt/steering wheel injury.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "costillas rotas accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "fractura costilla accidente auto",
+          "costilla rota compensacion"
+        ]
+      }
     },
     {
       "id": 26,
@@ -374,13 +691,28 @@
       "locale": "es",
       "title": "PTSD y Trauma Emocional por Accidente de Auto",
       "injury_type": "ptsd-emotional-trauma",
-      "settlement_range": { "low": 5000, "mid": 30000, "high": 150000 },
+      "settlement_range": {
+        "low": 5000,
+        "mid": 30000,
+        "high": 150000
+      },
       "recovery_months": 12,
-      "seed_keywords": ["trauma emocional accidente", "ptsd accidente auto", "ansiedad despues de accidente"],
+      "seed_keywords": [
+        "trauma emocional accidente",
+        "ptsd accidente auto",
+        "ansiedad despues de accidente"
+      ],
       "notes": "Often overlooked. Adds to pain & suffering claims. Under-claimed by Hispanic community.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "trauma emocional accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "ptsd accidente auto",
+          "ansiedad despues de accidente"
+        ]
+      }
     },
     {
       "id": 27,
@@ -390,13 +722,28 @@
       "locale": "es",
       "title": "Quemaduras por Accidente de Auto",
       "injury_type": "burns",
-      "settlement_range": { "low": 15000, "mid": 75000, "high": 500000 },
+      "settlement_range": {
+        "low": 15000,
+        "mid": 75000,
+        "high": 500000
+      },
       "recovery_months": 12,
-      "seed_keywords": ["quemaduras accidente auto", "quemaduras por accidente", "quemaduras carro"],
+      "seed_keywords": [
+        "quemaduras accidente auto",
+        "quemaduras por accidente",
+        "quemaduras carro"
+      ],
       "notes": "High-value catastrophic injury category.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "quemaduras accidente auto",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "quemaduras por accidente",
+          "quemaduras carro"
+        ]
+      }
     },
     {
       "id": 28,
@@ -406,13 +753,28 @@
       "locale": "es",
       "title": "Lesión de Cuello por Accidente de Auto",
       "injury_type": "neck-injury",
-      "settlement_range": { "low": 8000, "mid": 35000, "high": 150000 },
+      "settlement_range": {
+        "low": 8000,
+        "mid": 35000,
+        "high": 150000
+      },
       "recovery_months": 6,
-      "seed_keywords": ["lesion de cuello accidente", "dolor de cuello accidente auto", "cuello lastimado accidente"],
+      "seed_keywords": [
+        "lesion de cuello accidente",
+        "dolor de cuello accidente auto",
+        "cuello lastimado accidente"
+      ],
       "notes": "Broader than whiplash. Captures 'dolor de cuello' searches.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion de cuello accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "dolor de cuello accidente auto",
+          "cuello lastimado accidente"
+        ]
+      }
     },
     {
       "id": 29,
@@ -422,13 +784,28 @@
       "locale": "es",
       "title": "Cicatrices y Desfiguración por Accidente de Auto",
       "injury_type": "scarring-disfigurement",
-      "settlement_range": { "low": 10000, "mid": 50000, "high": 300000 },
+      "settlement_range": {
+        "low": 10000,
+        "mid": 50000,
+        "high": 300000
+      },
       "recovery_months": 12,
-      "seed_keywords": ["cicatrices accidente auto", "desfiguracion accidente", "cicatriz compensacion"],
+      "seed_keywords": [
+        "cicatrices accidente auto",
+        "desfiguracion accidente",
+        "cicatriz compensacion"
+      ],
       "notes": "Important for Florida no-fault threshold — scarring qualifies as 'serious injury'.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "cicatrices accidente auto",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "desfiguracion accidente",
+          "cicatriz compensacion"
+        ]
+      }
     },
     {
       "id": 30,
@@ -438,13 +815,28 @@
       "locale": "es",
       "title": "Lesión de Muñeca o Mano por Accidente de Auto",
       "injury_type": "wrist-hand-injury",
-      "settlement_range": { "low": 5000, "mid": 25000, "high": 100000 },
+      "settlement_range": {
+        "low": 5000,
+        "mid": 25000,
+        "high": 100000
+      },
       "recovery_months": 6,
-      "seed_keywords": ["lesion muneca accidente", "fractura mano accidente auto", "muneca rota accidente"],
+      "seed_keywords": [
+        "lesion muneca accidente",
+        "fractura mano accidente auto",
+        "muneca rota accidente"
+      ],
       "notes": "Common bracing injury during impact.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion muneca accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "fractura mano accidente auto",
+          "muneca rota accidente"
+        ]
+      }
     },
     {
       "id": 31,
@@ -454,13 +846,28 @@
       "locale": "es",
       "title": "Lesión de Cadera por Accidente de Auto",
       "injury_type": "hip-injury",
-      "settlement_range": { "low": 15000, "mid": 60000, "high": 250000 },
+      "settlement_range": {
+        "low": 15000,
+        "mid": 60000,
+        "high": 250000
+      },
       "recovery_months": 12,
-      "seed_keywords": ["lesion cadera accidente", "fractura cadera accidente auto", "cadera rota accidente"],
+      "seed_keywords": [
+        "lesion cadera accidente",
+        "fractura cadera accidente auto",
+        "cadera rota accidente"
+      ],
       "notes": "Common in T-bone/side-impact collisions. Often requires surgery.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion cadera accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "fractura cadera accidente auto",
+          "cadera rota accidente"
+        ]
+      }
     },
     {
       "id": 32,
@@ -470,13 +877,28 @@
       "locale": "es",
       "title": "Lesión de Tobillo o Pie por Accidente de Auto",
       "injury_type": "ankle-foot-injury",
-      "settlement_range": { "low": 5000, "mid": 25000, "high": 100000 },
+      "settlement_range": {
+        "low": 5000,
+        "mid": 25000,
+        "high": 100000
+      },
       "recovery_months": 6,
-      "seed_keywords": ["lesion tobillo accidente", "tobillo roto accidente auto", "pie lastimado accidente"],
+      "seed_keywords": [
+        "lesion tobillo accidente",
+        "tobillo roto accidente auto",
+        "pie lastimado accidente"
+      ],
       "notes": "Pedal injuries in frontal crashes.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "lesion tobillo accidente",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "tobillo roto accidente auto",
+          "pie lastimado accidente"
+        ]
+      }
     },
     {
       "id": 33,
@@ -485,11 +907,22 @@
       "slug": "accidente-estacionamiento",
       "locale": "es",
       "title": "Accidente en Estacionamiento — ¿Quién Tiene la Culpa?",
-      "seed_keywords": ["accidente en estacionamiento", "choque en estacionamiento", "culpa accidente parking"],
+      "seed_keywords": [
+        "accidente en estacionamiento",
+        "choque en estacionamiento",
+        "culpa accidente parking"
+      ],
       "notes": "Situation-specific. Very common scenario, no one covers it in Spanish.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente en estacionamiento",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "choque en estacionamiento",
+          "culpa accidente parking"
+        ]
+      }
     },
     {
       "id": 34,
@@ -498,11 +931,22 @@
       "slug": "accidente-menor-de-edad",
       "locale": "es",
       "title": "Accidente de Auto con Menor de Edad — Derechos del Niño",
-      "seed_keywords": ["accidente menor de edad", "accidente nino en carro", "compensacion accidente menor"],
+      "seed_keywords": [
+        "accidente menor de edad",
+        "accidente nino en carro",
+        "compensacion accidente menor"
+      ],
       "notes": "Higher settlements for minors. Extended statute of limitations. Emotional topic = shareable.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente menor de edad",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente nino en carro",
+          "compensacion accidente menor"
+        ]
+      }
     },
     {
       "id": 35,
@@ -511,11 +955,22 @@
       "slug": "accidente-embarazada",
       "locale": "es",
       "title": "Accidente de Auto Estando Embarazada — Qué Hacer",
-      "seed_keywords": ["accidente embarazada", "accidente auto embarazada", "choque estando embarazada"],
+      "seed_keywords": [
+        "accidente embarazada",
+        "accidente auto embarazada",
+        "choque estando embarazada"
+      ],
       "notes": "Niche but high-emotion content. Good for social sharing in Hispanic mom groups.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente embarazada",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente auto embarazada",
+          "choque estando embarazada"
+        ]
+      }
     },
     {
       "id": 36,
@@ -524,11 +979,22 @@
       "slug": "atropello-peaton",
       "locale": "es",
       "title": "Atropello de Peatón — Derechos y Compensación",
-      "seed_keywords": ["atropello peaton", "atropello compensacion", "me atropellaron que hago"],
+      "seed_keywords": [
+        "atropello peaton",
+        "atropello compensacion",
+        "me atropellaron que hago"
+      ],
       "notes": "Adjacent to MVA. Pedestrian accidents are common in Hispanic neighborhoods.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "atropello peaton",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "atropello compensacion",
+          "me atropellaron que hago"
+        ]
+      }
     },
     {
       "id": 37,
@@ -537,11 +1003,22 @@
       "slug": "accidente-auto-alquilado",
       "locale": "es",
       "title": "Accidente en Auto Alquilado (Rental Car) — ¿Quién Paga?",
-      "seed_keywords": ["accidente auto alquilado", "accidente rental car", "choque carro alquilado"],
+      "seed_keywords": [
+        "accidente auto alquilado",
+        "accidente rental car",
+        "choque carro alquilado"
+      ],
       "notes": "Common scenario for visitors/tourists. Complex insurance situation.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente auto alquilado",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente rental car",
+          "choque carro alquilado"
+        ]
+      }
     },
     {
       "id": 38,
@@ -550,11 +1027,22 @@
       "slug": "accidente-multiple-vehiculos",
       "locale": "es",
       "title": "Accidente con Múltiples Vehículos — ¿Quién Paga?",
-      "seed_keywords": ["accidente multiple vehiculos", "choque multiple carros", "accidente en cadena"],
+      "seed_keywords": [
+        "accidente multiple vehiculos",
+        "choque multiple carros",
+        "accidente en cadena"
+      ],
       "notes": "Complex liability scenario. Good educational content.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente multiple vehiculos",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "choque multiple carros",
+          "accidente en cadena"
+        ]
+      }
     },
     {
       "id": 39,
@@ -563,11 +1051,22 @@
       "slug": "accidente-zona-construccion",
       "locale": "es",
       "title": "Accidente en Zona de Construcción — Derechos y Compensación",
-      "seed_keywords": ["accidente zona construccion", "accidente obra vial", "choque zona de trabajo"],
+      "seed_keywords": [
+        "accidente zona construccion",
+        "accidente obra vial",
+        "choque zona de trabajo"
+      ],
       "notes": "Many Hispanic construction workers commute through these zones.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente zona construccion",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente obra vial",
+          "choque zona de trabajo"
+        ]
+      }
     },
     {
       "id": 40,
@@ -576,11 +1075,22 @@
       "slug": "accidente-auto-de-trabajo",
       "locale": "es",
       "title": "Accidente de Auto Yendo o Viniendo del Trabajo",
-      "seed_keywords": ["accidente auto camino al trabajo", "accidente yendo al trabajo", "accidente trabajo compensacion"],
+      "seed_keywords": [
+        "accidente auto camino al trabajo",
+        "accidente yendo al trabajo",
+        "accidente trabajo compensacion"
+      ],
       "notes": "Workers' comp intersection. Very relevant for our audience.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "accidente auto camino al trabajo",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente yendo al trabajo",
+          "accidente trabajo compensacion"
+        ]
+      }
     },
     {
       "id": 41,
@@ -589,11 +1099,22 @@
       "slug": "abogado-accidente-en-espanol",
       "locale": "es",
       "title": "Abogado de Accidente en Español — Cómo Encontrarlo",
-      "seed_keywords": ["abogado de accidente en español", "abogado hispano accidente", "abogados hispanos de accidentes"],
+      "seed_keywords": [
+        "abogado de accidente en español",
+        "abogado hispano accidente",
+        "abogados hispanos de accidentes"
+      ],
       "notes": "320 vol for 'abogado de accidente en español'. Direct match to our value prop.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente en español",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "abogado hispano accidente",
+          "abogados hispanos de accidentes"
+        ]
+      }
     },
     {
       "id": 42,
@@ -602,11 +1123,22 @@
       "slug": "negligencia-medica",
       "locale": "es",
       "title": "Negligencia Médica — Compensación y Cómo Reclamar",
-      "seed_keywords": ["abogados de negligencia medica", "negligencia medica", "mala practica medica"],
+      "seed_keywords": [
+        "abogados de negligencia medica",
+        "negligencia medica",
+        "mala practica medica"
+      ],
       "notes": "880 vol. Adjacent category but high volume. Medical malpractice after accident treatment is relevant.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "abogados de negligencia medica",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "negligencia medica",
+          "mala practica medica"
+        ]
+      }
     },
     {
       "id": 43,
@@ -615,11 +1147,22 @@
       "slug": "accidente-construccion",
       "locale": "es",
       "title": "Accidente de Construcción — Derechos del Trabajador",
-      "seed_keywords": ["abogados de accidentes de construcción", "accidente construccion", "accidente obra compensacion"],
+      "seed_keywords": [
+        "abogados de accidentes de construcción",
+        "accidente construccion",
+        "accidente obra compensacion"
+      ],
       "notes": "260 vol. Huge for Hispanic workers in construction industry.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "abogados de accidentes de construcción",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "accidente construccion",
+          "accidente obra compensacion"
+        ]
+      }
     },
     {
       "id": 44,
@@ -628,11 +1171,22 @@
       "slug": "accidente-de-caida",
       "locale": "es",
       "title": "Accidente por Caída (Slip and Fall) — Compensación",
-      "seed_keywords": ["abogados de accidentes de caidas", "caida accidente", "resbalón y caída compensacion"],
+      "seed_keywords": [
+        "abogados de accidentes de caidas",
+        "caida accidente",
+        "resbalón y caída compensacion"
+      ],
       "notes": "90 vol. Premises liability. Common for Hispanic workers/shoppers.",
       "status": "pending",
       "generated_at": null,
-      "keyword_data": null
+      "keyword_data": {
+        "primary_keyword": "abogados de accidentes de caidas",
+        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
+        "related_keywords": [
+          "caida accidente",
+          "resbalón y caída compensacion"
+        ]
+      }
     }
   ]
 }
