@@ -349,8 +349,8 @@
         "ganar caso accidente"
       ],
       "notes": "20 vol but high intent + good for AI search citations. People asking this are ready to act.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-27",
       "keyword_data": {
         "primary_keyword": "como ganar un caso de accidente de auto",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -373,8 +373,8 @@
         "aseguradora accidente"
       ],
       "notes": "Low volume but extremely high conversion content. Actionable, shareable.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-27",
       "keyword_data": {
         "primary_keyword": "que no decir a la aseguradora",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -397,8 +397,8 @@
         "oferta baja aseguradora"
       ],
       "notes": "Low search vol but high conversion. People searching this have a case and need help.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-27",
       "keyword_data": {
         "primary_keyword": "como negociar con la aseguradora",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
