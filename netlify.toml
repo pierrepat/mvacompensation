@@ -8,20 +8,7 @@
 
 [[redirects]]
   from = "/"
-  to = "/en"
-  status = 301
-  force = true
-
-# Fix trailing slash for locale homepages (prevents redirect errors in GSC)
-[[redirects]]
-  from = "/es/"
-  to = "/es"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/en/"
-  to = "/en"
+  to = "/en/"
   status = 301
   force = true
 
