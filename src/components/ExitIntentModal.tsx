@@ -1,14 +1,18 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import { quizUrl } from "@/lib/quiz-url";
 
 const STORAGE_KEY = "mva-exit-modal-dismissed";
+const MIN_TIME_MS = 15_000; // 15 seconds on page before showing
+const MIN_SCROLL_PX = 200; // must scroll at least 200px
 
 export function ExitIntentModal({ locale }: { locale: Locale }) {
   const [show, setShow] = useState(false);
+  const loadedAt = useRef(Date.now());
+  const maxScroll = useRef(0);
 
   const isEn = locale === "en";
 
@@ -20,19 +24,41 @@ export function ExitIntentModal({ locale }: { locale: Locale }) {
   }, []);
 
   useEffect(() => {
-    // Don't show if already dismissed this session
     try {
       if (sessionStorage.getItem(STORAGE_KEY)) return;
     } catch {}
 
-    const handleMouseLeave = (e: MouseEvent) => {
-      if (e.clientY <= 0) {
-        setShow(true);
-      }
+    // Don't show on quiz/cuestionario pages — they're already in the funnel
+    if (
+      window.location.pathname.includes("/quiz") ||
+      window.location.pathname.includes("/cuestionario")
+    ) {
+      return;
+    }
+
+    const trackScroll = () => {
+      maxScroll.current = Math.max(maxScroll.current, window.scrollY);
     };
 
+    const handleMouseLeave = (e: MouseEvent) => {
+      // Only trigger when mouse exits through the top (toward browser chrome)
+      if (e.clientY > 0) return;
+
+      // Must have been on page at least 15 seconds
+      if (Date.now() - loadedAt.current < MIN_TIME_MS) return;
+
+      // Must have scrolled at least 200px (shows they engaged)
+      if (maxScroll.current < MIN_SCROLL_PX) return;
+
+      setShow(true);
+    };
+
+    window.addEventListener("scroll", trackScroll, { passive: true });
     document.addEventListener("mouseleave", handleMouseLeave);
-    return () => document.removeEventListener("mouseleave", handleMouseLeave);
+    return () => {
+      window.removeEventListener("scroll", trackScroll);
+      document.removeEventListener("mouseleave", handleMouseLeave);
+    };
   }, []);
 
   if (!show) return null;
@@ -55,12 +81,14 @@ export function ExitIntentModal({ locale }: { locale: Locale }) {
         </button>
 
         <h2 className="text-2xl font-bold text-gray-900 text-center">
-          {isEn ? "Wait — Don't Leave Yet" : "Espere — No se vaya aún"}
+          {isEn
+            ? "Before you go —"
+            : "Antes de que te vayas —"}
         </h2>
         <p className="mt-3 text-gray-600 text-center text-sm">
           {isEn
-            ? "Find out if you're entitled to compensation. Our free case evaluation takes less than 2 minutes."
-            : "Descubra si tiene derecho a compensación. Nuestra evaluación gratuita de caso toma menos de 2 minutos."}
+            ? "People with a lawyer get 3.5x more money after an accident. Our evaluation is free and takes 2 minutes."
+            : "Las personas con abogado reciben 3.5 veces más dinero después de un accidente. La evaluación es gratis y toma 2 minutos."}
         </p>
         <div className="mt-6 flex flex-col gap-3">
           <Link
@@ -68,7 +96,7 @@ export function ExitIntentModal({ locale }: { locale: Locale }) {
             onClick={handleClose}
             className="block text-center bg-navy-900 text-white font-semibold px-6 py-3 rounded-md hover:bg-navy-700 transition-colors"
           >
-            {isEn ? "Free Case Evaluation" : "Evaluación Gratuita"}
+            {isEn ? "See What I'm Owed" : "Ver Cuánto Me Deben"}
           </Link>
           <button
             onClick={handleClose}
