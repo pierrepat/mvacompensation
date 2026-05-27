@@ -13,11 +13,11 @@ export async function generateMetadata({
   const baseUrl = "https://mvacompensation.com";
   return {
     title: isEs
-      ? "Calculadora de Compensación por Accidente de Auto"
-      : "Car Accident Settlement Calculator",
+      ? "¿Cuánto Te Deben por Tu Accidente de Carro? | Calculadora Gratis"
+      : "How Much Is Your Car Accident Worth? | Free Calculator",
     description: isEs
-      ? "Calcula cuánto podrías recibir por tu accidente de auto. Herramienta gratis. Estimado en menos de 1 minuto."
-      : "Estimate how much your car accident case may be worth. Free tool. Get an estimate in under 1 minute.",
+      ? "Las aseguradoras te ofrecen menos de lo que vale tu caso. Mira cuánto dinero podrías recibir. Gratis, en español, en 1 minuto."
+      : "Insurance companies lowball you. See how much your accident case is really worth. Free, takes 1 minute.",
     alternates: {
       canonical: `${baseUrl}/${params.locale}/calculadora`,
     },
