@@ -421,8 +421,8 @@
         "derechos indocumentado accidente"
       ],
       "notes": "Low vol (10) but OUR differentiator. No one else targets this. High conversion for our audience.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-29",
       "keyword_data": {
         "primary_keyword": "accidente sin papeles",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -445,8 +445,8 @@
         "accidente sin licencia de conducir"
       ],
       "notes": "Low vol but targets our specific Hispanic audience. Many undocumented drivers face this.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-29",
       "keyword_data": {
         "primary_keyword": "accidente sin licencia",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -469,8 +469,8 @@
         "accidente lyft compensacion"
       ],
       "notes": "10 vol but growing. Many Hispanic workers drive for rideshare. Unique content gap.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-05-29",
       "keyword_data": {
         "primary_keyword": "accidente uber",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
