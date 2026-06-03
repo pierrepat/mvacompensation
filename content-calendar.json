@@ -579,8 +579,8 @@
         "lesion columna accidente"
       ],
       "notes": "Catastrophic injury = highest value cases. $500K-$5M+ settlements.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-03",
       "keyword_data": {
         "primary_keyword": "lesion medula espinal accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -610,8 +610,8 @@
         "dolor de rodilla accidente auto"
       ],
       "notes": "Common dashboard injury in frontal collisions.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-03",
       "keyword_data": {
         "primary_keyword": "lesion de rodilla accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -641,8 +641,8 @@
         "manguito rotador accidente"
       ],
       "notes": "Seatbelt injuries often affect shoulder. Rotator cuff tears are high-value.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-03",
       "keyword_data": {
         "primary_keyword": "lesion de hombro accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
