@@ -672,8 +672,8 @@
         "costilla rota compensacion"
       ],
       "notes": "Common seatbelt/steering wheel injury.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-05",
       "keyword_data": {
         "primary_keyword": "costillas rotas accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -703,8 +703,8 @@
         "ansiedad despues de accidente"
       ],
       "notes": "Often overlooked. Adds to pain & suffering claims. Under-claimed by Hispanic community.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-05",
       "keyword_data": {
         "primary_keyword": "trauma emocional accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -734,8 +734,8 @@
         "quemaduras carro"
       ],
       "notes": "High-value catastrophic injury category.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-05",
       "keyword_data": {
         "primary_keyword": "quemaduras accidente auto",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
