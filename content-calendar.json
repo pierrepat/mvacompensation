@@ -765,8 +765,8 @@
         "cuello lastimado accidente"
       ],
       "notes": "Broader than whiplash. Captures 'dolor de cuello' searches.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-08",
       "keyword_data": {
         "primary_keyword": "lesion de cuello accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -796,8 +796,8 @@
         "cicatriz compensacion"
       ],
       "notes": "Important for Florida no-fault threshold — scarring qualifies as 'serious injury'.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-08",
       "keyword_data": {
         "primary_keyword": "cicatrices accidente auto",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -827,8 +827,8 @@
         "muneca rota accidente"
       ],
       "notes": "Common bracing injury during impact.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-08",
       "keyword_data": {
         "primary_keyword": "lesion muneca accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
