@@ -858,8 +858,8 @@
         "cadera rota accidente"
       ],
       "notes": "Common in T-bone/side-impact collisions. Often requires surgery.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-15",
       "keyword_data": {
         "primary_keyword": "lesion cadera accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -889,8 +889,8 @@
         "pie lastimado accidente"
       ],
       "notes": "Pedal injuries in frontal crashes.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-15",
       "keyword_data": {
         "primary_keyword": "lesion tobillo accidente",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -913,8 +913,8 @@
         "culpa accidente parking"
       ],
       "notes": "Situation-specific. Very common scenario, no one covers it in Spanish.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-15",
       "keyword_data": {
         "primary_keyword": "accidente en estacionamiento",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
