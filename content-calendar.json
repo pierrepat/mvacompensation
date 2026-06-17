@@ -1187,6 +1187,276 @@
           "resbalón y caída compensacion"
         ]
       }
+    },
+    {
+      "id": 45,
+      "priority": 45,
+      "type": "guide",
+      "slug": "cuanto-tarda-caso-accidente",
+      "locale": "es",
+      "title": "Cuánto Tarda un Caso de Accidente de Carro — Plazos Reales",
+      "seed_keywords": [
+        "cuanto tarda caso accidente",
+        "cuanto tarda demanda accidente auto",
+        "tiempo caso accidente"
+      ],
+      "notes": "High search intent. People want timeline expectations.",
+      "status": "pending"
+    },
+    {
+      "id": 46,
+      "priority": 46,
+      "type": "guide",
+      "slug": "accidente-sin-seguro-medico",
+      "locale": "es",
+      "title": "Accidente de Carro sin Seguro Médico — Cómo Pagar el Tratamiento",
+      "seed_keywords": [
+        "accidente sin seguro medico",
+        "accidente auto sin health insurance",
+        "no tengo seguro medico accidente"
+      ],
+      "notes": "Major concern for Hispanic community. Covers liens, MedPay, charity care.",
+      "status": "pending"
+    },
+    {
+      "id": 47,
+      "priority": 47,
+      "type": "guide",
+      "slug": "como-negociar-con-aseguradora",
+      "locale": "es",
+      "title": "Cómo Negociar con la Aseguradora Después de un Accidente",
+      "seed_keywords": [
+        "como negociar con aseguradora",
+        "negociar seguro accidente auto",
+        "negociar compensacion accidente"
+      ],
+      "notes": "Actionable guide. People want to know how to push back.",
+      "status": "pending"
+    },
+    {
+      "id": 48,
+      "priority": 48,
+      "type": "guide",
+      "slug": "accidente-choque-por-detras",
+      "locale": "es",
+      "title": "Choque por Detrás — Quién Tiene la Culpa y Compensación",
+      "seed_keywords": [
+        "choque por detras",
+        "me chocaron por atras",
+        "accidente rear end"
+      ],
+      "notes": "Extremely common accident type. High search volume.",
+      "status": "pending"
+    },
+    {
+      "id": 49,
+      "priority": 49,
+      "type": "guide",
+      "slug": "accidente-hit-and-run",
+      "locale": "es",
+      "title": "Accidente Hit and Run — Qué Hacer si el Otro Conductor Huyó",
+      "seed_keywords": [
+        "hit and run que hacer",
+        "se fue despues de chocarme",
+        "accidente chocar y huir"
+      ],
+      "notes": "Common in Hispanic communities. Covers UM/UIM coverage.",
+      "status": "pending"
+    },
+    {
+      "id": 50,
+      "priority": 50,
+      "type": "guide",
+      "slug": "accidente-lluvia-mal-tiempo",
+      "locale": "es",
+      "title": "Accidente por Lluvia o Mal Tiempo — ¿Quién Tiene la Culpa?",
+      "seed_keywords": [
+        "accidente por lluvia",
+        "choque mal tiempo",
+        "accidente lluvia culpa"
+      ],
+      "notes": "Seasonal relevance. People unsure about fault in weather accidents.",
+      "status": "pending"
+    },
+    {
+      "id": 51,
+      "priority": 51,
+      "type": "injury",
+      "slug": "lesion-de-muñeca-mano",
+      "locale": "en",
+      "title": "Wrist and Hand Injury from Car Accident | Compensation Guide",
+      "seed_keywords": [
+        "wrist injury car accident",
+        "broken wrist accident",
+        "hand injury crash"
+      ],
+      "notes": "EN version of existing ES lesion. Fills EN content gap.",
+      "status": "pending"
+    },
+    {
+      "id": 52,
+      "priority": 52,
+      "type": "injury",
+      "slug": "lesion-de-espalda",
+      "locale": "en",
+      "title": "Back Injury from Car Accident | Compensation Guide",
+      "seed_keywords": [
+        "back injury car accident",
+        "back pain after accident",
+        "spinal injury settlement"
+      ],
+      "notes": "EN version of existing ES lesion. High volume EN keyword.",
+      "status": "pending"
+    },
+    {
+      "id": 53,
+      "priority": 53,
+      "type": "injury",
+      "slug": "hernia-de-disco",
+      "locale": "en",
+      "title": "Herniated Disc from Car Accident | Settlement Guide",
+      "seed_keywords": [
+        "herniated disc car accident",
+        "bulging disc settlement",
+        "disc injury compensation"
+      ],
+      "notes": "EN version. Very high volume keyword in English.",
+      "status": "pending"
+    },
+    {
+      "id": 54,
+      "priority": 54,
+      "type": "injury",
+      "slug": "latigazo-cervical",
+      "locale": "en",
+      "title": "Whiplash from Car Accident | Settlement Guide",
+      "seed_keywords": [
+        "whiplash car accident",
+        "whiplash settlement",
+        "whiplash compensation"
+      ],
+      "notes": "EN version. Highest volume injury keyword in English PI space.",
+      "status": "pending"
+    },
+    {
+      "id": 55,
+      "priority": 55,
+      "type": "guide",
+      "slug": "carta-de-demanda",
+      "locale": "es",
+      "title": "Carta de Demanda al Seguro — Ejemplo y Cómo Escribirla",
+      "seed_keywords": [
+        "carta de demanda seguro",
+        "demand letter accidente",
+        "carta reclamo seguro auto"
+      ],
+      "notes": "Actionable content. Template/example format drives engagement.",
+      "status": "pending"
+    },
+    {
+      "id": 56,
+      "priority": 56,
+      "type": "guide",
+      "slug": "tipos-de-seguro-auto",
+      "locale": "es",
+      "title": "Tipos de Seguro de Auto — Qué Cubre Cada Uno en un Accidente",
+      "seed_keywords": [
+        "tipos de seguro de auto",
+        "que cubre seguro auto accidente",
+        "seguro full coverage accidente"
+      ],
+      "notes": "Educational content for audience unfamiliar with US insurance system.",
+      "status": "pending"
+    },
+    {
+      "id": 57,
+      "priority": 57,
+      "type": "guide",
+      "slug": "accidente-interseccion",
+      "locale": "es",
+      "title": "Accidente en Intersección — Quién Tiene la Culpa",
+      "seed_keywords": [
+        "accidente en interseccion",
+        "choque en cruce",
+        "accidente semaforo culpa"
+      ],
+      "notes": "Common accident type. Fault determination content.",
+      "status": "pending"
+    },
+    {
+      "id": 58,
+      "priority": 58,
+      "type": "guide",
+      "slug": "accidente-autopista-highway",
+      "locale": "es",
+      "title": "Accidente en Autopista (Highway) — Qué Hacer y Compensación",
+      "seed_keywords": [
+        "accidente en autopista",
+        "choque highway",
+        "accidente carretera compensacion"
+      ],
+      "notes": "Highway accidents = higher speed = more severe injuries = higher settlements.",
+      "status": "pending"
+    },
+    {
+      "id": 59,
+      "priority": 59,
+      "type": "guide",
+      "slug": "fotos-evidencia-accidente",
+      "locale": "es",
+      "title": "Qué Fotos Tomar Después de un Accidente de Carro",
+      "seed_keywords": [
+        "fotos accidente auto",
+        "evidencia accidente carro",
+        "que fotografiar accidente"
+      ],
+      "notes": "Practical actionable content. People search this right after accidents.",
+      "status": "pending"
+    },
+    {
+      "id": 60,
+      "priority": 60,
+      "type": "guide",
+      "slug": "accidente-con-animal",
+      "locale": "es",
+      "title": "Accidente por Esquivar o Chocar con un Animal — Compensación",
+      "seed_keywords": [
+        "accidente con animal",
+        "choque con venado",
+        "accidente esquivar animal"
+      ],
+      "notes": "Niche but specific. Covers comprehensive vs collision coverage.",
+      "status": "pending"
+    },
+    {
+      "id": 61,
+      "priority": 61,
+      "type": "guide",
+      "slug": "accidente-noche",
+      "locale": "es",
+      "title": "Accidente de Carro de Noche — Riesgos y Compensación",
+      "seed_keywords": [
+        "accidente de noche",
+        "choque nocturno",
+        "accidente auto noche compensacion"
+      ],
+      "notes": "Night accidents have higher fatality rates and different liability issues.",
+      "status": "pending"
+    },
+    {
+      "id": 62,
+      "priority": 62,
+      "type": "guide",
+      "slug": "pasajero-accidente-auto",
+      "locale": "es",
+      "title": "Derechos del Pasajero en un Accidente de Auto",
+      "seed_keywords": [
+        "pasajero accidente auto",
+        "derechos pasajero accidente",
+        "compensacion pasajero choque"
+      ],
+      "notes": "Passengers almost always have a clean claim. Under-targeted keyword.",
+      "status": "pending"
     }
   ]
 }
