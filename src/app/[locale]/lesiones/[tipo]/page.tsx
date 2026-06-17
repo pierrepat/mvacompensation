@@ -5,7 +5,7 @@ import type { InjuryFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
 import { renderMDX } from "@/lib/mdx";
 import { ArticleLayout } from "@/components/ArticleLayout";
-import { ArticleJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
+import { ArticleJsonLd, FAQPageJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { LeadCaptureForm } from "@/components/LeadCaptureForm";
 import { extractFAQs } from "@/lib/extract-faqs";
@@ -109,13 +109,21 @@ export default async function LesionPage({
 
   return (
     <>
+      <BreadcrumbJsonLd items={breadcrumbs} locale={params.locale} />
       <ArticleJsonLd
         locale={params.locale}
         title={meta.title}
         description={meta.description}
         slug={`lesiones/${params.tipo}`}
+        section={isEn ? "Injuries" : "Lesiones"}
         datePublished={meta.publishedAt}
         dateModified={meta.lastUpdated}
+        authorName={meta.author?.name}
+        authorCredential={meta.author?.credential}
+        reviewerName={meta.reviewer?.name}
+        reviewerCredential={meta.reviewer?.credential}
+        keywords={meta.keywords}
+        wordCount={content.split(/\s+/).length}
       />
       {faqs.length > 0 && (
         <FAQPageJsonLd locale={params.locale} faqs={faqs} />

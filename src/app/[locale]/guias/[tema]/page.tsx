@@ -5,7 +5,7 @@ import type { GuideFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
 import { renderMDX } from "@/lib/mdx";
 import { ArticleLayout } from "@/components/ArticleLayout";
-import { ArticleJsonLd, FAQPageJsonLd } from "@/components/JsonLd";
+import { ArticleJsonLd, FAQPageJsonLd, BreadcrumbJsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { LeadCaptureForm } from "@/components/LeadCaptureForm";
 import { extractFAQs } from "@/lib/extract-faqs";
@@ -71,7 +71,8 @@ export default async function GuiaPage({
 
   return (
     <>
-      <ArticleJsonLd locale={params.locale} title={meta.title} description={meta.description} slug={`guias/${params.tema}`} datePublished={meta.publishedAt} dateModified={meta.lastUpdated} />
+      <BreadcrumbJsonLd items={breadcrumbs} locale={params.locale} />
+      <ArticleJsonLd locale={params.locale} title={meta.title} description={meta.description} slug={`guias/${params.tema}`} section={isEn ? "Guides" : "Guías"} datePublished={meta.publishedAt} dateModified={meta.lastUpdated} authorName={meta.author?.name} authorCredential={meta.author?.credential} reviewerName={meta.reviewer?.name} reviewerCredential={meta.reviewer?.credential} keywords={meta.keywords} wordCount={content.split(/\s+/).length} />
       {(() => { const faqs = extractFAQs(content); return faqs.length > 0 ? <FAQPageJsonLd locale={params.locale} faqs={faqs} /> : null; })()}
       <ArticleLayout locale={params.locale} meta={meta} breadcrumbs={breadcrumbs} source={`guide_${params.tema}_${params.locale}`}>
         {rendered}

@@ -11,6 +11,9 @@ export function OrganizationJsonLd() {
     description: "Motor vehicle accident compensation information and attorney referral service.",
     areaServed: { "@type": "Country", name: "United States" },
     knowsLanguage: ["en", "es"],
+    sameAs: [
+      "https://www.youtube.com/@mvacompensation",
+    ],
   };
 
   return (
@@ -114,8 +117,15 @@ interface ArticleJsonLdProps {
   title: string;
   description: string;
   slug: string;
+  section: string;
   datePublished: string;
   dateModified?: string;
+  authorName?: string;
+  authorCredential?: string;
+  reviewerName?: string;
+  reviewerCredential?: string;
+  keywords?: string[];
+  wordCount?: number;
 }
 
 export function ArticleJsonLd({
@@ -123,10 +133,17 @@ export function ArticleJsonLd({
   title,
   description,
   slug,
+  section,
   datePublished,
   dateModified,
+  authorName,
+  authorCredential,
+  reviewerName,
+  reviewerCredential,
+  keywords,
+  wordCount,
 }: ArticleJsonLdProps) {
-  const data = {
+  const data: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
@@ -140,6 +157,68 @@ export function ArticleJsonLd({
       name: "MVA Compensation",
       url: baseUrl,
     },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "MVA Compensation",
+      url: baseUrl,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${baseUrl}/${locale}/${slug}`,
+    },
+  };
+
+  if (authorName) {
+    data.author = {
+      "@type": "Person",
+      name: authorName,
+      ...(authorCredential && { jobTitle: authorCredential }),
+    };
+  }
+
+  if (reviewerName) {
+    data.reviewedBy = {
+      "@type": "Person",
+      name: reviewerName,
+      ...(reviewerCredential && { jobTitle: reviewerCredential }),
+    };
+  }
+
+  if (keywords && keywords.length > 0) {
+    data.keywords = keywords.join(", ");
+  }
+
+  if (wordCount) {
+    data.wordCount = wordCount;
+  }
+
+  if (section) {
+    data.articleSection = section;
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+export function BreadcrumbJsonLd({ items }: { items: BreadcrumbItem[]; locale: Locale }) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: item.label,
+      ...(item.href && { item: `${baseUrl}${item.href}` }),
+    })),
   };
 
   return (
