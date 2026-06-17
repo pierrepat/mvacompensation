@@ -10,7 +10,7 @@ Generate SEO-optimized, high-quality content (Spanish OR English, based on the `
 
 Each run, you:
 
-1. **Read** `content-calendar.json` — find the next 3 items with `"status": "pending"`, sorted by priority (lowest number = highest priority)
+1. **Read** `content-calendar.json` — find the next 5 items with `"status": "pending"`, sorted by priority (lowest number = highest priority)
 2. **Research** each item's keywords via DataForSEO API to get real search volume data and related terms
 3. **Generate** the MDX content file with proper frontmatter
 4. **Validate** the output (frontmatter, word count, internal links, tables)
