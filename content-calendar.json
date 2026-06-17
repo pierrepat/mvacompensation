@@ -937,8 +937,8 @@
         "compensacion accidente menor"
       ],
       "notes": "Higher settlements for minors. Extended statute of limitations. Emotional topic = shareable.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-17",
       "keyword_data": {
         "primary_keyword": "accidente menor de edad",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -961,8 +961,8 @@
         "choque estando embarazada"
       ],
       "notes": "Niche but high-emotion content. Good for social sharing in Hispanic mom groups.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-17",
       "keyword_data": {
         "primary_keyword": "accidente embarazada",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -985,8 +985,8 @@
         "me atropellaron que hago"
       ],
       "notes": "Adjacent to MVA. Pedestrian accidents are common in Hispanic neighborhoods.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-17",
       "keyword_data": {
         "primary_keyword": "atropello peaton",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
