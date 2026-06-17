@@ -1457,6 +1457,362 @@
       ],
       "notes": "Passengers almost always have a clean claim. Under-targeted keyword.",
       "status": "pending"
+    },
+    {
+      "id": 63,
+      "priority": 10,
+      "type": "guide",
+      "slug": "abogado-accidente-houston",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en Houston | Guía 2026",
+      "seed_keywords": [
+        "abogado de accidente en houston",
+        "abogado accidente carro houston",
+        "accidente auto houston"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente en houston",
+        "volume": 480,
+        "cpc": 339,
+        "related_keywords": [
+          "abogado accidente houston",
+          "accidente auto houston tx"
+        ]
+      },
+      "notes": "DataForSEO: 480/mo,  CPC. Houston has huge Hispanic population.",
+      "status": "pending"
+    },
+    {
+      "id": 64,
+      "priority": 11,
+      "type": "guide",
+      "slug": "abogado-accidente-miami",
+      "locale": "es",
+      "title": "Abogado de Accidente de Auto en Miami | Guía 2026",
+      "seed_keywords": [
+        "abogado de accidente de auto en miami",
+        "abogado accidente miami",
+        "accidente auto miami"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente de auto en miami",
+        "volume": 170,
+        "cpc": 284,
+        "related_keywords": [
+          "abogado accidente miami fl",
+          "accidente carro miami"
+        ]
+      },
+      "notes": "DataForSEO: 170/mo,  CPC. Miami = top Hispanic market.",
+      "status": "pending"
+    },
+    {
+      "id": 65,
+      "priority": 12,
+      "type": "guide",
+      "slug": "abogado-accidente-los-angeles",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en Los Angeles | Guía 2026",
+      "seed_keywords": [
+        "abogado accidente los angeles",
+        "abogado accidente carro la",
+        "accidente auto los angeles"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado accidente los angeles",
+        "volume": 140,
+        "cpc": 350,
+        "related_keywords": [
+          "abogado accidente carro los angeles",
+          "accidente auto la"
+        ]
+      },
+      "notes": "Biggest Hispanic market in US. High CPC.",
+      "status": "pending"
+    },
+    {
+      "id": 66,
+      "priority": 13,
+      "type": "guide",
+      "slug": "abogado-accidente-dallas",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en Dallas | Guía 2026",
+      "seed_keywords": [
+        "abogado accidente dallas",
+        "accidente auto dallas",
+        "abogado accidente carro dallas tx"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado accidente dallas",
+        "volume": 110,
+        "cpc": 290,
+        "related_keywords": [
+          "abogado accidente auto dallas"
+        ]
+      },
+      "notes": "Growing Hispanic population in DFW metro.",
+      "status": "pending"
+    },
+    {
+      "id": 67,
+      "priority": 14,
+      "type": "guide",
+      "slug": "abogado-accidente-san-antonio",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en San Antonio | Guía 2026",
+      "seed_keywords": [
+        "abogado accidente san antonio",
+        "abogado accidente carro san antonio",
+        "accidente auto san antonio tx"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado accidente san antonio",
+        "volume": 90,
+        "cpc": 270,
+        "related_keywords": [
+          "accidente auto san antonio"
+        ]
+      },
+      "notes": "San Antonio 65% Hispanic. Very targeted market.",
+      "status": "pending"
+    },
+    {
+      "id": 68,
+      "priority": 15,
+      "type": "guide",
+      "slug": "abogado-accidente-chicago",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en Chicago | Guía 2026",
+      "seed_keywords": [
+        "abogado accidente chicago",
+        "abogado accidente carro chicago",
+        "accidente auto chicago"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado accidente chicago",
+        "volume": 90,
+        "cpc": 300,
+        "related_keywords": [
+          "accidente carro chicago il"
+        ]
+      },
+      "notes": "Large Hispanic population. High CPC market.",
+      "status": "pending"
+    },
+    {
+      "id": 69,
+      "priority": 16,
+      "type": "guide",
+      "slug": "abogado-accidente-nueva-york",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en Nueva York | Guía 2026",
+      "seed_keywords": [
+        "abogado accidente nueva york",
+        "abogado accidente carro nyc",
+        "accidente auto new york"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado accidente nueva york",
+        "volume": 90,
+        "cpc": 350,
+        "related_keywords": [
+          "accidente carro nueva york",
+          "abogado accidente bronx"
+        ]
+      },
+      "notes": "NYC has huge Spanish-speaking population. Highest CPC market.",
+      "status": "pending"
+    },
+    {
+      "id": 70,
+      "priority": 17,
+      "type": "guide",
+      "slug": "abogado-accidente-phoenix",
+      "locale": "es",
+      "title": "Abogado de Accidente de Carro en Phoenix | Guía 2026",
+      "seed_keywords": [
+        "abogado accidente phoenix",
+        "accidente auto phoenix az",
+        "abogado accidente carro arizona"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado accidente phoenix",
+        "volume": 70,
+        "cpc": 250,
+        "related_keywords": [
+          "accidente auto phoenix"
+        ]
+      },
+      "notes": "Phoenix/AZ growing Hispanic market.",
+      "status": "pending"
+    },
+    {
+      "id": 71,
+      "priority": 5,
+      "type": "guide",
+      "slug": "cuanto-pagan-choque-por-detras",
+      "locale": "es",
+      "title": "Cuánto Pagan por un Choque por Detrás | Compensación 2026",
+      "seed_keywords": [
+        "cuanto pagan por choque por detras",
+        "compensacion choque trasero",
+        "me chocaron por atras cuanto me toca"
+      ],
+      "keyword_data": {
+        "primary_keyword": "cuanto pagan por choque por detras",
+        "volume": 210,
+        "cpc": 45,
+        "related_keywords": [
+          "rear end accident settlement spanish",
+          "choque por detras compensacion"
+        ]
+      },
+      "notes": "Targets PAA: Cuanto dinero te dan por accidente. Very high conversion intent.",
+      "status": "pending"
+    },
+    {
+      "id": 72,
+      "priority": 6,
+      "type": "guide",
+      "slug": "abogado-accidente-gratis",
+      "locale": "es",
+      "title": "Abogado de Accidente Gratis — Cómo Funciona la Consulta Sin Costo",
+      "seed_keywords": [
+        "abogado de accidente gratis",
+        "consulta gratis abogado accidente",
+        "abogado accidente sin costo"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente gratis",
+        "volume": 170,
+        "cpc": 280,
+        "related_keywords": [
+          "consulta gratis accidente auto",
+          "abogado gratis accidente carro"
+        ]
+      },
+      "notes": "High intent. People searching this are ready to call.",
+      "status": "pending"
+    },
+    {
+      "id": 73,
+      "priority": 7,
+      "type": "guide",
+      "slug": "abogado-accidente-en-espanol",
+      "locale": "es",
+      "title": "Abogado de Accidente que Hable Español — Cómo Encontrarlo",
+      "seed_keywords": [
+        "abogado de accidente en español",
+        "abogado accidente habla español",
+        "abogado hispanico accidente"
+      ],
+      "keyword_data": {
+        "primary_keyword": "abogado de accidente en español",
+        "volume": 320,
+        "cpc": 283,
+        "related_keywords": [
+          "abogado accidente español",
+          "abogado hispano accidente auto"
+        ]
+      },
+      "notes": "DataForSEO: 320/mo. Our EXACT differentiator.",
+      "status": "pending"
+    },
+    {
+      "id": 74,
+      "priority": 20,
+      "type": "guide",
+      "slug": "car-accident-settlement",
+      "locale": "en",
+      "title": "Average Car Accident Settlement | How Much Is Your Case Worth?",
+      "seed_keywords": [
+        "car accident settlement",
+        "average car accident settlement",
+        "how much is my car accident case worth"
+      ],
+      "keyword_data": {
+        "primary_keyword": "car accident settlement",
+        "volume": 1900,
+        "cpc": 92,
+        "related_keywords": [
+          "average settlement car accident",
+          "car accident payout"
+        ]
+      },
+      "notes": "DataForSEO: 1,900/mo EN. Big volume, medium competition.",
+      "status": "pending"
+    },
+    {
+      "id": 75,
+      "priority": 21,
+      "type": "guide",
+      "slug": "car-accident-no-insurance",
+      "locale": "en",
+      "title": "Car Accident with No Insurance | What Are Your Options?",
+      "seed_keywords": [
+        "car accident no insurance",
+        "hit by uninsured driver",
+        "car accident without insurance what happens"
+      ],
+      "keyword_data": {
+        "primary_keyword": "car accident no insurance",
+        "volume": 880,
+        "cpc": 109,
+        "related_keywords": [
+          "uninsured driver accident",
+          "no insurance car accident"
+        ]
+      },
+      "notes": "DataForSEO: 880/mo EN. Very relevant to our audience.",
+      "status": "pending"
+    },
+    {
+      "id": 76,
+      "priority": 22,
+      "type": "guide",
+      "slug": "car-accident-what-to-do",
+      "locale": "en",
+      "title": "What to Do After a Car Accident | Step-by-Step Guide",
+      "seed_keywords": [
+        "car accident what to do",
+        "what to do after car accident",
+        "steps after car accident"
+      ],
+      "keyword_data": {
+        "primary_keyword": "car accident what to do",
+        "volume": 320,
+        "cpc": 59,
+        "related_keywords": [
+          "after car accident steps",
+          "what to do after a crash"
+        ]
+      },
+      "notes": "DataForSEO: 320/mo EN. Informational, easier to rank.",
+      "status": "pending"
+    },
+    {
+      "id": 77,
+      "priority": 23,
+      "type": "guide",
+      "slug": "spanish-speaking-car-accident-lawyer",
+      "locale": "en",
+      "title": "Spanish Speaking Car Accident Lawyer | Find Bilingual Help",
+      "seed_keywords": [
+        "spanish speaking car accident lawyer",
+        "bilingual car accident attorney",
+        "abogado de accidente english"
+      ],
+      "keyword_data": {
+        "primary_keyword": "spanish speaking car accident lawyer",
+        "volume": 20,
+        "cpc": 57,
+        "related_keywords": [
+          "bilingual accident lawyer",
+          "hispanic car accident attorney"
+        ]
+      },
+      "notes": "Low volume but EXACT match for our service. Zero competition.",
+      "status": "pending"
     }
   ]
 }
