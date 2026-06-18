@@ -1480,7 +1480,8 @@
         ]
       },
       "notes": "DataForSEO: 480/mo,  CPC. Houston has huge Hispanic population.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-18"
     },
     {
       "id": 64,
@@ -1504,7 +1505,8 @@
         ]
       },
       "notes": "DataForSEO: 170/mo,  CPC. Miami = top Hispanic market.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-18"
     },
     {
       "id": 65,
@@ -1668,7 +1670,8 @@
         ]
       },
       "notes": "Targets PAA: Cuanto dinero te dan por accidente. Very high conversion intent.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-18"
     },
     {
       "id": 72,
@@ -1692,7 +1695,8 @@
         ]
       },
       "notes": "High intent. People searching this are ready to call.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-18"
     },
     {
       "id": 73,
@@ -1716,7 +1720,8 @@
         ]
       },
       "notes": "DataForSEO: 320/mo. Our EXACT differentiator.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-18"
     },
     {
       "id": 74,
