@@ -1530,7 +1530,8 @@
         ]
       },
       "notes": "Biggest Hispanic market in US. High CPC.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-19"
     },
     {
       "id": 66,
@@ -1553,7 +1554,8 @@
         ]
       },
       "notes": "Growing Hispanic population in DFW metro.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-19"
     },
     {
       "id": 67,
@@ -1576,7 +1578,8 @@
         ]
       },
       "notes": "San Antonio 65% Hispanic. Very targeted market.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-19"
     },
     {
       "id": 68,
@@ -1599,7 +1602,8 @@
         ]
       },
       "notes": "Large Hispanic population. High CPC market.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-19"
     },
     {
       "id": 69,
@@ -1623,7 +1627,8 @@
         ]
       },
       "notes": "NYC has huge Spanish-speaking population. Highest CPC market.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-19"
     },
     {
       "id": 70,
