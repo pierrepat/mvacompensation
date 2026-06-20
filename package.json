@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build && node scripts/generate-llms-txt.mjs && node scripts/ping-indexnow.mjs",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "index": "node scripts/gsc-index.mjs",
+    "rankings": "node scripts/track-rankings.mjs"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",

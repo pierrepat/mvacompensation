@@ -1105,8 +1105,8 @@
         "abogados hispanos de accidentes"
       ],
       "notes": "320 vol for 'abogado de accidente en español'. Direct match to our value prop.",
-      "status": "pending",
-      "generated_at": null,
+      "status": "generated",
+      "generated_at": "2026-06-20",
       "keyword_data": {
         "primary_keyword": "abogado de accidente en español",
         "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
@@ -1481,7 +1481,7 @@
       },
       "notes": "DataForSEO: 480/mo,  CPC. Houston has huge Hispanic population.",
       "status": "generated",
-      "generated_at": "2026-06-18"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 64,
@@ -1506,7 +1506,7 @@
       },
       "notes": "DataForSEO: 170/mo,  CPC. Miami = top Hispanic market.",
       "status": "generated",
-      "generated_at": "2026-06-18"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 65,
@@ -1531,7 +1531,7 @@
       },
       "notes": "Biggest Hispanic market in US. High CPC.",
       "status": "generated",
-      "generated_at": "2026-06-19"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 66,
@@ -1555,7 +1555,7 @@
       },
       "notes": "Growing Hispanic population in DFW metro.",
       "status": "generated",
-      "generated_at": "2026-06-19"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 67,
@@ -1579,7 +1579,7 @@
       },
       "notes": "San Antonio 65% Hispanic. Very targeted market.",
       "status": "generated",
-      "generated_at": "2026-06-19"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 68,
@@ -1603,7 +1603,7 @@
       },
       "notes": "Large Hispanic population. High CPC market.",
       "status": "generated",
-      "generated_at": "2026-06-19"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 69,
@@ -1628,7 +1628,7 @@
       },
       "notes": "NYC has huge Spanish-speaking population. Highest CPC market.",
       "status": "generated",
-      "generated_at": "2026-06-19"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 70,
@@ -1676,7 +1676,7 @@
       },
       "notes": "Targets PAA: Cuanto dinero te dan por accidente. Very high conversion intent.",
       "status": "generated",
-      "generated_at": "2026-06-18"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 72,
@@ -1701,7 +1701,7 @@
       },
       "notes": "High intent. People searching this are ready to call.",
       "status": "generated",
-      "generated_at": "2026-06-18"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 73,
@@ -1726,7 +1726,7 @@
       },
       "notes": "DataForSEO: 320/mo. Our EXACT differentiator.",
       "status": "generated",
-      "generated_at": "2026-06-18"
+      "generated_at": "2026-06-20"
     },
     {
       "id": 74,

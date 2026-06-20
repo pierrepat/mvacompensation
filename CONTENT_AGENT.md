@@ -10,27 +10,33 @@ Generate SEO-optimized, high-quality content (Spanish OR English, based on the `
 
 Each run, you:
 
-1. **Read** `content-calendar.json` — find the next 5 items with `"status": "pending"`, sorted by priority (lowest number = highest priority)
-2. **Research** each item's keywords via DataForSEO API to get real search volume data and related terms
-3. **Generate** the MDX content file with proper frontmatter
-4. **Validate** the output (frontmatter, word count, internal links, tables)
-5. **Update** the calendar — set status to `"generated"`, add `generated_at` date and `keyword_data`
-6. **Commit** all new content to a branch named `content/batch-YYYY-MM-DD`
+1. **Pull latest**: `git pull origin main`
+2. **Read** `content-calendar.json` — find the next 5 items with `"status": "pending"`, sorted by priority (lowest number = highest priority)
+3. **Extract DataForSEO auth**: Read content-calendar.json, get the value of `config.dataforseo_base64_auth` — use this as the Bearer token for all API calls
+4. **Research** each item's keywords via DataForSEO API to get real search volume data and related terms
+5. **Generate** the MDX content file with proper frontmatter
+6. **Validate** the output (frontmatter, word count, internal links, tables)
+7. **Update** the calendar — set status to `"generated"`, add `generated_at` date and `keyword_data`
+8. **Commit and push**: Stage files, commit, and push directly to main (this auto-deploys via Netlify)
 
 ## DataForSEO API
 
 Base URL: `https://api.dataforseo.com/v3`
-Auth header: `Authorization: Basic <config.dataforseo_base64_auth>`
 Location: 2840 (United States)
-Language: "es" (Spanish)
+
+### How to authenticate
+
+1. Read `content-calendar.json` with the Read tool
+2. Find `config.dataforseo_base64_auth` — it's a base64 string
+3. Use it in the Authorization header: `Authorization: Basic <that_base64_string>`
 
 ### Keyword research call
 
-For each content item, call keyword_suggestions using the item's locale ("es" or "en"):
+For each content item, call keyword_suggestions using the item's locale ("es" or "en"). Replace `AUTH_TOKEN` with the base64 string from step above:
 
 ```bash
 curl -s -X POST "https://api.dataforseo.com/v3/dataforseo_labs/google/keyword_suggestions/live" \
-  -H "Authorization: Basic <auth>" \
+  -H "Authorization: Basic AUTH_TOKEN" \
   -H "Content-Type: application/json" \
   -d '[{"keyword":"<seed_keyword>","location_code":2840,"language_code":"<locale>","limit":20,"include_seed_keyword":true}]'
 ```
