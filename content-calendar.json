@@ -1651,7 +1651,8 @@
         ]
       },
       "notes": "Phoenix/AZ growing Hispanic market.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-20"
     },
     {
       "id": 71,
@@ -1750,7 +1751,8 @@
         ]
       },
       "notes": "DataForSEO: 1,900/mo EN. Big volume, medium competition.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-20"
     },
     {
       "id": 75,
@@ -1774,7 +1776,8 @@
         ]
       },
       "notes": "DataForSEO: 880/mo EN. Very relevant to our audience.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-20"
     },
     {
       "id": 76,
@@ -1798,7 +1801,8 @@
         ]
       },
       "notes": "DataForSEO: 320/mo EN. Informational, easier to rank.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-20"
     },
     {
       "id": 77,
@@ -1822,7 +1826,8 @@
         ]
       },
       "notes": "Low volume but EXACT match for our service. Zero competition.",
-      "status": "pending"
+      "status": "generated",
+      "generated_at": "2026-06-20"
     }
   ]
 }
