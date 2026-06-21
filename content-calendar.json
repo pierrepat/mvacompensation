@@ -1009,16 +1009,17 @@
         "choque carro alquilado"
       ],
       "notes": "Common scenario for visitors/tourists. Complex insurance situation.",
-      "status": "pending",
+      "status": "skipped",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "accidente auto alquilado",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "accidente rental car",
-          "choque carro alquilado"
-        ]
-      }
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      },
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)"
     },
     {
       "id": 38,
@@ -1033,16 +1034,17 @@
         "accidente en cadena"
       ],
       "notes": "Complex liability scenario. Good educational content.",
-      "status": "pending",
+      "status": "skipped",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "accidente multiple vehiculos",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "choque multiple carros",
-          "accidente en cadena"
-        ]
-      }
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      },
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)"
     },
     {
       "id": 39,
@@ -1057,16 +1059,17 @@
         "choque zona de trabajo"
       ],
       "notes": "Many Hispanic construction workers commute through these zones.",
-      "status": "pending",
+      "status": "skipped",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "accidente zona construccion",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "accidente obra vial",
-          "choque zona de trabajo"
-        ]
-      }
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      },
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)"
     },
     {
       "id": 40,
@@ -1081,16 +1084,17 @@
         "accidente trabajo compensacion"
       ],
       "notes": "Workers' comp intersection. Very relevant for our audience.",
-      "status": "pending",
+      "status": "skipped",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "accidente auto camino al trabajo",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "accidente yendo al trabajo",
-          "accidente trabajo compensacion"
-        ]
-      }
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      },
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)"
     },
     {
       "id": 41,
@@ -1118,7 +1122,7 @@
     },
     {
       "id": 42,
-      "priority": 42,
+      "priority": 5,
       "type": "guide",
       "slug": "negligencia-medica",
       "locale": "es",
@@ -1133,16 +1137,16 @@
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "abogados de negligencia medica",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "negligencia medica",
-          "mala practica medica"
-        ]
+        "volume": 880,
+        "cpc": 41.4,
+        "competition": "HIGH",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       }
     },
     {
       "id": 43,
-      "priority": 43,
+      "priority": 6,
       "type": "guide",
       "slug": "accidente-construccion",
       "locale": "es",
@@ -1157,16 +1161,16 @@
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "abogados de accidentes de construcción",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "accidente construccion",
-          "accidente obra compensacion"
-        ]
+        "volume": 170,
+        "cpc": 128.03,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       }
     },
     {
       "id": 44,
-      "priority": 44,
+      "priority": 13,
       "type": "guide",
       "slug": "accidente-de-caida",
       "locale": "es",
@@ -1181,11 +1185,11 @@
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "abogados de accidentes de caidas",
-        "note": "Long-tail keyword. No DataForSEO volume data. Use seed_keywords and notes for content direction.",
-        "related_keywords": [
-          "caida accidente",
-          "resbalón y caída compensacion"
-        ]
+        "volume": 70,
+        "cpc": 0,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       }
     },
     {
@@ -1201,7 +1205,16 @@
         "tiempo caso accidente"
       ],
       "notes": "High search intent. People want timeline expectations.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "cuanto tarda caso accidente",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 46,
@@ -1216,7 +1229,16 @@
         "no tengo seguro medico accidente"
       ],
       "notes": "Major concern for Hispanic community. Covers liens, MedPay, charity care.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "accidente sin seguro medico",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 47,
@@ -1231,7 +1253,17 @@
         "negociar compensacion accidente"
       ],
       "notes": "Actionable guide. People want to know how to push back.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "como negociar con aseguradora",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume",
+        "notes": "CANNIBALIZATION: duplicates como-negociar-con-la-aseguradora"
+      }
     },
     {
       "id": 48,
@@ -1246,7 +1278,17 @@
         "accidente rear end"
       ],
       "notes": "Extremely common accident type. High search volume.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "choque por detras",
+        "volume": 10,
+        "cpc": 0,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume",
+        "notes": "CANNIBALIZATION: duplicates choque-por-detras"
+      }
     },
     {
       "id": 49,
@@ -1261,11 +1303,20 @@
         "accidente chocar y huir"
       ],
       "notes": "Common in Hispanic communities. Covers UM/UIM coverage.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "hit and run que hacer",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 50,
-      "priority": 50,
+      "priority": 15,
       "type": "guide",
       "slug": "accidente-lluvia-mal-tiempo",
       "locale": "es",
@@ -1276,11 +1327,19 @@
         "accidente lluvia culpa"
       ],
       "notes": "Seasonal relevance. People unsure about fault in weather accidents.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "accidente por lluvia",
+        "volume": 10,
+        "cpc": 0,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 51,
-      "priority": 51,
+      "priority": 14,
       "type": "injury",
       "slug": "lesion-de-muñeca-mano",
       "locale": "en",
@@ -1291,11 +1350,19 @@
         "hand injury crash"
       ],
       "notes": "EN version of existing ES lesion. Fills EN content gap.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "wrist injury car accident",
+        "volume": 30,
+        "cpc": 0,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 52,
-      "priority": 52,
+      "priority": 4,
       "type": "injury",
       "slug": "lesion-de-espalda",
       "locale": "en",
@@ -1306,11 +1373,19 @@
         "spinal injury settlement"
       ],
       "notes": "EN version of existing ES lesion. High volume EN keyword.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "back pain after accident",
+        "volume": 1000,
+        "cpc": 51.87,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 53,
-      "priority": 53,
+      "priority": 9,
       "type": "injury",
       "slug": "hernia-de-disco",
       "locale": "en",
@@ -1321,11 +1396,19 @@
         "disc injury compensation"
       ],
       "notes": "EN version. Very high volume keyword in English.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "bulging disc settlement",
+        "volume": 90,
+        "cpc": 170.67,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 54,
-      "priority": 54,
+      "priority": 3,
       "type": "injury",
       "slug": "latigazo-cervical",
       "locale": "en",
@@ -1336,7 +1419,15 @@
         "whiplash compensation"
       ],
       "notes": "EN version. Highest volume injury keyword in English PI space.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "whiplash car accident",
+        "volume": 1600,
+        "cpc": 33.75,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 55,
@@ -1351,11 +1442,20 @@
         "carta reclamo seguro auto"
       ],
       "notes": "Actionable content. Template/example format drives engagement.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "carta de demanda seguro",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 56,
-      "priority": 56,
+      "priority": 11,
       "type": "guide",
       "slug": "tipos-de-seguro-auto",
       "locale": "es",
@@ -1366,7 +1466,15 @@
         "seguro full coverage accidente"
       ],
       "notes": "Educational content for audience unfamiliar with US insurance system.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "tipos de seguro de auto",
+        "volume": 30,
+        "cpc": 13.63,
+        "competition": "MEDIUM",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 57,
@@ -1381,11 +1489,20 @@
         "accidente semaforo culpa"
       ],
       "notes": "Common accident type. Fault determination content.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "accidente en interseccion",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 58,
-      "priority": 58,
+      "priority": 16,
       "type": "guide",
       "slug": "accidente-autopista-highway",
       "locale": "es",
@@ -1396,7 +1513,15 @@
         "accidente carretera compensacion"
       ],
       "notes": "Highway accidents = higher speed = more severe injuries = higher settlements.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "accidente en autopista",
+        "volume": 10,
+        "cpc": 0,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 59,
@@ -1411,7 +1536,16 @@
         "que fotografiar accidente"
       ],
       "notes": "Practical actionable content. People search this right after accidents.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "fotos accidente auto",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 60,
@@ -1426,11 +1560,20 @@
         "accidente esquivar animal"
       ],
       "notes": "Niche but specific. Covers comprehensive vs collision coverage.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "accidente con animal",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 61,
-      "priority": 61,
+      "priority": 12,
       "type": "guide",
       "slug": "accidente-noche",
       "locale": "es",
@@ -1441,7 +1584,15 @@
         "accidente auto noche compensacion"
       ],
       "notes": "Night accidents have higher fatality rates and different liability issues.",
-      "status": "pending"
+      "status": "pending",
+      "keyword_data": {
+        "primary_keyword": "accidente de noche",
+        "volume": 140,
+        "cpc": 0,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 62,
@@ -1456,7 +1607,16 @@
         "compensacion pasajero choque"
       ],
       "notes": "Passengers almost always have a clean claim. Under-targeted keyword.",
-      "status": "pending"
+      "status": "skipped",
+      "skip_reason": "Zero search volume or cannibalization (DataForSEO validated 2026-06-20)",
+      "keyword_data": {
+        "primary_keyword": "pasajero accidente auto",
+        "volume": 0,
+        "cpc": 0,
+        "competition": null,
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
+      }
     },
     {
       "id": 63,
@@ -1632,7 +1792,7 @@
     },
     {
       "id": 70,
-      "priority": 17,
+      "priority": 8,
       "type": "guide",
       "slug": "abogado-accidente-phoenix",
       "locale": "es",
@@ -1646,9 +1806,9 @@
         "primary_keyword": "abogado accidente phoenix",
         "volume": 70,
         "cpc": 250,
-        "related_keywords": [
-          "accidente auto phoenix"
-        ]
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       },
       "notes": "Phoenix/AZ growing Hispanic market.",
       "status": "generated",
@@ -1731,7 +1891,7 @@
     },
     {
       "id": 74,
-      "priority": 20,
+      "priority": 1,
       "type": "guide",
       "slug": "car-accident-settlement",
       "locale": "en",
@@ -1744,11 +1904,10 @@
       "keyword_data": {
         "primary_keyword": "car accident settlement",
         "volume": 1900,
-        "cpc": 92,
-        "related_keywords": [
-          "average settlement car accident",
-          "car accident payout"
-        ]
+        "cpc": 92.01,
+        "competition": "MEDIUM",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       },
       "notes": "DataForSEO: 1,900/mo EN. Big volume, medium competition.",
       "status": "generated",
@@ -1756,7 +1915,7 @@
     },
     {
       "id": 75,
-      "priority": 21,
+      "priority": 2,
       "type": "guide",
       "slug": "car-accident-no-insurance",
       "locale": "en",
@@ -1769,11 +1928,10 @@
       "keyword_data": {
         "primary_keyword": "car accident no insurance",
         "volume": 880,
-        "cpc": 109,
-        "related_keywords": [
-          "uninsured driver accident",
-          "no insurance car accident"
-        ]
+        "cpc": 109.25,
+        "competition": "MEDIUM",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       },
       "notes": "DataForSEO: 880/mo EN. Very relevant to our audience.",
       "status": "generated",
@@ -1781,7 +1939,7 @@
     },
     {
       "id": 76,
-      "priority": 22,
+      "priority": 7,
       "type": "guide",
       "slug": "car-accident-what-to-do",
       "locale": "en",
@@ -1794,11 +1952,10 @@
       "keyword_data": {
         "primary_keyword": "car accident what to do",
         "volume": 320,
-        "cpc": 59,
-        "related_keywords": [
-          "after car accident steps",
-          "what to do after a crash"
-        ]
+        "cpc": 58.52,
+        "competition": "LOW",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       },
       "notes": "DataForSEO: 320/mo EN. Informational, easier to rank.",
       "status": "generated",
@@ -1806,7 +1963,7 @@
     },
     {
       "id": 77,
-      "priority": 23,
+      "priority": 10,
       "type": "guide",
       "slug": "spanish-speaking-car-accident-lawyer",
       "locale": "en",
@@ -1819,11 +1976,10 @@
       "keyword_data": {
         "primary_keyword": "spanish speaking car accident lawyer",
         "volume": 20,
-        "cpc": 57,
-        "related_keywords": [
-          "bilingual accident lawyer",
-          "hispanic car accident attorney"
-        ]
+        "cpc": 56.94,
+        "competition": "MEDIUM",
+        "validated_at": "2026-06-20",
+        "source": "dataforseo_google_ads_search_volume"
       },
       "notes": "Low volume but EXACT match for our service. Zero competition.",
       "status": "generated",

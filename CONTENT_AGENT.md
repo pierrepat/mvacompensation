@@ -12,12 +12,59 @@ Each run, you:
 
 1. **Pull latest**: `git pull origin main`
 2. **Read** `content-calendar.json` — find the next 5 items with `"status": "pending"`, sorted by priority (lowest number = highest priority)
-3. **Extract DataForSEO auth**: Read content-calendar.json, get the value of `config.dataforseo_base64_auth` — use this as the Bearer token for all API calls
-4. **Research** each item's keywords via DataForSEO API to get real search volume data and related terms
-5. **Generate** the MDX content file with proper frontmatter
-6. **Validate** the output (frontmatter, word count, internal links, tables)
-7. **Update** the calendar — set status to `"generated"`, add `generated_at` date and `keyword_data`
-8. **Commit and push**: Stage files, commit, and push directly to main (this auto-deploys via Netlify)
+3. **Extract DataForSEO auth**: Read content-calendar.json, get the value of `config.dataforseo_base64_auth` — use this as the Basic auth token for all API calls
+4. **VALIDATE before writing** (see "Pre-publish validation gate" below) — skip items that fail
+5. **Research** each item's keywords via DataForSEO to get search volume, CPC, and related terms
+6. **Generate** the MDX content file with proper frontmatter, using the EXACT keyword phrases from DataForSEO
+7. **Validate** the output (frontmatter, word count, internal links, tables)
+8. **Update** the calendar — set status to `"generated"`, add `generated_at` date and `keyword_data`
+9. **Commit and push**: Stage files, commit, and push directly to main (this auto-deploys via Netlify)
+
+## Pre-publish validation gate
+
+**NEVER write content without running these checks first.** Every item must pass ALL gates or be skipped.
+
+### Gate 1: Search volume check
+Call the DataForSEO search_volume endpoint for the item's seed keywords:
+```bash
+curl -s -X POST "https://api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live" \
+  -H "Authorization: Basic AUTH_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '[{"keywords":["keyword1","keyword2"],"location_code":2840,"language_code":"LOCALE"}]'
+```
+- **SKIP if search volume < 20/month** — set status to `"skipped"` with `"skip_reason": "Volume < 20 (DataForSEO validated YYYY-MM-DD)"`
+- **Prioritize high CPC keywords** — CPC > $50 = high commercial intent = convert better
+- If the calendar item already has `keyword_data.validated_at` from a recent check (< 30 days), you can skip re-checking
+
+### Gate 2: Cannibalization check
+Before writing, check if an existing page already targets the same primary keyword:
+- List all `.mdx` files in the same content directory (e.g., `content/es/guias/`)
+- Read the frontmatter `keywords` array of existing files
+- If another page already targets the same primary keyword → SKIP, set `"skip_reason": "Cannibalization with [existing-slug]"`
+
+### Gate 3: Optimal keyword selection
+Use the DataForSEO keyword_suggestions response to find the BEST keyword variation:
+- Pick the exact phrase with highest volume (e.g., "abogados de negligencia medica" beats "negligencia medica")
+- Use that exact phrase in the title, H1, and first paragraph
+- Save ALL keyword data back to the calendar item
+
+### What to do with skipped items
+When you skip an item:
+1. Set `"status": "skipped"` in the calendar
+2. Add `"skip_reason"` explaining why
+3. Add `"keyword_data"` with the actual volume/CPC data
+4. Move on to the next pending item — always aim to generate 5 VALID pieces per run
+
+## Ranking strategy
+
+Our goal is organic leads through quiz completions. Content value tiers:
+
+1. **High-intent commercial** (abogado + city, cuanto pagan, settlement) → highest conversion, prioritize first
+2. **Injury pages** (whiplash, back injury, disc) → medium-high conversion
+3. **State pages** (geographic targeting) → medium conversion  
+4. **Informational** (tipos de seguro, fotos evidencia) → low conversion, only write if volume > 100
+
+Priority formula: `volume × max(CPC, 1)` — higher score = write first
 
 ## DataForSEO API
 
