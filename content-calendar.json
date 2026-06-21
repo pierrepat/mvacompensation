@@ -1133,7 +1133,8 @@
         "mala practica medica"
       ],
       "notes": "880 vol. Adjacent category but high volume. Medical malpractice after accident treatment is relevant.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Cannibalization with existing negligencia-medica.mdx (es/guias)",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "abogados de negligencia medica",
@@ -1157,7 +1158,8 @@
         "accidente obra compensacion"
       ],
       "notes": "260 vol. Huge for Hispanic workers in construction industry.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Cannibalization with existing accidente-construccion.mdx (es/guias)",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "abogados de accidentes de construcción",
@@ -1181,7 +1183,8 @@
         "resbalón y caída compensacion"
       ],
       "notes": "90 vol. Premises liability. Common for Hispanic workers/shoppers.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Cannibalization with existing accidente-de-caida.mdx (es/guias)",
       "generated_at": null,
       "keyword_data": {
         "primary_keyword": "abogados de accidentes de caidas",
@@ -1327,7 +1330,8 @@
         "accidente lluvia culpa"
       ],
       "notes": "Seasonal relevance. People unsure about fault in weather accidents.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Volume < 20 (DataForSEO validated 2026-06-20)",
       "keyword_data": {
         "primary_keyword": "accidente por lluvia",
         "volume": 10,
@@ -1350,7 +1354,8 @@
         "hand injury crash"
       ],
       "notes": "EN version of existing ES lesion. Fills EN content gap.",
-      "status": "pending",
+      "status": "generated",
+      "generated_at": "2026-06-21",
       "keyword_data": {
         "primary_keyword": "wrist injury car accident",
         "volume": 30,
@@ -1373,7 +1378,8 @@
         "spinal injury settlement"
       ],
       "notes": "EN version of existing ES lesion. High volume EN keyword.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Cannibalization with existing lesiones-de-espalda.mdx (en/lesiones)",
       "keyword_data": {
         "primary_keyword": "back pain after accident",
         "volume": 1000,
@@ -1396,7 +1402,8 @@
         "disc injury compensation"
       ],
       "notes": "EN version. Very high volume keyword in English.",
-      "status": "pending",
+      "status": "generated",
+      "generated_at": "2026-06-21",
       "keyword_data": {
         "primary_keyword": "bulging disc settlement",
         "volume": 90,
@@ -1419,7 +1426,8 @@
         "whiplash compensation"
       ],
       "notes": "EN version. Highest volume injury keyword in English PI space.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Cannibalization with existing latigazo-cervical.mdx (en/lesiones)",
       "keyword_data": {
         "primary_keyword": "whiplash car accident",
         "volume": 1600,
@@ -1466,7 +1474,8 @@
         "seguro full coverage accidente"
       ],
       "notes": "Educational content for audience unfamiliar with US insurance system.",
-      "status": "pending",
+      "status": "generated",
+      "generated_at": "2026-06-21",
       "keyword_data": {
         "primary_keyword": "tipos de seguro de auto",
         "volume": 30,
@@ -1513,7 +1522,8 @@
         "accidente carretera compensacion"
       ],
       "notes": "Highway accidents = higher speed = more severe injuries = higher settlements.",
-      "status": "pending",
+      "status": "skipped",
+      "skip_reason": "Volume < 20 (DataForSEO validated 2026-06-20)",
       "keyword_data": {
         "primary_keyword": "accidente en autopista",
         "volume": 10,
@@ -1584,7 +1594,8 @@
         "accidente auto noche compensacion"
       ],
       "notes": "Night accidents have higher fatality rates and different liability issues.",
-      "status": "pending",
+      "status": "generated",
+      "generated_at": "2026-06-21",
       "keyword_data": {
         "primary_keyword": "accidente de noche",
         "volume": 140,
