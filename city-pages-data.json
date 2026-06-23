@@ -8,11 +8,20 @@
     "hispanic_pct": 43.9,
     "county": "Harris County",
     "court": "Harris County District Courts",
-    "accident_roads": ["I-45 (Gulf Freeway)", "I-10 (Katy Freeway)", "I-610 (Loop 610)"],
+    "accident_roads": [
+      "I-45 (Gulf Freeway)",
+      "I-10 (Katy Freeway)",
+      "I-610 (Loop 610)"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$25,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Magnolia Park", "Second Ward (Segundo Barrio)", "East End", "Gulfton"],
+    "neighborhoods": [
+      "Magnolia Park",
+      "Second Ward (Segundo Barrio)",
+      "East End",
+      "Gulfton"
+    ],
     "keyword": "abogado de accidentes en houston",
     "search_volume": 480,
     "cpc": 338.81
@@ -26,11 +35,20 @@
     "hispanic_pct": 69.3,
     "county": "Miami-Dade County",
     "court": "Miami-Dade County Circuit Court (11th Judicial Circuit)",
-    "accident_roads": ["SR 826 (Palmetto Expressway)", "I-95", "SR 836 (Dolphin Expressway)"],
+    "accident_roads": [
+      "SR 826 (Palmetto Expressway)",
+      "I-95",
+      "SR 836 (Dolphin Expressway)"
+    ],
     "is_no_fault": true,
     "min_liability": "$10,000 PIP + $10,000 PDL (no-fault; bodily injury liability not generally mandated)",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Little Havana", "Hialeah", "Westchester", "Kendall"],
+    "neighborhoods": [
+      "Little Havana",
+      "Hialeah",
+      "Westchester",
+      "Kendall"
+    ],
     "keyword": "abogado de accidentes en miami",
     "search_volume": 480,
     "cpc": 296.32
@@ -44,11 +62,20 @@
     "hispanic_pct": 47.2,
     "county": "Los Angeles County",
     "court": "Superior Court of California, County of Los Angeles",
-    "accident_roads": ["Interstate 405 (San Diego Freeway)", "US-101 / I-405 interchange", "Interstate 5 (Golden State Freeway)"],
+    "accident_roads": [
+      "Interstate 405 (San Diego Freeway)",
+      "US-101 / I-405 interchange",
+      "Interstate 5 (Golden State Freeway)"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Boyle Heights", "East Los Angeles", "Pico-Union", "Highland Park"],
+    "neighborhoods": [
+      "Boyle Heights",
+      "East Los Angeles",
+      "Pico-Union",
+      "Highland Park"
+    ],
     "keyword": "abogado de accidentes los angeles",
     "search_volume": 320,
     "cpc": 84.21
@@ -62,11 +89,20 @@
     "hispanic_pct": 29.6,
     "county": "Cook County",
     "court": "Circuit Court of Cook County (Law Division)",
-    "accident_roads": ["Dan Ryan Expressway (I-90/I-94)", "Eisenhower Expressway (I-290)", "Circle Interchange (I-90/I-94/I-290)"],
+    "accident_roads": [
+      "Dan Ryan Expressway (I-90/I-94)",
+      "Eisenhower Expressway (I-290)",
+      "Circle Interchange (I-90/I-94/I-290)"
+    ],
     "is_no_fault": false,
     "min_liability": "$25,000/$50,000/$20,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Little Village / La Villita (South Lawndale)", "Pilsen (Lower West Side)", "Hermosa", "Gage Park"],
+    "neighborhoods": [
+      "Little Village / La Villita (South Lawndale)",
+      "Pilsen (Lower West Side)",
+      "Hermosa",
+      "Gage Park"
+    ],
     "keyword": "abogado de accidentes de auto en chicago",
     "search_volume": 260,
     "cpc": 58.64
@@ -80,11 +116,20 @@
     "hispanic_pct": 42.6,
     "county": "Dallas County",
     "court": "Dallas County District Courts",
-    "accident_roads": ["I-635 (LBJ Freeway)", "I-35E (Stemmons Freeway)", "I-30"],
+    "accident_roads": [
+      "I-635 (LBJ Freeway)",
+      "I-35E (Stemmons Freeway)",
+      "I-30"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$25,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Oak Cliff", "Pleasant Grove", "West Dallas", "Bachman Lake"],
+    "neighborhoods": [
+      "Oak Cliff",
+      "Pleasant Grove",
+      "West Dallas",
+      "Bachman Lake"
+    ],
     "keyword": "abogado de accidentes de auto en dallas",
     "search_volume": 210,
     "cpc": null
@@ -98,11 +143,20 @@
     "hispanic_pct": 29.8,
     "county": "San Diego County",
     "court": "Superior Court of California, County of San Diego",
-    "accident_roads": ["Interstate 5", "Interstate 805", "I-5 / I-805 merge"],
+    "accident_roads": [
+      "Interstate 5",
+      "Interstate 805",
+      "I-5 / I-805 merge"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Barrio Logan", "City Heights", "San Ysidro", "Logan Heights"],
+    "neighborhoods": [
+      "Barrio Logan",
+      "City Heights",
+      "San Ysidro",
+      "Logan Heights"
+    ],
     "keyword": "abogados de accidentes san diego",
     "search_volume": 170,
     "cpc": 195.68
@@ -116,11 +170,20 @@
     "hispanic_pct": 29.5,
     "county": "Sacramento County",
     "court": "Superior Court of California, County of Sacramento",
-    "accident_roads": ["Interstate 5", "Highway 99 (SR-99)", "US-50 / I-80 'W-X' interchange"],
+    "accident_roads": [
+      "Interstate 5",
+      "Highway 99 (SR-99)",
+      "US-50 / I-80 'W-X' interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["South Sacramento", "Oak Park", "Franklin Boulevard corridor", "Florin"],
+    "neighborhoods": [
+      "South Sacramento",
+      "Oak Park",
+      "Franklin Boulevard corridor",
+      "Florin"
+    ],
     "keyword": "abogados de accidentes sacramento",
     "search_volume": 170,
     "cpc": 58.73
@@ -134,11 +197,19 @@
     "hispanic_pct": 69.6,
     "county": "San Bernardino County",
     "court": "Superior Court of California, County of San Bernardino",
-    "accident_roads": ["Interstate 215", "Interstate 10", "I-10 / I-215 interchange"],
+    "accident_roads": [
+      "Interstate 215",
+      "Interstate 10",
+      "I-10 / I-215 interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Westside (West San Bernardino)", "Muscoy", "Mount Vernon corridor"],
+    "neighborhoods": [
+      "Westside (West San Bernardino)",
+      "Muscoy",
+      "Mount Vernon corridor"
+    ],
     "keyword": "abogados de accidentes san bernardino",
     "search_volume": 110,
     "cpc": 532.89
@@ -152,11 +223,20 @@
     "hispanic_pct": 53.6,
     "county": "Kern County",
     "court": "Superior Court of California, County of Kern",
-    "accident_roads": ["Highway 99 (SR-99)", "Highway 58", "Union Avenue / California Avenue corridor"],
+    "accident_roads": [
+      "Highway 99 (SR-99)",
+      "Highway 58",
+      "Union Avenue / California Avenue corridor"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["East Bakersfield", "Greenfield", "Old Town Kern", "Lamont"],
+    "neighborhoods": [
+      "East Bakersfield",
+      "Greenfield",
+      "Old Town Kern",
+      "Lamont"
+    ],
     "keyword": "abogado de accidentes bakersfield",
     "search_volume": 90,
     "cpc": 14.19
@@ -170,11 +250,19 @@
     "hispanic_pct": 35.4,
     "county": "Orange County",
     "court": "Orange County Circuit Court (9th Judicial Circuit)",
-    "accident_roads": ["I-4", "SR 408 (East-West Expressway)", "SR 436 (Semoran Boulevard)"],
+    "accident_roads": [
+      "I-4",
+      "SR 408 (East-West Expressway)",
+      "SR 436 (Semoran Boulevard)"
+    ],
     "is_no_fault": true,
     "min_liability": "$10,000 PIP + $10,000 PDL (no-fault; bodily injury liability not generally mandated)",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Azalea Park", "Semoran Boulevard corridor", "Conway"],
+    "neighborhoods": [
+      "Azalea Park",
+      "Semoran Boulevard corridor",
+      "Conway"
+    ],
     "keyword": "abogados de accidentes en orlando",
     "search_volume": 90,
     "cpc": null
@@ -188,11 +276,19 @@
     "hispanic_pct": 34.7,
     "county": "Clark County",
     "court": "Eighth Judicial District Court (Clark County)",
-    "accident_roads": ["I-15 / US-95 Spaghetti Bowl interchange", "I-15 (Spring Mountain Rd to Tropicana Ave)", "US-95 (Las Vegas Expressway)"],
+    "accident_roads": [
+      "I-15 / US-95 Spaghetti Bowl interchange",
+      "I-15 (Spring Mountain Rd to Tropicana Ave)",
+      "US-95 (Las Vegas Expressway)"
+    ],
     "is_no_fault": false,
     "min_liability": "$25,000/$50,000/$20,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["East Las Vegas", "Sunrise Manor", "Sun Valley"],
+    "neighborhoods": [
+      "East Las Vegas",
+      "Sunrise Manor",
+      "Sun Valley"
+    ],
     "keyword": "abogados de accidentes en las vegas",
     "search_volume": 140,
     "cpc": 193.41
@@ -206,11 +302,20 @@
     "hispanic_pct": 27.9,
     "county": "Denver County",
     "court": "Denver District Court (2nd Judicial District)",
-    "accident_roads": ["The Mousetrap (I-25 / I-70 interchange)", "I-25 (through downtown)", "I-70 (NE Denver)"],
+    "accident_roads": [
+      "The Mousetrap (I-25 / I-70 interchange)",
+      "I-25 (through downtown)",
+      "I-70 (NE Denver)"
+    ],
     "is_no_fault": false,
     "min_liability": "$25,000/$50,000/$15,000",
     "statute_of_limitations_years": 3,
-    "neighborhoods": ["Westwood", "La Alma / Lincoln Park", "Elyria-Swansea", "Globeville"],
+    "neighborhoods": [
+      "Westwood",
+      "La Alma / Lincoln Park",
+      "Elyria-Swansea",
+      "Globeville"
+    ],
     "keyword": "abogado de accidentes de auto en denver",
     "search_volume": 90,
     "cpc": null
@@ -224,11 +329,20 @@
     "hispanic_pct": 50.6,
     "county": "Fresno County",
     "court": "Superior Court of California, County of Fresno",
-    "accident_roads": ["Highway 99 (SR-99)", "Highway 41", "SR-99 / SR-41 interchange"],
+    "accident_roads": [
+      "Highway 99 (SR-99)",
+      "Highway 41",
+      "SR-99 / SR-41 interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Southeast Fresno", "Calwa", "West Fresno", "Pinedale"],
+    "neighborhoods": [
+      "Southeast Fresno",
+      "Calwa",
+      "West Fresno",
+      "Pinedale"
+    ],
     "keyword": "abogado de accidentes en fresno",
     "search_volume": 70,
     "cpc": 215.23
@@ -242,11 +356,20 @@
     "hispanic_pct": 31.0,
     "county": "Santa Clara County",
     "court": "Superior Court of California, County of Santa Clara",
-    "accident_roads": ["US-101", "Interstate 880", "I-280 / I-680 / US-101 interchange"],
+    "accident_roads": [
+      "US-101",
+      "Interstate 880",
+      "I-280 / I-680 / US-101 interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["East San Jose", "Alum Rock", "Mayfair", "Washington-Guadalupe"],
+    "neighborhoods": [
+      "East San Jose",
+      "Alum Rock",
+      "Mayfair",
+      "Washington-Guadalupe"
+    ],
     "keyword": "abogados de accidentes san jose",
     "search_volume": 70,
     "cpc": null
@@ -260,11 +383,19 @@
     "hispanic_pct": 43.9,
     "county": "Stanislaus County",
     "court": "Superior Court of California, County of Stanislaus",
-    "accident_roads": ["Highway 99 (SR-99)", "Highway 132", "SR-99 / SR-132 interchange"],
+    "accident_roads": [
+      "Highway 99 (SR-99)",
+      "Highway 132",
+      "SR-99 / SR-132 interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["West Modesto", "Airport District", "South Modesto"],
+    "neighborhoods": [
+      "West Modesto",
+      "Airport District",
+      "South Modesto"
+    ],
     "keyword": "abogados de accidentes modesto",
     "search_volume": 70,
     "cpc": 7.4
@@ -278,11 +409,20 @@
     "hispanic_pct": 42.6,
     "county": "Maricopa County",
     "court": "Maricopa County Superior Court (Civil Division)",
-    "accident_roads": ["The Stack (I-10 / I-17 interchange)", "The Mini-Stack (I-10 / SR-51 / Loop 202)", "I-10 (Maricopa Freeway)"],
+    "accident_roads": [
+      "The Stack (I-10 / I-17 interchange)",
+      "The Mini-Stack (I-10 / SR-51 / Loop 202)",
+      "I-10 (Maricopa Freeway)"
+    ],
     "is_no_fault": false,
     "min_liability": "$25,000/$50,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Maryvale", "South Phoenix / Central City South", "Alhambra", "Estrella"],
+    "neighborhoods": [
+      "Maryvale",
+      "South Phoenix / Central City South",
+      "Alhambra",
+      "Estrella"
+    ],
     "keyword": "abogado de accidentes de auto en phoenix",
     "search_volume": 50,
     "cpc": null
@@ -296,11 +436,19 @@
     "hispanic_pct": 26.2,
     "county": "Hillsborough County",
     "court": "Hillsborough County Circuit Court (13th Judicial Circuit)",
-    "accident_roads": ["I-275", "I-4", "Dale Mabry Highway"],
+    "accident_roads": [
+      "I-275",
+      "I-4",
+      "Dale Mabry Highway"
+    ],
     "is_no_fault": true,
     "min_liability": "$10,000 PIP + $10,000 PDL (no-fault; bodily injury liability not generally mandated)",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["West Tampa", "Town 'N' Country", "East Tampa"],
+    "neighborhoods": [
+      "West Tampa",
+      "Town 'N' Country",
+      "East Tampa"
+    ],
     "keyword": "abogado de accidentes en tampa",
     "search_volume": 50,
     "cpc": 176.19
@@ -314,11 +462,20 @@
     "hispanic_pct": 77.3,
     "county": "Orange County",
     "court": "Superior Court of California, County of Orange",
-    "accident_roads": ["Interstate 5 (Santa Ana Freeway)", "Highway 55 (Costa Mesa Freeway)", "'Orange Crush' interchange (I-5 / SR-22 / SR-57)"],
+    "accident_roads": [
+      "Interstate 5 (Santa Ana Freeway)",
+      "Highway 55 (Costa Mesa Freeway)",
+      "'Orange Crush' interchange (I-5 / SR-22 / SR-57)"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Logan", "Delhi", "Santa Anita", "Madison Park"],
+    "neighborhoods": [
+      "Logan",
+      "Delhi",
+      "Santa Anita",
+      "Madison Park"
+    ],
     "keyword": "abogados de accidentes santa ana",
     "search_volume": 50,
     "cpc": null
@@ -328,15 +485,22 @@
     "state": "Georgia",
     "state_code": "GA",
     "slug": "atlanta",
-    "hispanic_population": 31223,
-    "hispanic_pct": 6.3,
-    "county": "Fulton County",
+    "hispanic_population": 730470,
+    "hispanic_pct": 12.0,
+    "county": "Atlanta-Sandy Springs-Alpharetta metro (Fulton, DeKalb, Gwinnett, Cobb counties)",
     "court": "State Court of Fulton County",
-    "accident_roads": ["I-285 (the Perimeter)", "Downtown Connector (I-75/I-85)", "Spaghetti Junction (I-285 at I-85)"],
+    "accident_roads": [
+      "I-285 (the Perimeter)",
+      "Downtown Connector (I-75/I-85)",
+      "Spaghetti Junction (I-285 at I-85)"
+    ],
     "is_no_fault": false,
     "min_liability": "$25,000/$50,000/$25,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Buford Highway corridor", "West End"],
+    "neighborhoods": [
+      "Buford Highway corridor",
+      "West End"
+    ],
     "keyword": "abogados de accidentes en atlanta",
     "search_volume": 40,
     "cpc": 324.43
@@ -350,11 +514,19 @@
     "hispanic_pct": 34.6,
     "county": "Tarrant County",
     "court": "Tarrant County District Courts",
-    "accident_roads": ["I-35W", "I-820 (Loop 820)", "I-30"],
+    "accident_roads": [
+      "I-35W",
+      "I-820 (Loop 820)",
+      "I-30"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$25,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Northside (Far Greater Northside)", "Diamond Hill-Jarvis", "Las Vegas Trail"],
+    "neighborhoods": [
+      "Northside (Far Greater Northside)",
+      "Diamond Hill-Jarvis",
+      "Las Vegas Trail"
+    ],
     "keyword": "abogado de accidentes de auto en fort worth",
     "search_volume": 40,
     "cpc": null
@@ -368,11 +540,19 @@
     "hispanic_pct": 43.4,
     "county": "Los Angeles County",
     "court": "Superior Court of California, County of Los Angeles",
-    "accident_roads": ["Interstate 710 (Long Beach Freeway)", "Interstate 405", "Pacific Coast Highway (SR-1)"],
+    "accident_roads": [
+      "Interstate 710 (Long Beach Freeway)",
+      "Interstate 405",
+      "Pacific Coast Highway (SR-1)"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Central Long Beach", "Westside", "Wrigley"],
+    "neighborhoods": [
+      "Central Long Beach",
+      "Westside",
+      "Wrigley"
+    ],
     "keyword": "abogados de accidentes long beach",
     "search_volume": 40,
     "cpc": null
@@ -386,11 +566,20 @@
     "hispanic_pct": 64.9,
     "county": "San Diego County",
     "court": "Superior Court of California, County of San Diego",
-    "accident_roads": ["Interstate 805", "Interstate 5", "Highway 54 (SR-54)"],
+    "accident_roads": [
+      "Interstate 805",
+      "Interstate 5",
+      "Highway 54 (SR-54)"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Western Chula Vista", "Castle Park", "Otay", "Montgomery"],
+    "neighborhoods": [
+      "Western Chula Vista",
+      "Castle Park",
+      "Otay",
+      "Montgomery"
+    ],
     "keyword": "abogados de accidentes en chula vista",
     "search_volume": 40,
     "cpc": 480.48
@@ -404,11 +593,20 @@
     "hispanic_pct": 54.7,
     "county": "Riverside County",
     "court": "Superior Court of California, County of Riverside",
-    "accident_roads": ["Highway 91 (Riverside Freeway)", "Interstate 215", "SR-91 / SR-60 / I-215 interchange"],
+    "accident_roads": [
+      "Highway 91 (Riverside Freeway)",
+      "Interstate 215",
+      "SR-91 / SR-60 / I-215 interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Eastside", "Casa Blanca", "La Sierra", "Arlanza"],
+    "neighborhoods": [
+      "Eastside",
+      "Casa Blanca",
+      "La Sierra",
+      "Arlanza"
+    ],
     "keyword": "abogados de accidentes riverside",
     "search_volume": 40,
     "cpc": null
@@ -422,11 +620,19 @@
     "hispanic_pct": 74.7,
     "county": "Ventura County",
     "court": "Superior Court of California, County of Ventura",
-    "accident_roads": ["US-101 (Ventura Freeway)", "Highway 1 (Oxnard Boulevard / PCH)", "Rice Avenue / Highway 1 corridor"],
+    "accident_roads": [
+      "US-101 (Ventura Freeway)",
+      "Highway 1 (Oxnard Boulevard / PCH)",
+      "Rice Avenue / Highway 1 corridor"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["La Colonia", "South Oxnard", "Downtown Oxnard"],
+    "neighborhoods": [
+      "La Colonia",
+      "South Oxnard",
+      "Downtown Oxnard"
+    ],
     "keyword": "abogados de accidentes oxnard",
     "search_volume": 30,
     "cpc": null
@@ -440,11 +646,20 @@
     "hispanic_pct": 53.8,
     "county": "Orange County",
     "court": "Superior Court of California, County of Orange",
-    "accident_roads": ["Interstate 5 (Santa Ana Freeway)", "Highway 91 (Riverside Freeway)", "SR-57 / SR-91 interchange"],
+    "accident_roads": [
+      "Interstate 5 (Santa Ana Freeway)",
+      "Highway 91 (Riverside Freeway)",
+      "SR-57 / SR-91 interchange"
+    ],
     "is_no_fault": false,
     "min_liability": "$30,000/$60,000/$15,000",
     "statute_of_limitations_years": 2,
-    "neighborhoods": ["Central Anaheim (Anna Drive area)", "West Anaheim", "Jeffrey-Lynne", "Ponderosa"],
+    "neighborhoods": [
+      "Central Anaheim (Anna Drive area)",
+      "West Anaheim",
+      "Hermosa Village",
+      "Ponderosa"
+    ],
     "keyword": "abogados de accidentes anaheim",
     "search_volume": 20,
     "cpc": 179.31
