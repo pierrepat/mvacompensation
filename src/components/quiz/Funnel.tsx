@@ -143,6 +143,7 @@ export function Funnel({ locale, dict }: FunnelProps) {
       email: d.email.trim(),
 
       // Case details
+      accident_type: d.accident_type,
       state: d.state,
       when: d.when,
       injured: d.injured,
@@ -190,8 +191,11 @@ export function Funnel({ locale, dict }: FunnelProps) {
 
   // -- Screen handlers --
   const handleAccidentNext = () => {
-    if (!ctx.data.state) {
-      setFieldErrors({ state: t("error_required") });
+    const errs: Record<string, string> = {};
+    if (!ctx.data.accident_type) errs.accident_type = t("error_required");
+    if (!ctx.data.state) errs.state = t("error_required");
+    if (Object.keys(errs).length) {
+      setFieldErrors(errs);
       return;
     }
     goTo("details");
@@ -289,6 +293,20 @@ export function Funnel({ locale, dict }: FunnelProps) {
     return (
       <QuizShell title={t("title")} progress={STEP_PROGRESS.accident} total={5}>
         <h1 className="text-2xl font-bold text-navy-900 mb-6">{t("step1_heading")}</h1>
+        <p className="text-sm font-medium text-gray-700 mb-2">{t("step1_type_label")}</p>
+        <div className="grid grid-cols-2 gap-2 mb-6">
+          {(["auto", "truck", "motorcycle", "work", "slip_fall", "other"] as const).map((val) => (
+            <OptionButton
+              key={val}
+              label={t(`accident_type_${val}`)}
+              selected={ctx.data.accident_type === val}
+              onClick={() => dispatch({ type: "UPDATE", field: "accident_type", value: val })}
+            />
+          ))}
+        </div>
+        {fieldErrors.accident_type && (
+          <p className="text-red-500 text-sm -mt-4 mb-4">{fieldErrors.accident_type}</p>
+        )}
         <label className="block text-sm font-medium text-gray-700 mb-2">
           {t("step1_state_label")}
         </label>

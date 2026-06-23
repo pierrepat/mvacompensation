@@ -6,7 +6,19 @@ export type FunnelStep =
   | "otp"         // Screen 5: verify phone
   | "thanks";     // Done
 
+// Case type drives which buyer a lead is sold to (car-accident firm,
+// workers-comp firm, etc.), so it's captured up front on screen 1.
+export type AccidentType =
+  | "auto"
+  | "truck"
+  | "motorcycle"
+  | "work"
+  | "slip_fall"
+  | "other"
+  | "";
+
 export interface FunnelData {
+  accident_type: AccidentType;
   state: string;
   when: "less_1mo" | "1_6mo" | "6_12mo" | "over_1yr" | "";
   injured: "yes" | "no" | "";

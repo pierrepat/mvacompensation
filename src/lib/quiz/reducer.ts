@@ -1,6 +1,7 @@
 import type { FunnelContext, FunnelAction, FunnelData } from "./types";
 
 export const initialData: FunnelData = {
+  accident_type: "",
   state: "",
   when: "",
   injured: "",
