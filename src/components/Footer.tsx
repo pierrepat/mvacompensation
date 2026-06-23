@@ -32,8 +32,10 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             </h3>
             <ul className="space-y-2 text-sm text-gray-400">
               <li><Link href={`/${locale}/estados`} className="hover:text-white transition-colors">{dict.nav.states}</Link></li>
+              <li><Link href={`/${locale}/ciudades`} className="hover:text-white transition-colors">{locale === "es" ? "Ciudades" : "Cities"}</Link></li>
               <li><Link href={`/${locale}/injuries`} className="hover:text-white transition-colors">{dict.nav.injuries}</Link></li>
               <li><Link href={`/${locale}/guides`} className="hover:text-white transition-colors">{dict.nav.guides}</Link></li>
+              <li><Link href={`/${locale}/recursos`} className="hover:text-white transition-colors">{locale === "es" ? "Recursos" : "Resources"}</Link></li>
             </ul>
           </div>
 
