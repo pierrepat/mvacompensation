@@ -29,13 +29,14 @@ function buildAlternates(
 export default function sitemap(): MetadataRoute.Sitemap {
   // Canonical static routes per locale — no duplicates
   const staticRoutesPerLocale: Record<Locale, string[]> = {
+    // NOTE: /quiz and /cuestionario are intentionally excluded — they're
+    // noindex lead-capture pages, so they must not be advertised in the sitemap.
     en: [
       "",
       "/estados",
       "/lesiones",
       "/guias",
       "/calculator/settlement-estimator",
-      "/quiz",
       "/about",
       "/privacy",
       "/terms",
@@ -45,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       "/estados",
       "/lesiones",
       "/guias",
-      "/cuestionario",
+      "/calculadora",
       "/about",
       "/privacy",
       "/terms",
@@ -58,9 +59,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/estados": "/estados",
     "/lesiones": "/lesiones",
     "/guias": "/guias",
-    "/calculator/settlement-estimator": "/cuestionario",
-    "/quiz": "/cuestionario",
-    "/cuestionario": "/quiz",
+    "/calculator/settlement-estimator": "/calculadora",
+    "/calculadora": "/calculator/settlement-estimator",
     "/about": "/about",
     "/privacy": "/privacy",
     "/terms": "/terms",
