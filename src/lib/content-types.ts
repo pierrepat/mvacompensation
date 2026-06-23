@@ -3,7 +3,7 @@ export type BaseFrontmatter = {
   description: string; // 155 char meta description
   slug: string;
   locale: "en" | "es";
-  pillar: "state" | "injury" | "guide" | "faq" | "tool";
+  pillar: "state" | "injury" | "guide" | "faq" | "tool" | "city";
   keywords: string[];
   author: { name: string; credential?: string; bio?: string };
   reviewer?: { name: string; credential: string };
@@ -34,6 +34,16 @@ export type GuideFrontmatter = BaseFrontmatter & {
   topic: string;
 };
 
+export type CityFrontmatter = BaseFrontmatter & {
+  pillar: "city";
+  city: string;
+  state: string;
+  stateCode: string;
+  parentStateSlug: string; // slug of the /estados page this city rolls up to
+  isNoFault: boolean;
+  statuteOfLimitations: number; // years
+};
+
 export type FaqFrontmatter = BaseFrontmatter & {
   pillar: "faq";
   question: string; // the question, used as H1
@@ -44,4 +54,5 @@ export type ContentFrontmatter =
   | StateFrontmatter
   | InjuryFrontmatter
   | GuideFrontmatter
-  | FaqFrontmatter;
+  | FaqFrontmatter
+  | CityFrontmatter;

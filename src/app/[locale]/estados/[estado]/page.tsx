@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import type { Locale } from "@/lib/i18n";
-import type { StateFrontmatter } from "@/lib/content-types";
+import type { StateFrontmatter, CityFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
 import { renderMDX } from "@/lib/mdx";
 import { ArticleLayout } from "@/components/ArticleLayout";
@@ -112,6 +112,22 @@ export default async function EstadoPage({
       };
     });
 
+  // Cities in this state (hub-and-spoke internal linking aids crawl/indexation).
+  const cityLinks = getContentSlugs(params.locale, "ciudades")
+    .map((slug) => {
+      const { meta: m } = getContentBySlug<CityFrontmatter>(
+        params.locale,
+        "ciudades",
+        slug
+      );
+      return { slug, city: m.city, parentStateSlug: m.parentStateSlug };
+    })
+    .filter((c) => c.parentStateSlug === params.estado)
+    .map((c) => ({
+      title: `Abogado de accidentes en ${c.city}`,
+      href: `/${params.locale}/ciudades/${c.slug}`,
+    }));
+
   const faqs = extractFAQs(content);
 
   return (
@@ -146,6 +162,18 @@ export default async function EstadoPage({
         {rendered}
 
         <LeadCaptureForm locale={params.locale} variant="inline" source={`state_${params.estado}_${params.locale}`} stateCode={meta.stateCode} />
+
+        {cityLinks.length > 0 && (
+          <RelatedLinks
+            locale={params.locale}
+            heading={
+              isEn
+                ? `Find a Lawyer by City in ${meta.title.split("|")[0].split(" en ").pop()?.trim() ?? ""}`
+                : "Encuentra un abogado por ciudad"
+            }
+            links={cityLinks}
+          />
+        )}
 
         {otherStates.length > 0 && (
           <RelatedLinks

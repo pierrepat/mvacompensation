@@ -90,7 +90,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Pre-compute slug sets for cross-locale hreflang validation
-  const sections = ["estados", "lesiones", "guias"] as const;
+  const sections = ["estados", "lesiones", "guias", "ciudades"] as const;
   const slugsByLocale: Record<string, Record<Locale, Set<string>>> = {};
 
   for (const section of sections) {
