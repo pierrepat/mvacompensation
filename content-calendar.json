@@ -6,16 +6,8 @@
     "dataforseo_language": "es",
     "branch_prefix": "content/batch-",
     "default_author": {
-      "name": "Carlos Mendoza",
-      "credential": "Editor Legal"
-    },
-    "default_reviewer_legal": {
-      "name": "María Rodríguez",
-      "credential": "JD"
-    },
-    "default_reviewer_medical": {
-      "name": "Dr. Elena Vargas",
-      "credential": "MD"
+      "name": "Equipo de MVACompensation",
+      "credential": "Equipo Editorial"
     }
   },
   "items": [

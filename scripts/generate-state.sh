@@ -70,11 +70,8 @@ averageSettlement:
   high: $SETTLEMENT_HIGH
 keywords: [\"accidente auto $SLUG\", \"compensación $SLUG\", \"abogado accidente $SLUG\", \"seguro auto $SLUG\"]
 author:
-  name: \"Carlos Mendoza\"
-  credential: \"Editor Legal\"
-reviewer:
-  name: \"María Rodríguez\"
-  credential: \"JD\"
+  name: \"Equipo de MVACompensation\"
+  credential: \"Equipo Editorial\"
 publishedAt: \"$TODAY\"
 lastUpdated: \"$TODAY\"
 ogImage: \"/og/estados/$SLUG-$LOCALE.png\"

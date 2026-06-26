@@ -49,7 +49,7 @@ REQUIREMENTS:
 8. End with encouragement to get a free evaluation.
 9. End with a disclaimer line in italics.
 10. Include a FAQ section with 3-4 questions.
-11. Medical reviewer is a doctor (Dr. Elena Vargas, MD).
+11. Attribute content to the MVACompensation editorial team (no individual or fake reviewer).
 
 FRONTMATTER FORMAT (must be exact):
 ---
@@ -66,11 +66,8 @@ averageSettlement:
 recoveryTimeMonths: $RECOVERY_MONTHS
 keywords: [\"keyword1\", \"keyword2\", \"keyword3\", \"keyword4\"]
 author:
-  name: \"Carlos Mendoza\"
-  credential: \"Editor Legal\"
-reviewer:
-  name: \"Dr. Elena Vargas\"
-  credential: \"MD\"
+  name: \"Equipo de MVACompensation\"
+  credential: \"Equipo Editorial\"
 publishedAt: \"$TODAY\"
 lastUpdated: \"$TODAY\"
 schema: \"Article\"

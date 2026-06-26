@@ -52,11 +52,8 @@ pillar: \"guide\"
 topic: \"$SLUG\"
 keywords: [\"keyword1\", \"keyword2\", \"keyword3\", \"keyword4\"]
 author:
-  name: \"Carlos Mendoza\"
-  credential: \"Editor Legal\"
-reviewer:
-  name: \"María Rodríguez\"
-  credential: \"JD\"
+  name: \"Equipo de MVACompensation\"
+  credential: \"Equipo Editorial\"
 publishedAt: \"$TODAY\"
 lastUpdated: \"$TODAY\"
 schema: \"Article\"

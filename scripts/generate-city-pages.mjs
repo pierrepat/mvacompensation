@@ -93,11 +93,8 @@ isNoFault: ${is_no_fault ? "true" : "false"}
 statuteOfLimitations: ${statute_of_limitations_years ?? 2}
 keywords: [${keywords.map((k) => `"${esc(k)}"`).join(", ")}]
 author:
-  name: "Carlos Mendoza"
-  credential: "Editor Legal"
-reviewer:
-  name: "María Rodríguez"
-  credential: "JD"
+  name: "Equipo de MVACompensation"
+  credential: "Equipo Editorial"
 publishedAt: "${TODAY}"
 lastUpdated: "${TODAY}"
 schema: "Article"

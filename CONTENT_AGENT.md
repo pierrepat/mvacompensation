@@ -147,11 +147,8 @@ pillar: "guide"
 topic: "url-slug"
 keywords: ["primary keyword", "secondary 1", "secondary 2", "secondary 3"]
 author:
-  name: "Carlos Mendoza"
-  credential: "Editor Legal"
-reviewer:
-  name: "María Rodríguez"
-  credential: "JD"
+  name: "Equipo de MVACompensation"
+  credential: "Equipo Editorial"
 publishedAt: "YYYY-MM-DD"
 lastUpdated: "YYYY-MM-DD"
 schema: "Article"
@@ -174,11 +171,8 @@ averageSettlement:
 recoveryTimeMonths: 6
 keywords: ["keyword1", "keyword2", "keyword3", "keyword4"]
 author:
-  name: "Carlos Mendoza"
-  credential: "Editor Legal"
-reviewer:
-  name: "Dr. Elena Vargas"
-  credential: "MD"
+  name: "Equipo de MVACompensation"
+  credential: "Equipo Editorial"
 publishedAt: "YYYY-MM-DD"
 lastUpdated: "YYYY-MM-DD"
 schema: "Article"
@@ -203,11 +197,8 @@ averageSettlement:
   high: 500000
 keywords: ["accidente auto state", "compensación state", "abogado accidente state"]
 author:
-  name: "Carlos Mendoza"
-  credential: "Editor Legal"
-reviewer:
-  name: "María Rodríguez"
-  credential: "JD"
+  name: "Equipo de MVACompensation"
+  credential: "Equipo Editorial"
 publishedAt: "YYYY-MM-DD"
 lastUpdated: "YYYY-MM-DD"
 ogImage: "/og/estados/slug-locale.png"
