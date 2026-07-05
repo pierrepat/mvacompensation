@@ -1348,5 +1348,80 @@
         "error": true
       }
     ]
+  },
+  {
+    "date": "2026-07-05",
+    "results": [
+      {
+        "keyword": "abogado accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "compensacion por accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "accidente de carro sin papeles",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "cuanto pagan por accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "abogado de accidente en houston",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "que hacer despues de un accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "abogado de accidente en español",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "car accident settlement",
+        "lang": "en",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "car accident no insurance",
+        "lang": "en",
+        "position": null,
+        "url": null,
+        "error": true
+      },
+      {
+        "keyword": "spanish speaking car accident lawyer",
+        "lang": "en",
+        "position": null,
+        "url": null,
+        "error": true
+      }
+    ]
   }
 ]
