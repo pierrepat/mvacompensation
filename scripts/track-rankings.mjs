@@ -41,6 +41,9 @@ for (const { keyword, lang } of trackKeywords) {
         ]),
       }
     );
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    }
     const data = await res.json();
     const items = data.tasks?.[0]?.result?.[0]?.items || [];
     const ourResult = items.find(
@@ -55,8 +58,15 @@ for (const { keyword, lang } of trackKeywords) {
       url: ourResult?.url || null,
       date: new Date().toISOString().split("T")[0],
     });
-  } catch {
-    results.push({ keyword, lang, position: null, url: null, error: true });
+  } catch (err) {
+    results.push({
+      keyword,
+      lang,
+      position: null,
+      url: null,
+      error: true,
+      errorMessage: err.message,
+    });
   }
 }
 
@@ -71,8 +81,21 @@ history.push({
 });
 fs.writeFileSync(rankingFile, JSON.stringify(history, null, 2));
 
+const failed = results.filter((r) => r.error);
+
 console.log("=== RANKING CHECK ===");
 for (const r of results) {
-  const pos = r.position ? `#${r.position}` : "not ranking";
+  const pos = r.error
+    ? `CHECK FAILED — ${r.errorMessage}`
+    : r.position
+      ? `#${r.position}`
+      : "not ranking";
   console.log(`  ${r.keyword} (${r.lang}): ${pos}`);
+}
+
+if (failed.length) {
+  console.error(
+    `\n${failed.length}/${results.length} checks failed — these are NOT "not ranking" results.`
+  );
+  process.exitCode = 1;
 }
