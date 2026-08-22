@@ -4883,5 +4883,90 @@
         "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
       }
     ]
+  },
+  {
+    "date": "2026-08-22",
+    "results": [
+      {
+        "keyword": "abogado accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "compensacion por accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "accidente de carro sin papeles",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "cuanto pagan por accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "abogado de accidente en houston",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "que hacer despues de un accidente de carro",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "abogado de accidente en español",
+        "lang": "es",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "car accident settlement",
+        "lang": "en",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "car accident no insurance",
+        "lang": "en",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      },
+      {
+        "keyword": "spanish speaking car accident lawyer",
+        "lang": "en",
+        "position": null,
+        "url": null,
+        "error": true,
+        "errorMessage": "HTTP 403: Host not in allowlist: api.dataforseo.com. Add this host to your network egress settings to allow access."
+      }
+    ]
   }
 ]
