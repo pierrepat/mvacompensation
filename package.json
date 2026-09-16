@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "index": "node scripts/gsc-index.mjs",
+    "inspect": "node scripts/gsc-inspect.mjs",
     "rankings": "node scripts/track-rankings.mjs"
   },
   "dependencies": {

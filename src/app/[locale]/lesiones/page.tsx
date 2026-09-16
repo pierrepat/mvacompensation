@@ -3,6 +3,25 @@ import { ArrowRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import type { InjuryFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
+import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: Locale };
+}): Metadata {
+  const isEn = params.locale === "en";
+  return {
+    title: isEn
+      ? "Car Accident Compensation by Injury Type"
+      : "Compensación por Accidente de Auto por Tipo de Lesión",
+    description: isEn
+      ? "How much car accident cases pay by injury: whiplash, back injuries, fractures, brain injuries and more."
+      : "Cuánto pagan los casos de accidente de auto según la lesión: latigazo cervical, espalda, fracturas, lesión cerebral y más.",
+    alternates: pageAlternates(params.locale, "/lesiones"),
+  };
+}
 
 export default function LesionesIndex({
   params,

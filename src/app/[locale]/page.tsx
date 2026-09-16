@@ -8,6 +8,7 @@ import { getDictionary } from "@/lib/dictionaries";
 import { quizUrl } from "@/lib/quiz-url";
 import { LegalServiceJsonLd } from "@/components/JsonLd";
 import { renderMDX } from "@/lib/mdx";
+import { pageAlternates } from "@/lib/seo";
 import matter from "gray-matter";
 
 export async function generateMetadata({
@@ -23,6 +24,7 @@ export async function generateMetadata({
     description: isEs
       ? "¿Tuviste un accidente de auto? Te conectamos gratis con el mejor abogado. Sin costo, sin compromiso. En español."
       : "Were you in a car accident? We connect you with the best lawyer for free. No cost, no obligation.",
+    alternates: pageAlternates(params.locale, ""),
   };
 }
 

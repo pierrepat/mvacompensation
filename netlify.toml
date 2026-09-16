@@ -6,72 +6,119 @@
 [functions]
   node_bundler = "esbuild"
 
+# Root -> English home. No trailing slash: "/en/" itself 301s to "/en", so
+# pointing here at "/en/" created a two-hop redirect chain that GSC flagged.
 [[redirects]]
   from = "/"
-  to = "/en/"
+  to = "/en"
   status = 301
   force = true
 
-# English state pages that only exist in Spanish — redirect to Spanish versions
+[[redirects]]
+  from = "/index.html"
+  to = "/en"
+  status = 301
+  force = true
+
+# Removed "Coming soon" stub routes -> the real hubs. force = true because the
+# static export may still emit a file at the old path.
+[[redirects]]
+  from = "/:locale/guides"
+  to = "/:locale/guias"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:locale/states"
+  to = "/:locale/estados"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:locale/injuries"
+  to = "/:locale/lesiones"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/:locale/calculator/settlement-estimator"
+  to = "/:locale/calculadora"
+  status = 301
+  force = true
+
+# City pages are Spanish-only
+[[redirects]]
+  from = "/en/ciudades"
+  to = "/es/ciudades"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/en/ciudades/*"
+  to = "/es/ciudades/:splat"
+  status = 301
+  force = true
+
+# English state pages that only exist in Spanish -> Spanish versions (permanent)
 [[redirects]]
   from = "/en/estados/minnesota"
   to = "/es/estados/minnesota"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/rhode-island"
   to = "/es/estados/rhode-island"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/luisiana"
   to = "/es/estados/luisiana"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/connecticut"
   to = "/es/estados/connecticut"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/utah"
   to = "/es/estados/utah"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/kansas"
   to = "/es/estados/kansas"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/indiana"
   to = "/es/estados/indiana"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/wisconsin"
   to = "/es/estados/wisconsin"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/oklahoma"
   to = "/es/estados/oklahoma"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/carolina-del-sur"
   to = "/es/estados/carolina-del-sur"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/iowa"
   to = "/es/estados/iowa"
-  status = 302
+  status = 301
 
 [[redirects]]
   from = "/en/estados/nebraska"
   to = "/es/estados/nebraska"
-  status = 302
+  status = 301
 
 # Handle client-side routing for each locale (catch-all 404 — must be LAST)
 [[redirects]]

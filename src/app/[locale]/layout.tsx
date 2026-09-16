@@ -25,7 +25,6 @@ export async function generateMetadata({
   params: { locale: Locale };
 }): Promise<Metadata> {
   const dict = await getDictionary(params.locale);
-  const baseUrl = "https://mvacompensation.com";
   const altLocale = params.locale === "en" ? "es" : "en";
 
   return {
@@ -36,14 +35,9 @@ export async function generateMetadata({
       template: `%s | ${dict.meta.siteName}`,
     },
     description: dict.meta.siteDescription,
-    alternates: {
-      canonical: `${baseUrl}/${params.locale}`,
-      languages: {
-        en: `${baseUrl}/en`,
-        es: `${baseUrl}/es`,
-        "x-default": `${baseUrl}/en`,
-      },
-    },
+    // No `alternates` here on purpose: a layout canonical is inherited by any
+    // page that does not set its own, which makes Google treat that page as a
+    // duplicate of the homepage. Each page sets its own via lib/seo.ts.
     openGraph: {
       siteName: dict.meta.siteName,
       locale: params.locale,

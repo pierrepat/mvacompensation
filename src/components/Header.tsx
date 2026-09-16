@@ -4,6 +4,7 @@ import type { Locale } from "@/lib/i18n";
 import type { Dictionary } from "@/lib/dictionaries";
 import { quizUrl } from "@/lib/quiz-url";
 import { LanguageSwitcher } from "./LanguageSwitcher";
+import { getAllPaths } from "@/lib/routes";
 import { MobileNav } from "./MobileNav";
 
 export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
@@ -40,7 +41,7 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
           {/* CTA + Language + Mobile */}
           <div className="flex items-center gap-3">
-            <LanguageSwitcher locale={locale} />
+            <LanguageSwitcher locale={locale} validPaths={getAllPaths()} />
             <Link
               href={quizUrl(locale)}
               className="hidden sm:inline-flex items-center gap-1.5 bg-navy-900 hover:bg-navy-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors shadow-sm"

@@ -3,6 +3,25 @@ import { ArrowRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import type { GuideFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
+import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: Locale };
+}): Metadata {
+  const isEn = params.locale === "en";
+  return {
+    title: isEn
+      ? "Car Accident Guides and Resources"
+      : "Guías y Recursos sobre Accidentes de Auto",
+    description: isEn
+      ? "Step-by-step guides to help you navigate the accident claims process, from the first call to the final settlement."
+      : "Guías paso a paso para navegar el proceso de reclamo por accidente, desde la primera llamada hasta el acuerdo final.",
+    alternates: pageAlternates(params.locale, "/guias"),
+  };
+}
 
 export default function GuiasIndex({ params }: { params: { locale: Locale } }) {
   const isEn = params.locale === "en";

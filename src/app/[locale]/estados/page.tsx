@@ -3,6 +3,25 @@ import { ArrowRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import type { StateFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
+import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: Locale };
+}): Metadata {
+  const isEn = params.locale === "en";
+  return {
+    title: isEn
+      ? "Car Accident Compensation by State"
+      : "Compensación por Accidente de Auto por Estado",
+    description: isEn
+      ? "Statutes of limitations, insurance minimums and average settlement values for car accidents in every state we cover."
+      : "Estatutos de limitaciones, seguros mínimos y montos promedio de compensación por accidente de auto en cada estado.",
+    alternates: pageAlternates(params.locale, "/estados"),
+  };
+}
 
 export default function EstadosIndex({
   params,

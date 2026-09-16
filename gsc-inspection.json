@@ -1,0 +1,2662 @@
+{
+  "inspectedAt": "2026-09-16T20:55:14.946Z",
+  "site": "sc-domain:mvacompensation.com",
+  "results": [
+    {
+      "url": "https://mvacompensation.com/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Page with redirect",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-30T07:10:20Z",
+      "googleCanonical": "https://mvacompensation.com/en",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-30T07:10:20Z",
+      "googleCanonical": "https://mvacompensation.com/en",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/ciudades",
+        "https://mvacompensation.com/es/cuestionario?source=state_california_es&state=CA",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/about",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-11T15:09:27Z",
+      "googleCanonical": "https://mvacompensation.com/en/about",
+      "userCanonical": "https://mvacompensation.com/en/about",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/calculator/settlement-estimator",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/ciudades",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-22T02:13:21Z",
+      "googleCanonical": "https://mvacompensation.com/en/ciudades",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/quiz?source=guide_dolor-y-sufrimiento_en"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados",
+      "verdict": "NEUTRAL",
+      "coverageState": "Alternate page with proper canonical tag",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-28T23:31:15Z",
+      "googleCanonical": "https://mvacompensation.com/en",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/arizona",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-23T12:29:28Z",
+      "googleCanonical": "https://mvacompensation.com/en/estados/arizona",
+      "userCanonical": "https://mvacompensation.com/en/estados/arizona",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/arizona",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/california",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-23T12:31:55Z",
+      "googleCanonical": "https://mvacompensation.com/en/estados/california",
+      "userCanonical": "https://mvacompensation.com/en/estados/california",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/california",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/carolina-del-norte",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento",
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/colorado",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/florida",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/georgia",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/georgia",
+        "https://mvacompensation.com/en",
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/illinois",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/illinois",
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/maryland",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-20T14:46:33Z",
+      "googleCanonical": "https://mvacompensation.com/en/estados/maryland",
+      "userCanonical": "https://mvacompensation.com/en/estados/maryland",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/massachusetts",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/nevada",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/nueva-jersey",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/nueva-jersey",
+        "https://mvacompensation.com/en/estados/nuevo-mexico",
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/nueva-york",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/nuevo-mexico",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-11T21:22:23Z",
+      "googleCanonical": "https://mvacompensation.com/en/estados/nuevo-mexico",
+      "userCanonical": "https://mvacompensation.com/en/estados/nuevo-mexico",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/georgia",
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/oregon",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/pensilvania",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-13T15:38:18Z",
+      "googleCanonical": "https://mvacompensation.com/en/estados/pensilvania",
+      "userCanonical": "https://mvacompensation.com/en/estados/pensilvania",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/tennessee",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-20T20:22:21Z",
+      "googleCanonical": "https://mvacompensation.com/en/estados/tennessee",
+      "userCanonical": "https://mvacompensation.com/en/estados/tennessee",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/texas",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/virginia",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/estados/washington",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/arizona"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-auto-alquilado",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-21T14:02:44Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/accidente-auto-alquilado",
+      "userCanonical": "https://mvacompensation.com/en/guias/accidente-auto-alquilado",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-auto-de-trabajo",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-con-fuga",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-21T14:00:03Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/accidente-con-fuga",
+      "userCanonical": "https://mvacompensation.com/en/guias/accidente-con-fuga",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-construccion",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T09:21:50Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/accidente-construccion",
+      "userCanonical": "https://mvacompensation.com/en/guias/accidente-construccion",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento",
+        "https://mvacompensation.com/es/guias/accidente-construccion"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-de-caida",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-embarazada",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-13T13:56:59Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/accidente-embarazada",
+      "userCanonical": "https://mvacompensation.com/en/guias/accidente-embarazada",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-estacionamiento",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-menor-de-edad",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-multiple-vehiculos",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-21T20:34:12Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/accidente-multiple-vehiculos",
+      "userCanonical": "https://mvacompensation.com/en/guias/accidente-multiple-vehiculos",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/accidente-estacionamiento",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-sin-seguro",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/accidente-zona-construccion",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/atropello-peaton",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/car-accident-no-insurance",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-21T17:52:52Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/car-accident-no-insurance",
+      "userCanonical": "https://mvacompensation.com/en/guias/car-accident-no-insurance",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/car-accident-settlement",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/car-accident-what-to-do",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-12T01:51:26Z",
+      "googleCanonical": "https://mvacompensation.com/en/guias/car-accident-what-to-do",
+      "userCanonical": "https://mvacompensation.com/en/guias/car-accident-what-to-do",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/choque-por-detras",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/cuanto-pagan-por-accidente-de-auto",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/dolor-y-sufrimiento",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "http://mvacompensation.com/",
+        "https://mvacompensation.com/en"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/negligencia-medica",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/que-hacer-despues-de-un-accidente",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/guias/spanish-speaking-car-accident-lawyer",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T17:15:11Z",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/dolor-y-sufrimiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/injuries",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-16T11:16:25Z",
+      "googleCanonical": "https://mvacompensation.com/en/injuries",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-16T09:48:03Z",
+      "googleCanonical": "https://mvacompensation.com/en/lesiones",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/fracturas",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/hernia-de-disco",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/latigazo-cervical",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/lesion-cerebral",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/lesion-de-cadera",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/lesion-de-muneca-mano",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/lesion-de-tobillo",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/lesiones/lesiones-de-espalda",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/en/privacy",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-12T01:13:20Z",
+      "googleCanonical": "https://mvacompensation.com/en/privacy",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/recursos",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T11:15:13Z",
+      "googleCanonical": "https://mvacompensation.com/en/recursos",
+      "userCanonical": "https://mvacompensation.com/en/recursos",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/recursos",
+        "https://mvacompensation.com/en/guias/car-accident-what-to-do"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/en/terms",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-15T17:49:59Z",
+      "googleCanonical": "https://mvacompensation.com/en/terms",
+      "userCanonical": "https://mvacompensation.com/en",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-08T23:52:15Z",
+      "googleCanonical": "https://mvacompensation.com/es",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/ciudades",
+        "https://mvacompensation.com/en",
+        "https://mvacompensation.com/es/cuestionario?source=state_california_es&state=CA",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/about",
+      "verdict": "NEUTRAL",
+      "coverageState": "Alternate page with proper canonical tag",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-22T02:08:24Z",
+      "googleCanonical": "https://mvacompensation.com/es/about",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/cuestionario?source=state_connecticut_es&state=CT",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/calculadora",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-08T05:43:20Z",
+      "googleCanonical": "https://mvacompensation.com/es/calculadora",
+      "userCanonical": "https://mvacompensation.com/es/calculadora",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/cuestionario?source=state_connecticut_es&state=CT",
+        "https://mvacompensation.com/es/guides"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades",
+      "verdict": "NEUTRAL",
+      "coverageState": "Alternate page with proper canonical tag",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:41:50Z",
+      "googleCanonical": "https://mvacompensation.com/es/guides",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/abogado-accidente-dallas"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/anaheim",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/atlanta",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/bakersfield",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/chicago",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/chula-vista",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/dallas",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/denver",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/fort-worth",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/fresno",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/houston",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/las-vegas",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/long-beach",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/los-angeles",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/miami",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/modesto",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/orlando",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/oxnard",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/phoenix",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/riverside",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/sacramento",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/san-bernardino",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/san-diego",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/san-jose",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/santa-ana",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-14T08:01:33Z",
+      "googleCanonical": "https://mvacompensation.com/es/ciudades/santa-ana",
+      "userCanonical": "https://mvacompensation.com/es/ciudades/santa-ana",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/ciudades/tampa",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/cuestionario?source=state_california_es&state=CA",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-08T20:00:25Z",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/california"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/cuestionario?source=state_maryland_es&state=MD",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-21T15:36:37Z",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/maryland"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-24T16:03:58Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/cuestionario?source=state_connecticut_es&state=CT",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/arizona",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-12T13:47:01Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/arizona",
+      "userCanonical": "https://mvacompensation.com/es/estados/arizona",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/arizona",
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/lesiones/lesion-cerebral"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/california",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-09T00:27:58Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/california",
+      "userCanonical": "https://mvacompensation.com/es/estados/california",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/carolina-del-norte",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/carolina-del-sur",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/colorado",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-21T13:08:03Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/colorado",
+      "userCanonical": "https://mvacompensation.com/es/estados/colorado",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/connecticut",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-29T07:39:44Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/connecticut",
+      "userCanonical": "https://mvacompensation.com/es/estados/connecticut",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/arizona",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/florida",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-19T15:45:29Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/florida",
+      "userCanonical": "https://mvacompensation.com/es/estados/florida",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/georgia",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-19T15:44:27Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/georgia",
+      "userCanonical": "https://mvacompensation.com/es/estados/georgia",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/illinois",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-19T15:44:32Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/illinois",
+      "userCanonical": "https://mvacompensation.com/es/estados/illinois",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/indiana",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/arizona",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/iowa",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/kansas",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-10T16:45:16Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/kansas",
+      "userCanonical": "https://mvacompensation.com/es/estados/kansas",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/luisiana",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/maryland",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-30T21:27:20Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/maryland",
+      "userCanonical": "https://mvacompensation.com/es/estados/maryland",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/maryland",
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/massachusetts",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/minnesota",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/nebraska",
+      "verdict": "NEUTRAL",
+      "coverageState": "Duplicate without user-selected canonical",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-06T19:42:58Z",
+      "googleCanonical": "https://www.747live.bet/",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/arizona",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/nevada",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-16T14:43:11Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/nevada",
+      "userCanonical": "https://mvacompensation.com/es/estados/nevada",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/arizona",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/nueva-jersey",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-21T18:40:43Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/nueva-jersey",
+      "userCanonical": "https://mvacompensation.com/es/estados/nueva-jersey",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/nueva-york",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-12T12:16:31Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/nueva-york",
+      "userCanonical": "https://mvacompensation.com/es/estados/nueva-york",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/nuevo-mexico",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/oklahoma",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-14T02:26:53Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/oklahoma",
+      "userCanonical": "https://mvacompensation.com/es/estados/oklahoma",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/oregon",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-28T13:11:05Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/oregon",
+      "userCanonical": "https://mvacompensation.com/es/estados/oregon",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/washington",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/pensilvania",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-06T20:37:32Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/pensilvania",
+      "userCanonical": "https://mvacompensation.com/es/estados/pensilvania",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/pensilvania",
+        "https://mvacompensation.com/es/estados/arizona",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/rhode-island",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/tennessee",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-21T08:14:24Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/tennessee",
+      "userCanonical": "https://mvacompensation.com/es/estados/tennessee",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/estados/tennessee",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/texas",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-10T20:04:17Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/texas",
+      "userCanonical": "https://mvacompensation.com/es/estados/texas",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/utah",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/virginia",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/washington",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T13:14:49Z",
+      "googleCanonical": "https://mvacompensation.com/es/estados/washington",
+      "userCanonical": "https://mvacompensation.com/es/estados/washington",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/es/estados"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/estados/wisconsin",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-13T16:53:17Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-cerca-de-mi",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-13T07:06:37Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-cerca-de-mi",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-cerca-de-mi",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/abogado-accidente-de-carro"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-chicago",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-dallas",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:39:26Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-dallas",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-dallas",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-de-carro",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-24T00:17:07Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-de-carro",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-de-carro",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-en-espanol",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-gratis",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-16T11:41:06Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-gratis",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-gratis",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-embarazada"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-houston",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T11:06:23Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-houston",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-houston",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-los-angeles",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:39:01Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-los-angeles",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-los-angeles",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-miami",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T16:09:05Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-miami",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-miami",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-nueva-york",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-phoenix",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/abogado-accidente-san-antonio",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-22T23:27:56Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-san-antonio",
+      "userCanonical": "https://mvacompensation.com/es/guias/abogado-accidente-san-antonio",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-auto-alquilado",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:42:20Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-auto-alquilado",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-auto-alquilado",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-auto-de-trabajo",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-automovilistico",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-con-fuga",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-13T10:59:51Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-con-fuga",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-con-fuga",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-conductor-borracho",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-construccion",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-01T07:17:13Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-construccion",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-construccion",
+      "crawledAs": "MOBILE"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-bicicleta",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-06T14:04:39Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-bicicleta",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-bicicleta",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-caida",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-16T10:46:59Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-caida",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-caida",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-camion",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T15:28:22Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-camion",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-camion",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/abogado-accidente-de-carro"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-carro-que-hacer",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-26T21:57:13Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-carro-que-hacer",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-carro-que-hacer",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-moto",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T00:25:29Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-moto",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-moto",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-trabajo",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T01:03:46Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-trabajo",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-trabajo",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-embarazada"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-transito",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-08-22T18:26:06Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-de-transito",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-de-transito",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/abogado-accidente-de-carro"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-de-uber-lyft",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-embarazada",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:42:05Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-embarazada",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-embarazada",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/accidente-embarazada",
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-estacionamiento",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/accidente-estacionamiento",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-menor-de-edad",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T04:41:29Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-menor-de-edad",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-menor-de-edad",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-multiple-vehiculos",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:40:18Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-multiple-vehiculos",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-multiple-vehiculos",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-noche",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-13T23:31:35Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-noche",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-noche",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-sin-licencia",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-sin-papeles",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-06-01T13:11:44Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-sin-papeles",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-sin-papeles",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-sin-seguro",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-20T20:29:28Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-sin-seguro",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-sin-seguro",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/en/guias/accidente-sin-seguro"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/accidente-zona-construccion",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-23T00:40:40Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/accidente-zona-construccion",
+      "userCanonical": "https://mvacompensation.com/es/guias/accidente-zona-construccion",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/atropello-peaton",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/choque-por-detras",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/como-encontrar-abogado-accidente-carro",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-01T16:24:37Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/como-encontrar-abogado-accidente-carro",
+      "userCanonical": "https://mvacompensation.com/es/guias/como-encontrar-abogado-accidente-carro",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-sin-licencia"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/como-ganar-caso-accidente",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/como-negociar-con-la-aseguradora",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-sin-licencia"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/cuanto-dura-demanda-accidente",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-26T22:24:55Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/cuanto-dura-demanda-accidente",
+      "userCanonical": "https://mvacompensation.com/es/guias/cuanto-dura-demanda-accidente",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/cuanto-puedo-recibir-por-accidente"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/cuanto-dura-demanda-accidente-carro",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-sin-licencia"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/cuanto-pagan-accidente-de-carro",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/cuanto-pagan-choque-por-detras",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-22T23:25:44Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/cuanto-pagan-choque-por-detras",
+      "userCanonical": "https://mvacompensation.com/es/guias/cuanto-pagan-choque-por-detras",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-estacionamiento"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/cuanto-pagan-por-accidente-de-auto",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T02:09:56Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/cuanto-pagan-por-accidente-de-auto",
+      "userCanonical": "https://mvacompensation.com/es/guias/cuanto-pagan-por-accidente-de-auto",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/accidente-con-fuga"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/cuanto-puedo-recibir-por-accidente",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-13T18:29:39Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/cuanto-puedo-recibir-por-accidente",
+      "userCanonical": "https://mvacompensation.com/es/guias/cuanto-puedo-recibir-por-accidente",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/demanda-por-accidente-de-auto",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-09-14T15:14:17Z",
+      "googleCanonical": "https://mvacompensation.com/es/guias/demanda-por-accidente-de-auto",
+      "userCanonical": "https://mvacompensation.com/es/guias/demanda-por-accidente-de-auto",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/guias/cuanto-puedo-recibir-por-accidente"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/dolor-y-sufrimiento",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/me-chocaron-no-tengo-seguro",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/negligencia-medica",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/primera-oferta-aseguradora",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/que-hacer-despues-de-un-accidente",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/que-no-decir-a-la-aseguradora",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/lesiones/cicatrices-desfiguracion",
+        "https://mvacompensation.com/es/guias/cuanto-puedo-recibir-por-accidente"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/guias/tipos-de-seguro-auto",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-21T23:26:10Z",
+      "googleCanonical": "https://mvacompensation.com/es/lesiones",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/cuestionario?source=state_connecticut_es&state=CT",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/cicatrices-desfiguracion",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/lesiones/fracturas"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/costillas-rotas",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/lesiones/fracturas"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/fracturas",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/florida",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/hernia-de-disco",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/latigazo-cervical",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-cerebral",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-de-cadera",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-de-cuello",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-de-hombro",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-de-muneca-mano",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-de-rodilla",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-de-tobillo",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesion-medula-espinal",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/lesiones-de-espalda",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/ptsd-trauma-emocional",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/lesiones/quemaduras",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    },
+    {
+      "url": "https://mvacompensation.com/es/privacy",
+      "verdict": "NEUTRAL",
+      "coverageState": "Crawled - currently not indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-05-10T00:09:41Z",
+      "googleCanonical": "https://mvacompensation.com/es/privacy",
+      "userCanonical": "https://mvacompensation.com/es",
+      "crawledAs": "MOBILE",
+      "sitemap": [
+        "https://mvacompensation.com/sitemap.xml"
+      ],
+      "referringUrls": [
+        "https://mvacompensation.com/es/estados/minnesota",
+        "https://mvacompensation.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/recursos",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "pageFetchState": "SUCCESSFUL",
+      "lastCrawlTime": "2026-07-15T04:22:10Z",
+      "googleCanonical": "https://mvacompensation.com/es/recursos",
+      "userCanonical": "https://mvacompensation.com/es/recursos",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://mvacompensation.com/es/cuestionario?source=city_santa-ana_es&state=CA"
+      ]
+    },
+    {
+      "url": "https://mvacompensation.com/es/terms",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED"
+    }
+  ]
+}

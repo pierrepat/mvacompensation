@@ -1,4 +1,23 @@
 import type { Locale } from "@/lib/i18n";
+import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: Locale };
+}): Metadata {
+  const isEn = params.locale === "en";
+  return {
+    title: isEn
+      ? "Privacy Policy"
+      : "Política de Privacidad",
+    description: isEn
+      ? "How mvacompensation.com collects, uses and protects your information."
+      : "Cómo mvacompensation.com recopila, usa y protege tu información.",
+    alternates: pageAlternates(params.locale, "/privacy"),
+  };
+}
 
 export default async function Privacy({
   params,

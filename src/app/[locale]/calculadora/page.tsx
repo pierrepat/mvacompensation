@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Shield } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
+import { pageAlternates } from "@/lib/seo";
 import { Calculator } from "@/components/calculator/Calculator";
 
 export async function generateMetadata({
@@ -10,7 +11,6 @@ export async function generateMetadata({
   params: { locale: Locale };
 }): Promise<Metadata> {
   const isEs = params.locale === "es";
-  const baseUrl = "https://mvacompensation.com";
   return {
     title: isEs
       ? "¿Cuánto Te Deben por Tu Accidente de Carro? | Calculadora Gratis"
@@ -18,9 +18,7 @@ export async function generateMetadata({
     description: isEs
       ? "Las aseguradoras te ofrecen menos de lo que vale tu caso. Mira cuánto dinero podrías recibir. Gratis, en español, en 1 minuto."
       : "Insurance companies lowball you. See how much your accident case is really worth. Free, takes 1 minute.",
-    alternates: {
-      canonical: `${baseUrl}/${params.locale}/calculadora`,
-    },
+    alternates: pageAlternates(params.locale, "/calculadora"),
   };
 }
 

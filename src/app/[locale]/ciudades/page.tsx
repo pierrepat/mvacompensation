@@ -3,6 +3,18 @@ import { ArrowRight } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
 import type { CityFrontmatter } from "@/lib/content-types";
 import { getContentSlugs, getContentBySlug } from "@/lib/content";
+import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
+
+// City pages are Spanish-only; /en/ciudades is 301'd to /es/ciudades in netlify.toml.
+export function generateMetadata(): Metadata {
+  return {
+    title: "Abogado de Accidentes por Ciudad | Guías en Español",
+    description:
+      "Encuentra un abogado de accidentes de auto que habla español en tu ciudad. Guías locales, conexión gratis y sin compromiso.",
+    alternates: pageAlternates("es", "/ciudades", { esOnly: true }),
+  };
+}
 
 export default function CiudadesIndex({
   params,

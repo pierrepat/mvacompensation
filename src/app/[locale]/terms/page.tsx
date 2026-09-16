@@ -1,4 +1,23 @@
 import type { Locale } from "@/lib/i18n";
+import type { Metadata } from "next";
+import { pageAlternates } from "@/lib/seo";
+
+export function generateMetadata({
+  params,
+}: {
+  params: { locale: Locale };
+}): Metadata {
+  const isEn = params.locale === "en";
+  return {
+    title: isEn
+      ? "Terms of Use"
+      : "Términos de Uso",
+    description: isEn
+      ? "Terms of use for mvacompensation.com, a free referral resource that is not a law firm."
+      : "Términos de uso de mvacompensation.com, un recurso de referencia gratuito que no es un bufete de abogados.",
+    alternates: pageAlternates(params.locale, "/terms"),
+  };
+}
 
 export default async function Terms({
   params,
